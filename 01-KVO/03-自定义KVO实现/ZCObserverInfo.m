@@ -8,6 +8,7 @@
 
 #import "ZCObserverInfo.h"
 
+@class ZCObserverInfo;
 @implementation ZCObserverInfo
 
 - (instancetype)initWithObserver:(id)observer

@@ -16,6 +16,7 @@
 		B35B829C2424D2B2001060C5 /* RuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B829A2424D2B2001060C5 /* RuntimeKit.m */; };
 		B35B829F2424D333001060C5 /* NSObject+ZCKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B829E2424D333001060C5 /* NSObject+ZCKVO.m */; };
 		B35B82A22424D94F001060C5 /* ZCObserverInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B82A12424D94F001060C5 /* ZCObserverInfo.m */; };
+		ED67B17A2425213000010423 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67B1782425213000010423 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,8 @@
 		B35B829E2424D333001060C5 /* NSObject+ZCKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZCKVO.m"; sourceTree = "<group>"; };
 		B35B82A02424D94F001060C5 /* ZCObserverInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCObserverInfo.h; sourceTree = "<group>"; };
 		B35B82A12424D94F001060C5 /* ZCObserverInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCObserverInfo.m; sourceTree = "<group>"; };
+		ED67B1782425213000010423 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "01-KVO原理解析/Person.m"; sourceTree = SOURCE_ROOT; };
+		ED67B1792425213000010423 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "01-KVO原理解析/Person.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				B35B82952424D1C2001060C5 /* main.m */,
+				ED67B1792425213000010423 /* Person.h */,
+				ED67B1782425213000010423 /* Person.m */,
 				B35B829D2424D333001060C5 /* NSObject+ZCKVO.h */,
 				B35B829E2424D333001060C5 /* NSObject+ZCKVO.m */,
 				B35B82A02424D94F001060C5 /* ZCObserverInfo.h */,
@@ -270,6 +275,7 @@
 			files = (
 				B35B82A22424D94F001060C5 /* ZCObserverInfo.m in Sources */,
 				B35B82962424D1C2001060C5 /* main.m in Sources */,
+				ED67B17A2425213000010423 /* Person.m in Sources */,
 				B35B829C2424D2B2001060C5 /* RuntimeKit.m in Sources */,
 				B35B829F2424D333001060C5 /* NSObject+ZCKVO.m in Sources */,
 			);

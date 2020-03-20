@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ZCObserverInfo.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -15,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 // 添加KVO
 - (void)zc_addObserver:(NSObject *)observer
             forKeyPath:(NSString *)keyPath
-               options:(NSKeyValueObservingOptions)options;
+               options:(ZCKeyValueObservingOptions)options;
 
 // 监听KVO
 - (void)zc_observeValueForKeyPath:(NSString *)keyPath
@@ -23,8 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
                            change:(NSDictionary<NSKeyValueChangeKey,id> *)change;
 
 // 删除KVO
-- (void)removeObserver:(NSObject *)observer
-            forKeyPath:(NSString *)keyPath;
+- (void)zc_removeObserver:(NSObject *)observer
+               forKeyPath:(NSString *)keyPath;
 
 @end
 
