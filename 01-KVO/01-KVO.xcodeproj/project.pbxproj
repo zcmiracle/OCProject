@@ -10,10 +10,34 @@
 		B35B82752424BCBB001060C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B82742424BCBB001060C5 /* main.m */; };
 		B35B827D2424BCCA001060C5 /* RuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B827C2424BCCA001060C5 /* RuntimeKit.m */; };
 		B35B82802424C0FE001060C5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B827F2424C0FE001060C5 /* Person.m */; };
+		B35B82882424CE0C001060C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B82872424CE0C001060C5 /* main.m */; };
+		B35B828E2424CE43001060C5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B828D2424CE43001060C5 /* Person.m */; };
+		B35B82962424D1C2001060C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B82952424D1C2001060C5 /* main.m */; };
+		B35B829C2424D2B2001060C5 /* RuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B829A2424D2B2001060C5 /* RuntimeKit.m */; };
+		B35B829F2424D333001060C5 /* NSObject+ZCKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B829E2424D333001060C5 /* NSObject+ZCKVO.m */; };
+		B35B82A22424D94F001060C5 /* ZCObserverInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B35B82A12424D94F001060C5 /* ZCObserverInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B35B826F2424BCBB001060C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B35B82832424CE0C001060C5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B35B82912424D1C2001060C5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -31,10 +55,36 @@
 		B35B827C2424BCCA001060C5 /* RuntimeKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeKit.m; sourceTree = "<group>"; };
 		B35B827E2424C0FE001060C5 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		B35B827F2424C0FE001060C5 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B35B82852424CE0C001060C5 /* 02-手动调用KVO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-手动调用KVO"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35B82872424CE0C001060C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B35B828C2424CE43001060C5 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B35B828D2424CE43001060C5 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B35B82932424D1C2001060C5 /* 03-自定义KVO实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-自定义KVO实现"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35B82952424D1C2001060C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B35B829A2424D2B2001060C5 /* RuntimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RuntimeKit.m; path = "01-KVO原理解析/RuntimeKit.m"; sourceTree = SOURCE_ROOT; };
+		B35B829B2424D2B2001060C5 /* RuntimeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RuntimeKit.h; path = "01-KVO原理解析/RuntimeKit.h"; sourceTree = SOURCE_ROOT; };
+		B35B829D2424D333001060C5 /* NSObject+ZCKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZCKVO.h"; sourceTree = "<group>"; };
+		B35B829E2424D333001060C5 /* NSObject+ZCKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZCKVO.m"; sourceTree = "<group>"; };
+		B35B82A02424D94F001060C5 /* ZCObserverInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCObserverInfo.h; sourceTree = "<group>"; };
+		B35B82A12424D94F001060C5 /* ZCObserverInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCObserverInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B35B826E2424BCBB001060C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35B82822424CE0C001060C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35B82902424D1C2001060C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				B35B82732424BCBB001060C5 /* 01-KVO原理解析 */,
+				B35B82862424CE0C001060C5 /* 02-手动调用KVO */,
+				B35B82942424D1C2001060C5 /* 03-自定义KVO实现 */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				B35B82712424BCBB001060C5 /* 01-KVO */,
+				B35B82852424CE0C001060C5 /* 02-手动调用KVO */,
+				B35B82932424D1C2001060C5 /* 03-自定义KVO实现 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +124,30 @@
 				B35B827F2424C0FE001060C5 /* Person.m */,
 			);
 			path = "01-KVO原理解析";
+			sourceTree = "<group>";
+		};
+		B35B82862424CE0C001060C5 /* 02-手动调用KVO */ = {
+			isa = PBXGroup;
+			children = (
+				B35B82872424CE0C001060C5 /* main.m */,
+				B35B828C2424CE43001060C5 /* Person.h */,
+				B35B828D2424CE43001060C5 /* Person.m */,
+			);
+			path = "02-手动调用KVO";
+			sourceTree = "<group>";
+		};
+		B35B82942424D1C2001060C5 /* 03-自定义KVO实现 */ = {
+			isa = PBXGroup;
+			children = (
+				B35B82952424D1C2001060C5 /* main.m */,
+				B35B829D2424D333001060C5 /* NSObject+ZCKVO.h */,
+				B35B829E2424D333001060C5 /* NSObject+ZCKVO.m */,
+				B35B82A02424D94F001060C5 /* ZCObserverInfo.h */,
+				B35B82A12424D94F001060C5 /* ZCObserverInfo.m */,
+				B35B829B2424D2B2001060C5 /* RuntimeKit.h */,
+				B35B829A2424D2B2001060C5 /* RuntimeKit.m */,
+			);
+			path = "03-自定义KVO实现";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +170,40 @@
 			productReference = B35B82712424BCBB001060C5 /* 01-KVO */;
 			productType = "com.apple.product-type.tool";
 		};
+		B35B82842424CE0C001060C5 /* 02-手动调用KVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35B828B2424CE0C001060C5 /* Build configuration list for PBXNativeTarget "02-手动调用KVO" */;
+			buildPhases = (
+				B35B82812424CE0C001060C5 /* Sources */,
+				B35B82822424CE0C001060C5 /* Frameworks */,
+				B35B82832424CE0C001060C5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-手动调用KVO";
+			productName = "02-手动调用KVO";
+			productReference = B35B82852424CE0C001060C5 /* 02-手动调用KVO */;
+			productType = "com.apple.product-type.tool";
+		};
+		B35B82922424D1C2001060C5 /* 03-自定义KVO实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35B82972424D1C2001060C5 /* Build configuration list for PBXNativeTarget "03-自定义KVO实现" */;
+			buildPhases = (
+				B35B828F2424D1C2001060C5 /* Sources */,
+				B35B82902424D1C2001060C5 /* Frameworks */,
+				B35B82912424D1C2001060C5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-自定义KVO实现";
+			productName = "03-自定义KVO实现";
+			productReference = B35B82932424D1C2001060C5 /* 03-自定义KVO实现 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +214,12 @@
 				ORGANIZATIONNAME = XFB;
 				TargetAttributes = {
 					B35B82702424BCBB001060C5 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					B35B82842424CE0C001060C5 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					B35B82922424D1C2001060C5 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
@@ -120,6 +238,8 @@
 			projectRoot = "";
 			targets = (
 				B35B82702424BCBB001060C5 /* 01-KVO */,
+				B35B82842424CE0C001060C5 /* 02-手动调用KVO */,
+				B35B82922424D1C2001060C5 /* 03-自定义KVO实现 */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +252,26 @@
 				B35B82802424C0FE001060C5 /* Person.m in Sources */,
 				B35B82752424BCBB001060C5 /* main.m in Sources */,
 				B35B827D2424BCCA001060C5 /* RuntimeKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35B82812424CE0C001060C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35B828E2424CE43001060C5 /* Person.m in Sources */,
+				B35B82882424CE0C001060C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35B828F2424D1C2001060C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35B82A22424D94F001060C5 /* ZCObserverInfo.m in Sources */,
+				B35B82962424D1C2001060C5 /* main.m in Sources */,
+				B35B829C2424D2B2001060C5 /* RuntimeKit.m in Sources */,
+				B35B829F2424D333001060C5 /* NSObject+ZCKVO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +407,46 @@
 			};
 			name = Release;
 		};
+		B35B82892424CE0C001060C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B35B828A2424CE0C001060C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B35B82982424D1C2001060C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B35B82992424D1C2001060C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -284,6 +464,24 @@
 			buildConfigurations = (
 				B35B82792424BCBB001060C5 /* Debug */,
 				B35B827A2424BCBB001060C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35B828B2424CE0C001060C5 /* Build configuration list for PBXNativeTarget "02-手动调用KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35B82892424CE0C001060C5 /* Debug */,
+				B35B828A2424CE0C001060C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35B82972424D1C2001060C5 /* Build configuration list for PBXNativeTarget "03-自定义KVO实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35B82982424D1C2001060C5 /* Debug */,
+				B35B82992424D1C2001060C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
