@@ -123,7 +123,6 @@ void KVO_setter(id self, SEL _cmd, id newValue) {
                 
                 ((void (*)(id, SEL, id, id, id))(void *)objc_msgSend)(observerInfo.observer, @selector(zc_observeValueForKeyPath:ofObject:change:), observerInfo.key, self, change);
 
-                
             });
         }
     }
