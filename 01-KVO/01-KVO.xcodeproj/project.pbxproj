@@ -22,6 +22,7 @@
 		B3A35F902425A7EE00DD9B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F8F2425A7EE00DD9B8E /* main.m */; };
 		B3A35F962425A85000DD9B8E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F952425A85000DD9B8E /* Student.m */; };
 		B3A35F992425A8C200DD9B8E /* ZCObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F972425A8C100DD9B8E /* ZCObserver.m */; };
+		B3A35FA12425AA7500DD9B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35FA02425AA7500DD9B8E /* main.m */; };
 		ED67B17A2425213000010423 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67B1782425213000010423 /* Person.m */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		B3A35F9C2425AA7500DD9B8E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +114,9 @@
 		B3A35F952425A85000DD9B8E /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		B3A35F972425A8C100DD9B8E /* ZCObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZCObserver.m; path = "04-KVC赋值/ZCObserver.m"; sourceTree = SOURCE_ROOT; };
 		B3A35F982425A8C100DD9B8E /* ZCObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZCObserver.h; path = "04-KVC赋值/ZCObserver.h"; sourceTree = SOURCE_ROOT; };
+		B3A35F9E2425AA7500DD9B8E /* 06-Block变量捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06-Block变量捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A35FA02425AA7500DD9B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3A35FA52425AE2800DD9B8E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ED67B1782425213000010423 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "01-KVO原理解析/Person.m"; sourceTree = SOURCE_ROOT; };
 		ED67B1792425213000010423 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "01-KVO原理解析/Person.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -144,6 +157,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3A35F9B2425AA7500DD9B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -155,6 +175,7 @@
 				B35B82942424D1C2001060C5 /* 03-自定义KVO实现 */,
 				B3A35F7A2425A31C00DD9B8E /* 04-KVC赋值 */,
 				B3A35F8E2425A7EE00DD9B8E /* 05-KVC取值 */,
+				B3A35F9F2425AA7500DD9B8E /* 06-Block变量捕获 */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -167,6 +188,7 @@
 				B35B82932424D1C2001060C5 /* 03-自定义KVO实现 */,
 				B3A35F792425A31C00DD9B8E /* 04-KVC */,
 				B3A35F8D2425A7EE00DD9B8E /* 05-KVC取值 */,
+				B3A35F9E2425AA7500DD9B8E /* 06-Block变量捕获 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,6 +253,15 @@
 				B3A35F972425A8C100DD9B8E /* ZCObserver.m */,
 			);
 			path = "05-KVC取值";
+			sourceTree = "<group>";
+		};
+		B3A35F9F2425AA7500DD9B8E /* 06-Block变量捕获 */ = {
+			isa = PBXGroup;
+			children = (
+				B3A35FA02425AA7500DD9B8E /* main.m */,
+				B3A35FA52425AE2800DD9B8E /* main.cpp */,
+			);
+			path = "06-Block变量捕获";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +352,23 @@
 			productReference = B3A35F8D2425A7EE00DD9B8E /* 05-KVC取值 */;
 			productType = "com.apple.product-type.tool";
 		};
+		B3A35F9D2425AA7500DD9B8E /* 06-Block变量捕获 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A35FA22425AA7500DD9B8E /* Build configuration list for PBXNativeTarget "06-Block变量捕获" */;
+			buildPhases = (
+				B3A35F9A2425AA7500DD9B8E /* Sources */,
+				B3A35F9B2425AA7500DD9B8E /* Frameworks */,
+				B3A35F9C2425AA7500DD9B8E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06-Block变量捕获";
+			productName = "06-Block变量捕获";
+			productReference = B3A35F9E2425AA7500DD9B8E /* 06-Block变量捕获 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -345,6 +393,9 @@
 					B3A35F8C2425A7EE00DD9B8E = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					B3A35F9D2425AA7500DD9B8E = {
+						CreatedOnToolsVersion = 11.1;
+					};
 				};
 			};
 			buildConfigurationList = B35B826C2424BCBB001060C5 /* Build configuration list for PBXProject "01-KVO" */;
@@ -365,6 +416,7 @@
 				B35B82922424D1C2001060C5 /* 03-自定义KVO实现 */,
 				B3A35F782425A31C00DD9B8E /* 04-KVC */,
 				B3A35F8C2425A7EE00DD9B8E /* 05-KVC取值 */,
+				B3A35F9D2425AA7500DD9B8E /* 06-Block变量捕获 */,
 			);
 		};
 /* End PBXProject section */
@@ -418,6 +470,14 @@
 				B3A35F992425A8C200DD9B8E /* ZCObserver.m in Sources */,
 				B3A35F902425A7EE00DD9B8E /* main.m in Sources */,
 				B3A35F962425A85000DD9B8E /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A35F9A2425AA7500DD9B8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A35FA12425AA7500DD9B8E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,6 +693,26 @@
 			};
 			name = Release;
 		};
+		B3A35FA32425AA7500DD9B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3A35FA42425AA7500DD9B8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -686,6 +766,15 @@
 			buildConfigurations = (
 				B3A35F922425A7EE00DD9B8E /* Debug */,
 				B3A35F932425A7EE00DD9B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A35FA22425AA7500DD9B8E /* Build configuration list for PBXNativeTarget "06-Block变量捕获" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A35FA32425AA7500DD9B8E /* Debug */,
+				B3A35FA42425AA7500DD9B8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
