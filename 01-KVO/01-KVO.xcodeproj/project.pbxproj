@@ -129,6 +129,7 @@
 		B3A35FA52425AE2800DD9B8E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ED67B1782425213000010423 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "01-KVO原理解析/Person.m"; sourceTree = SOURCE_ROOT; };
 		ED67B1792425213000010423 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "01-KVO原理解析/Person.h"; sourceTree = SOURCE_ROOT; };
+		ED9D9B5324277CE7006A42A9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EDC1CBEB24267BF900488563 /* 07-__block修饰符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-__block修饰符"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC1CBED24267BF900488563 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -288,6 +289,7 @@
 		EDC1CBEC24267BF900488563 /* 07-__block修饰符 */ = {
 			isa = PBXGroup;
 			children = (
+				ED9D9B5324277CE7006A42A9 /* main.cpp */,
 				EDC1CBED24267BF900488563 /* main.m */,
 			);
 			path = "07-__block修饰符";
