@@ -22,15 +22,19 @@ int main(int argc, const char * argv[]) {
         
         // __block 可以用于解决block内部无法修改auto变量值的问题
         // __block 不能修改全局变量、静态变量static
+        
+        // 捕获__block修饰的auto变量
         MyBlock1 block1 = ^{
             NSLog(@"%d", age);
             NSLog(@"%@", obj);
         };
         
+        // 没有捕获
         MyBlock2 block2 = ^{
             
         };
         
+        // 捕获并修改其值
         MyBlock3 block3 = ^{
             age = 20;
         };
@@ -56,22 +60,32 @@ struct __Block_byref_age_0 {
     int age;
 };
 
+// 对象类型被包装成结构体，需要进行内存管理
+// 对基本数据类型没有进行内存管理，如果是对象类型 需要内存管理
 struct __Block_byref_obj_1 {
-    void *__isa;
+    void *__isa;                        // 指向所存储的数据区
     // 指向自己的结构体指针
-    __Block_byref_obj_1 *__forwarding;
-    int __flags;
-    int __size;
-    void (*__Block_byref_id_object_copy)(void*, void*);
-    void (*__Block_byref_id_object_dispose)(void*);
-    NSObject *__strong obj;
+    __Block_byref_obj_1 *__forwarding;  // 指向obj对象真正存储的地方
+    int __flags;                        // 标记位
+    int __size;                         // 大小
+    // 内存管理 只有是对象类型的才可以，基本数据类型不会进行单独的内存管理
+    void (*__Block_byref_id_object_copy)(void*, void*); // 栈拷贝到堆
+    void (*__Block_byref_id_object_dispose)(void*);     // 对象释放
+    NSObject *__strong obj;             // 真正存储的对象
 };
 
 struct __main_block_impl_0 {
     struct __block_impl impl;
     struct __main_block_desc_0* Desc;
+    
+    // 包装成一个结构体对象
+    // 结构体所生成的对象在函数传递过程中使用指针传递(按引用传递)
+    // 传递过程中不会产生副本
     __Block_byref_age_0 *age; // by ref
+    
+    // 如果是对象类型包装成结构体，需要进行内存管理
     __Block_byref_obj_1 *obj; // by ref
+    
     // 引用__block 修饰的auto变量(基本数据类型 + 对象类型)
     __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, __Block_byref_age_0 *_age, __Block_byref_obj_1 *_obj, int flags=0) : age(_age->__forwarding), obj(_obj->__forwarding) {
         impl.isa = &_NSConcreteStackBlock;
@@ -81,8 +95,9 @@ struct __main_block_impl_0 {
     }
 };
 
-// MyBlock1执行的函数
+// ------------- MyBlock1执行的函数 -------------
 static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
+    // 拿到Block中的 age指针 是被包装成的结构体对象 by ref --- by reference
     __Block_byref_age_0 *age = __cself->age; // bound by ref
     __Block_byref_obj_1 *obj = __cself->obj; // bound by ref
     
@@ -92,7 +107,8 @@ static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
 
 static void __main_block_copy_0(struct __main_block_impl_0*dst, struct __main_block_impl_0*src) {
     _Block_object_assign((void*)&dst->age, (void*)src->age, 8/*BLOCK_FIELD_IS_BYREF*/);
-    _Block_object_assign((void*)&dst->obj, (void*)src->obj, 8/*BLOCK_FIELD_IS_BYREF*/);}
+    _Block_object_assign((void*)&dst->obj, (void*)src->obj, 8/*BLOCK_FIELD_IS_BYREF*/);
+}
 
 static void __main_block_dispose_0(struct __main_block_impl_0*src) {
     _Block_object_dispose((void*)src->age, 8/*BLOCK_FIELD_IS_BYREF*/);
@@ -117,9 +133,9 @@ struct __main_block_impl_1 {
     }
 };
 
-// MyBlock2执行的函数
+// ------------- MyBlock2执行的函数 -------------
 static void __main_block_func_1(struct __main_block_impl_1 *__cself) {
-    
+
 }
 
 static struct __main_block_desc_1 {
@@ -140,7 +156,7 @@ struct __main_block_impl_2 {
     }
 };
 
-// MyBlock3执行的函数
+// ------------- MyBlock3执行的函数 -------------
 static void __main_block_func_2(struct __main_block_impl_2 *__cself) {
     __Block_byref_age_0 *age = __cself->age; // bound by ref
     (age->__forwarding->age) = 20;
@@ -162,7 +178,6 @@ static struct __main_block_desc_2 {
 int main(int argc, const char * argv[]) {
     /* @autoreleasepool */ { __AtAutoreleasePool __autoreleasepool;
         
-        
         // __block int age = 18;
         /**
          struct __Block_byref_age_0 {
@@ -181,7 +196,6 @@ int main(int argc, const char * argv[]) {
             18                              // int age
         };
         
-        
         /**
          MyBlock1 block1 = ^{
             NSLog(@"%d", age);
@@ -194,10 +208,8 @@ int main(int argc, const char * argv[]) {
                         __Block_byref_age_0 *_age,
                         __Block_byref_obj_1 *_obj,
                         int flags=0)
-
-         
-
          */
+        
         // 首先调用构造函数
         MyBlock1 block1 = ((void (*)())&__main_block_impl_0((void *)__main_block_func_0,    // *fp
                                                             &__main_block_desc_0_DATA,      // *desc
@@ -221,5 +233,12 @@ int main(int argc, const char * argv[]) {
 }
 static struct IMAGE_INFO { unsigned version; unsigned flag; } _OBJC_IMAGE_INFO = { 0, 2 };
 
+
+static void __Block_byref_id_object_copy_131(void *dst, void *src) {
+    _Block_object_assign((char*)dst + 40, *(void * *) ((char*)src + 40), 131);
+}
+static void __Block_byref_id_object_dispose_131(void *src) {
+    _Block_object_dispose(*(void * *) ((char*)src + 40), 131);
+}
 
 #endif
