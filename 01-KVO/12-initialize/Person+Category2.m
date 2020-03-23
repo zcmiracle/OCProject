@@ -10,8 +10,8 @@
 
 @implementation Person (Category2)
 
-+ (void)load {
-    NSLog(@"%s", __func__);
-}
+//+ (void)initialize {
+//    NSLog(@"%s", __func__);
+//}
 
 @end

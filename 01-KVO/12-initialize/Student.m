@@ -1,16 +1,16 @@
 //
-//  Student+Category2.m
+//  Student.m
 //  11-load
 //
 //  Created by XFB on 2020/3/23.
 //  Copyright © 2020 XFB. All rights reserved.
 //
 
-#import "Student+Category2.h"
+#import "Student.h"
 
-@implementation Student (Category2)
+@implementation Student
 
-+ (void)load {
++ (void)initialize {
     NSLog(@"%s", __func__);
 }
 

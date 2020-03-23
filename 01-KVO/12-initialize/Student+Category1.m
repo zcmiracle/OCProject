@@ -10,8 +10,8 @@
 
 @implementation Student (Category1)
 
-+ (void)load {
-    NSLog(@"%s", __func__);
-}
+//+ (void)initialize {
+//    NSLog(@"%s", __func__);
+//}
 
 @end

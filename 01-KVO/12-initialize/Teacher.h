@@ -1,6 +1,6 @@
 //
-//  Person.m
-//  11-load
+//  Teacher.h
+//  12-initialize
 //
 //  Created by XFB on 2020/3/23.
 //  Copyright © 2020 XFB. All rights reserved.
@@ -8,10 +8,10 @@
 
 #import "Person.h"
 
-@implementation Person
+NS_ASSUME_NONNULL_BEGIN
 
-+ (void)load {
-    NSLog(@"%s", __func__);
-}
+@interface Teacher : Person
 
 @end
+
+NS_ASSUME_NONNULL_END

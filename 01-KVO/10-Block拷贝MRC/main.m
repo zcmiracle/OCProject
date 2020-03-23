@@ -45,6 +45,16 @@ int main(int argc, const char * argv[]) {
         person.name = @"Fearless";
         [person method];
         [person release];
+        
+        /**
+         2020-03-23 16:39:53.421662+0800 10-Block拷贝MRC[5998:1183137] GlobalBlock：__NSGlobalBlock__
+         2020-03-23 16:39:53.422180+0800 10-Block拷贝MRC[5998:1183137] StackBlock：__NSStackBlock__
+         2020-03-23 16:39:53.422230+0800 10-Block拷贝MRC[5998:1183137] StackBlock：__NSStackBlock__
+         2020-03-23 16:39:53.422276+0800 10-Block拷贝MRC[5998:1183137] MallocBlock：__NSMallocBlock__
+         2020-03-23 16:39:53.422341+0800 10-Block拷贝MRC[5998:1183137] Fearless
+         2020-03-23 16:39:53.422373+0800 10-Block拷贝MRC[5998:1183137] -[Person dealloc]
+         */
+        
     }
     return 0;
 }

@@ -69,6 +69,16 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>12-initialize.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>13-Category.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>

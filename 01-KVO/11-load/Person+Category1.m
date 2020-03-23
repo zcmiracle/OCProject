@@ -11,7 +11,7 @@
 @implementation Person (Category1)
 
 + (void)load {
-    NSLog(@"Person (Category1) -> %s", __func__);
+    NSLog(@"%s", __func__);
 }
 
 @end

@@ -1,5 +1,5 @@
 //
-//  Person.m
+//  Person+Category1.h
 //  11-load
 //
 //  Created by XFB on 2020/3/23.
@@ -8,10 +8,10 @@
 
 #import "Person.h"
 
-@implementation Person
+NS_ASSUME_NONNULL_BEGIN
 
-+ (void)load {
-    NSLog(@"%s", __func__);
-}
+@interface Person (Category1)
 
 @end
+
+NS_ASSUME_NONNULL_END

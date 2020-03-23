@@ -7,12 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Person.h"
-#import "Person+Category1.h"
-#import "Person+Category2.h"
-#import "Student.h"
-#import "Student+Category1.h"
-#import "Student+Category2.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
