@@ -924,8 +924,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B357A3672428AEAA00DA97BC /* Person.m in Sources */,
-				B357A36A2428AEC200DA97BC /* Person+Category1.m in Sources */,
 				B357A36D2428AF5800DA97BC /* Person+Category2.m in Sources */,
+				B357A36A2428AEC200DA97BC /* Person+Category1.m in Sources */,
 				B357A3612428AE9400DA97BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

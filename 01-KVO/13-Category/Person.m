@@ -11,8 +11,8 @@
 
 @implementation Person
 
-- (void)test {
-    NSLog(@"%s", __func__);
-}
+//- (void)test {
+//    NSLog(@"%s", __func__);
+//}
 
 @end
