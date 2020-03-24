@@ -33,6 +33,20 @@ int main(int argc, const char * argv[]) {
          如果这个haspMap不存在，则新建ObjectAssociationMap 然后将policy和value包装成一个对象
          ObjcAssociation，最后将ObjcAssociation和key关联，
          */
+        
+        // 使用runtime Associate方法关联的对象，需要在主对象dealloc的时候释放吗？
+        // 不需要释放
+        // 主对象引用计数位0时，调用 release
+        // 沿继承链 调用父类的dealloc
+        // 直到调用NSObject的dealloc
+        // 经过一系列函数调用栈
+        // dealloc-->
+        // _objc_rootDealloc-->
+        // rootDealloc-->
+        // object_dispose-->
+        // objc_destructInstance 释放成员变量 + 移除关联属性 + 弱引用指向nil
+        // free(this), free(obj)
+        
     }
     return 0;
 }

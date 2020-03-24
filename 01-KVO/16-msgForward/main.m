@@ -20,7 +20,7 @@ int main(int argc, const char * argv[]) {
          reason: '-[ZCPerson run]: unrecognized selector sent to instance 0x10051ee30'
          */
         // _objc_msgForward消息转发 
-         ((void(*)(id, SEL))_objc_msgForward)([ZCPerson new], @selector(run));
+         ( (void(*)(id, SEL)) _objc_msgForward)([ZCPerson new], @selector(run));
         
         /**
          总结：
