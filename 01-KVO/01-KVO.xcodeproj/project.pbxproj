@@ -56,6 +56,7 @@
 		ED361E8B242A366700F76D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED361E8A242A366700F76D6C /* main.m */; };
 		ED361E94242A394100F76D6C /* PropertyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED361E93242A394100F76D6C /* PropertyModel.m */; };
 		ED361E97242A3A3900F76D6C /* RuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = ED361E96242A3A3900F76D6C /* RuntimeKit.m */; };
+		ED361EB4242A47B500F76D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED361EB3242A47B500F76D6C /* main.m */; };
 		ED387ED32428E7B200321E1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED387ED22428E7B200321E1D /* main.m */; };
 		ED387ED92428E7BD00321E1D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ED387ED82428E7BD00321E1D /* Person.m */; };
 		ED387EDC2428E7CE00321E1D /* Person+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = ED387EDB2428E7CE00321E1D /* Person+Category.m */; };
@@ -199,6 +200,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		ED361EAF242A47B500F76D6C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		ED387ECE2428E7B200321E1D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,6 +329,8 @@
 		ED361E93242A394100F76D6C /* PropertyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyModel.m; sourceTree = "<group>"; };
 		ED361E95242A3A3900F76D6C /* RuntimeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeKit.h; sourceTree = "<group>"; };
 		ED361E96242A3A3900F76D6C /* RuntimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeKit.m; sourceTree = "<group>"; };
+		ED361EB1242A47B500F76D6C /* 18-Runtime实现weak */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18-Runtime实现weak"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED361EB3242A47B500F76D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED387ED02428E7B200321E1D /* 14-Category关联对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14-Category关联对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED387ED22428E7B200321E1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED387ED72428E7BD00321E1D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -432,6 +444,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		ED361E85242A366700F76D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED361EAE242A47B500F76D6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -559,6 +578,7 @@
 				B3691C4B242A10FF001CAE33 /* 15-runtime添加ivar */,
 				B3691C5C242A18AB001CAE33 /* 16-msgForward */,
 				ED361E89242A366700F76D6C /* 17-类添加property变化 */,
+				ED361EB2242A47B500F76D6C /* 18-Runtime实现weak */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -583,6 +603,7 @@
 				B3691C4A242A10FF001CAE33 /* 15-runtime添加ivar */,
 				B3691C5B242A18AB001CAE33 /* 16-msgForward */,
 				ED361E88242A366700F76D6C /* 17-类添加property变化 */,
+				ED361EB1242A47B500F76D6C /* 18-Runtime实现weak */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -692,6 +713,14 @@
 				ED361E93242A394100F76D6C /* PropertyModel.m */,
 			);
 			path = "17-类添加property变化";
+			sourceTree = "<group>";
+		};
+		ED361EB2242A47B500F76D6C /* 18-Runtime实现weak */ = {
+			isa = PBXGroup;
+			children = (
+				ED361EB3242A47B500F76D6C /* main.m */,
+			);
+			path = "18-Runtime实现weak";
 			sourceTree = "<group>";
 		};
 		ED387ED12428E7B200321E1D /* 14-Category关联对象 */ = {
@@ -973,6 +1002,23 @@
 			productReference = ED361E88242A366700F76D6C /* 17-类添加property变化 */;
 			productType = "com.apple.product-type.tool";
 		};
+		ED361EB0242A47B500F76D6C /* 18-Runtime实现weak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED361EB5242A47B500F76D6C /* Build configuration list for PBXNativeTarget "18-Runtime实现weak" */;
+			buildPhases = (
+				ED361EAD242A47B500F76D6C /* Sources */,
+				ED361EAE242A47B500F76D6C /* Frameworks */,
+				ED361EAF242A47B500F76D6C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "18-Runtime实现weak";
+			productName = "18-Runtime实现weak";
+			productReference = ED361EB1242A47B500F76D6C /* 18-Runtime实现weak */;
+			productType = "com.apple.product-type.tool";
+		};
 		ED387ECF2428E7B200321E1D /* 14-Category关联对象 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED387ED42428E7B200321E1D /* Build configuration list for PBXNativeTarget "14-Category关联对象" */;
@@ -1061,6 +1107,9 @@
 					ED361E87242A366700F76D6C = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					ED361EB0242A47B500F76D6C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					ED387ECF2428E7B200321E1D = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -1099,6 +1148,7 @@
 				B3691C49242A10FF001CAE33 /* 15-runtime添加ivar */,
 				B3691C5A242A18AB001CAE33 /* 16-msgForward */,
 				ED361E87242A366700F76D6C /* 17-类添加property变化 */,
+				ED361EB0242A47B500F76D6C /* 18-Runtime实现weak */,
 			);
 		};
 /* End PBXProject section */
@@ -1256,6 +1306,14 @@
 				ED361E97242A3A3900F76D6C /* RuntimeKit.m in Sources */,
 				ED361E8B242A366700F76D6C /* main.m in Sources */,
 				ED361E94242A394100F76D6C /* PropertyModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED361EAD242A47B500F76D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED361EB4242A47B500F76D6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1693,6 +1751,28 @@
 			};
 			name = Release;
 		};
+		ED361EB6242A47B500F76D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED361EB7242A47B500F76D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		ED387ED52428E7B200321E1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1880,6 +1960,15 @@
 			buildConfigurations = (
 				ED361E8C242A366700F76D6C /* Debug */,
 				ED361E8D242A366700F76D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED361EB5242A47B500F76D6C /* Build configuration list for PBXNativeTarget "18-Runtime实现weak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED361EB6242A47B500F76D6C /* Debug */,
+				ED361EB7242A47B500F76D6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

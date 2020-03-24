@@ -24,14 +24,34 @@ int main(int argc, const char * argv[]) {
          关联对象实现原理：
          1、关联对象存储在一个全局容器中，由一个AssociationManager来管理
          AssociationManager里面有一个成员变量 AssociationHaspMap 哈希表
-         哈希表的key是传递的关联对象的地址值经过位运算取反 对应的value = ObjectAssociationMap
-                  ObjectAssociationMap管理者这个对象所有的关联值，也是一张map表
+         哈希表的key是传递的关联对象的指针地址 经过位运算取反 对应的value = ObjectAssociationMap
+         ObjectAssociationMap管理者这个对象所有的关联值，也是一张map表
          key：用户手动传过去的key，value由用户传过去的value和policy组装的对象
          首先判断这个haspMap存在不。如果存在通过传过去的key判断ObjcAssociation 存在不，
          不存在将policy和key包装成一个对象，然后赋值，如果不存在，则将传过去的Policy和value包装成
          一个ObjcAssociation 然后赋值
          如果这个haspMap不存在，则新建ObjectAssociationMap 然后将policy和value包装成一个对象
          ObjcAssociation，最后将ObjcAssociation和key关联，
+         
+         objc_setAssociatedObject
+                    
+         _object_set_associative_reference {
+            key: 对象的指针地址
+            value:ObjectAssociatonMap
+         }
+         
+         ObjectAssociatonMap {
+            key: 传进来的key
+            value:ObjcAssociation
+         }
+         
+         ObjcAssociation(policy, new_Value)
+         
+         
+         objc_getAssociatedObject
+         
+         _object_get_associative_reference
+         
          */
         
         // 使用runtime Associate方法关联的对象，需要在主对象dealloc的时候释放吗？
@@ -46,6 +66,18 @@ int main(int argc, const char * argv[]) {
         // object_dispose-->
         // objc_destructInstance 释放成员变量 + 移除关联属性 + 弱引用指向nil
         // free(this), free(obj)
+        
+        /**
+         objc_destructInstance：
+         1、object_cxxDestruct：释放成员变量(实例变量)
+         2、_object_remove_associations：移除关联属性
+         3、clearDeallocation：将弱引用置为nil
+         
+         总结：
+         1、属性关联的对象不需要再主对象dealloc中释放
+         2、它们会在NSObject-dealloc调用的object_dispose()
+         3、释放时，如果是强引用retain，则release，如果是weak不是强引用不用管
+         */
         
     }
     return 0;
