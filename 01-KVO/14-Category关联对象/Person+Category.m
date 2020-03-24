@@ -7,7 +7,17 @@
 //
 
 #import "Person+Category.h"
+#import <objc/runtime.h>
 
 @implementation Person (Category)
+
+// 关联对象 能够为分类添加属性
+- (void)setName:(NSString *)name {
+    objc_setAssociatedObject(self, @"name", name, OBJC_ASSOCIATION_RETAIN);
+}
+
+- (NSString *)name {
+    return objc_getAssociatedObject(self, @"name");
+}
 
 @end

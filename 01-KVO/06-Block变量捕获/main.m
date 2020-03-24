@@ -16,6 +16,7 @@ static int staticGlobalAge = 20;
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
+        // 最后这命令含有runtime指令 不然还是有些不同 比如默认对象都会有__strong 
         // xcrun -sdk iphoneos clang -arch arm64 -rewrite-objc -fobjc-arc -fobjc-runtime=ios-12.0.0 main.m
         
         // 基本数据类型的局部变量
