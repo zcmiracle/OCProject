@@ -57,6 +57,15 @@ int main(int argc, const char * argv[]) {
         // 调用objc_storeWeak()
         // objc_register_no_lock()
         // 包装成一个结构体对象，将其放入数组中
+     
+        
+        /**
+         weak_register_no_lock
+         weak_is_registered_no_lock
+         weak_clear_no_lock
+         weak_unregister_no_lock
+         
+         */
         
     }
     return 0;
