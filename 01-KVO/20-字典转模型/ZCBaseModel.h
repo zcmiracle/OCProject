@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZCBaseModel : NSObject
 
-- (void)initWithDataDict:(NSDictionary *)data;
+- (id)initWithDataDict:(NSDictionary *)data;
 - (NSString *)modelClassInPropertyArray:(NSString *)name;
 
 @end

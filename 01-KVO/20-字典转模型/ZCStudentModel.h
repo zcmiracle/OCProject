@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZCStudentModel : ZCBaseModel
 
+@property (nonatomic, copy) NSString *name;
 @property (nonatomic, copy) NSString *age;
 
 @end

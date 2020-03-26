@@ -10,10 +10,10 @@
 
 @implementation ZCPersonModel1
 
-- (void)initWithDataDict:(NSDictionary *)data {
+- (id)initWithDataDict:(NSDictionary *)data {
     self = [super initWithDataDict:data];
     if (self) {
-        self.personId = data[@"id"];
+        self.personID = data[@"id"];
     }
     return self;
 }

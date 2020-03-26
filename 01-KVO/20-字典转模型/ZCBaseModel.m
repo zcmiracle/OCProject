@@ -11,7 +11,7 @@
 
 @implementation ZCBaseModel
 
-- (void)initWithDataDict:(NSDictionary *)data {
+- (id)initWithDataDict:(NSDictionary *)data {
     self = [super init];
     if (self) {
         unsigned int count = 0;
@@ -22,13 +22,13 @@
             objc_property_t property = propertyList[i];
             
             // 获取属性名
-            NSString *propertyName = [NSString stringWithUTF8String:property_getName(objc_property_t)];
+            NSString *propertyName = [NSString stringWithUTF8String:property_getName(property)];
             
             id value = [data objectForKey:propertyName];
-        
+
             if ([value isKindOfClass:[NSNumber class]]) {
-                // 判断是否NSNumber 转成 NSString
-                [self setValue:[value string] forKey:propertyName];
+                // 判断是否NSNumber 转成 NSString 用 stringValue
+                [self setValue:[value stringValue] forKey:propertyName];
             } else if ([value isKindOfClass:[NSNull class]]) {
                 // 判断是否为空，转成空字符串
             } else if ([value isKindOfClass:[NSDictionary class]]) {
