@@ -62,6 +62,16 @@
 		B3A35F962425A85000DD9B8E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F952425A85000DD9B8E /* Student.m */; };
 		B3A35F992425A8C200DD9B8E /* ZCObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F972425A8C100DD9B8E /* ZCObserver.m */; };
 		B3A35FA12425AA7500DD9B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35FA02425AA7500DD9B8E /* main.m */; };
+		ED2C2B17242CF12500BFAA18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B16242CF12500BFAA18 /* AppDelegate.m */; };
+		ED2C2B1A242CF12500BFAA18 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B19242CF12500BFAA18 /* SceneDelegate.m */; };
+		ED2C2B1D242CF12500BFAA18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B1C242CF12500BFAA18 /* ViewController.m */; };
+		ED2C2B20242CF12500BFAA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2C2B1E242CF12500BFAA18 /* Main.storyboard */; };
+		ED2C2B22242CF12500BFAA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2C2B21242CF12500BFAA18 /* Assets.xcassets */; };
+		ED2C2B25242CF12500BFAA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2C2B23242CF12500BFAA18 /* LaunchScreen.storyboard */; };
+		ED2C2B28242CF12500BFAA18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B27242CF12500BFAA18 /* main.m */; };
+		ED2C2B2E242CFC2700BFAA18 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B2D242CFC2700BFAA18 /* PersonViewController.m */; };
+		ED2C2B31242CFC3800BFAA18 /* StudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B30242CFC3800BFAA18 /* StudentViewController.m */; };
+		ED2C2B34242CFD0300BFAA18 /* TeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B33242CFD0300BFAA18 /* TeacherViewController.m */; };
 		ED361E8B242A366700F76D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED361E8A242A366700F76D6C /* main.m */; };
 		ED361E94242A394100F76D6C /* PropertyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED361E93242A394100F76D6C /* PropertyModel.m */; };
 		ED361E97242A3A3900F76D6C /* RuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = ED361E96242A3A3900F76D6C /* RuntimeKit.m */; };
@@ -407,6 +417,24 @@
 		B3A35F9E2425AA7500DD9B8E /* 06-Block变量捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06-Block变量捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A35FA02425AA7500DD9B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3A35FA52425AE2800DD9B8E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ED2C2B13242CF12500BFAA18 /* 24-页面跳转.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "24-页面跳转.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2C2B15242CF12500BFAA18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED2C2B16242CF12500BFAA18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED2C2B18242CF12500BFAA18 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ED2C2B19242CF12500BFAA18 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ED2C2B1B242CF12500BFAA18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED2C2B1C242CF12500BFAA18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED2C2B1F242CF12500BFAA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED2C2B21242CF12500BFAA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED2C2B24242CF12500BFAA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED2C2B26242CF12500BFAA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2C2B27242CF12500BFAA18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED2C2B2C242CFC2700BFAA18 /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		ED2C2B2D242CFC2700BFAA18 /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		ED2C2B2F242CFC3800BFAA18 /* StudentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentViewController.h; sourceTree = "<group>"; };
+		ED2C2B30242CFC3800BFAA18 /* StudentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentViewController.m; sourceTree = "<group>"; };
+		ED2C2B32242CFD0300BFAA18 /* TeacherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeacherViewController.h; sourceTree = "<group>"; };
+		ED2C2B33242CFD0300BFAA18 /* TeacherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeacherViewController.m; sourceTree = "<group>"; };
 		ED361E88242A366700F76D6C /* 17-类添加property变化 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17-类添加property变化"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED361E8A242A366700F76D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED361E92242A394100F76D6C /* PropertyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyModel.h; sourceTree = "<group>"; };
@@ -560,6 +588,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B3A35F9B2425AA7500DD9B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2C2B10242CF12500BFAA18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -721,6 +756,7 @@
 				B386007A242C41D700762C2D /* 21-self+super */,
 				B386009A242C525500762C2D /* 22-isMemberOf+isKindOf */,
 				B38600A8242C59B800762C2D /* 23-Runtime归档和解档 */,
+				ED2C2B14242CF12500BFAA18 /* 24-页面跳转 */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -751,6 +787,7 @@
 				B3860079242C41D700762C2D /* 21-self+super */,
 				B3860099242C525500762C2D /* 22-isMemberOf+isKindOf */,
 				B38600A7242C59B800762C2D /* 23-Runtime归档和解档 */,
+				ED2C2B13242CF12500BFAA18 /* 24-页面跳转.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -887,6 +924,30 @@
 				B3A35FA52425AE2800DD9B8E /* main.cpp */,
 			);
 			path = "06-Block变量捕获";
+			sourceTree = "<group>";
+		};
+		ED2C2B14242CF12500BFAA18 /* 24-页面跳转 */ = {
+			isa = PBXGroup;
+			children = (
+				ED2C2B15242CF12500BFAA18 /* AppDelegate.h */,
+				ED2C2B16242CF12500BFAA18 /* AppDelegate.m */,
+				ED2C2B18242CF12500BFAA18 /* SceneDelegate.h */,
+				ED2C2B19242CF12500BFAA18 /* SceneDelegate.m */,
+				ED2C2B2C242CFC2700BFAA18 /* PersonViewController.h */,
+				ED2C2B2D242CFC2700BFAA18 /* PersonViewController.m */,
+				ED2C2B2F242CFC3800BFAA18 /* StudentViewController.h */,
+				ED2C2B30242CFC3800BFAA18 /* StudentViewController.m */,
+				ED2C2B32242CFD0300BFAA18 /* TeacherViewController.h */,
+				ED2C2B33242CFD0300BFAA18 /* TeacherViewController.m */,
+				ED2C2B1B242CF12500BFAA18 /* ViewController.h */,
+				ED2C2B1C242CF12500BFAA18 /* ViewController.m */,
+				ED2C2B1E242CF12500BFAA18 /* Main.storyboard */,
+				ED2C2B21242CF12500BFAA18 /* Assets.xcassets */,
+				ED2C2B23242CF12500BFAA18 /* LaunchScreen.storyboard */,
+				ED2C2B26242CF12500BFAA18 /* Info.plist */,
+				ED2C2B27242CF12500BFAA18 /* main.m */,
+			);
+			path = "24-页面跳转";
 			sourceTree = "<group>";
 		};
 		ED361E89242A366700F76D6C /* 17-类添加property变化 */ = {
@@ -1252,6 +1313,23 @@
 			productReference = B3A35F9E2425AA7500DD9B8E /* 06-Block变量捕获 */;
 			productType = "com.apple.product-type.tool";
 		};
+		ED2C2B12242CF12500BFAA18 /* 24-页面跳转 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2C2B29242CF12500BFAA18 /* Build configuration list for PBXNativeTarget "24-页面跳转" */;
+			buildPhases = (
+				ED2C2B0F242CF12500BFAA18 /* Sources */,
+				ED2C2B10242CF12500BFAA18 /* Frameworks */,
+				ED2C2B11242CF12500BFAA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "24-页面跳转";
+			productName = "24-页面跳转";
+			productReference = ED2C2B13242CF12500BFAA18 /* 24-页面跳转.app */;
+			productType = "com.apple.product-type.application";
+		};
 		ED361E87242A366700F76D6C /* 17-类添加property变化 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED361E8E242A366700F76D6C /* Build configuration list for PBXNativeTarget "17-类添加property变化" */;
@@ -1414,6 +1492,9 @@
 					B3A35F9D2425AA7500DD9B8E = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					ED2C2B12242CF12500BFAA18 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					ED361E87242A366700F76D6C = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -1470,9 +1551,23 @@
 				B3860078242C41D700762C2D /* 21-self+super */,
 				B3860098242C525500762C2D /* 22-isMemberOf+isKindOf */,
 				B38600A6242C59B800762C2D /* 23-Runtime归档和解档 */,
+				ED2C2B12242CF12500BFAA18 /* 24-页面跳转 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED2C2B11242CF12500BFAA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2C2B25242CF12500BFAA18 /* LaunchScreen.storyboard in Resources */,
+				ED2C2B22242CF12500BFAA18 /* Assets.xcassets in Resources */,
+				ED2C2B20242CF12500BFAA18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B357A2CA2428582E00DA97BC /* Sources */ = {
@@ -1650,6 +1745,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED2C2B0F242CF12500BFAA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2C2B31242CFC3800BFAA18 /* StudentViewController.m in Sources */,
+				ED2C2B2E242CFC2700BFAA18 /* PersonViewController.m in Sources */,
+				ED2C2B1D242CF12500BFAA18 /* ViewController.m in Sources */,
+				ED2C2B17242CF12500BFAA18 /* AppDelegate.m in Sources */,
+				ED2C2B28242CF12500BFAA18 /* main.m in Sources */,
+				ED2C2B1A242CF12500BFAA18 /* SceneDelegate.m in Sources */,
+				ED2C2B34242CFD0300BFAA18 /* TeacherViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED361E84242A366700F76D6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1710,6 +1819,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED2C2B1E242CF12500BFAA18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2C2B1F242CF12500BFAA18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED2C2B23242CF12500BFAA18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2C2B24242CF12500BFAA18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B357A2D32428582E00DA97BC /* Debug */ = {
@@ -2165,6 +2293,45 @@
 			};
 			name = Release;
 		};
+		ED2C2B2A242CF12500BFAA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "24-页面跳转/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fearless.com.-4-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED2C2B2B242CF12500BFAA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "24-页面跳转/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fearless.com.-4-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		ED361E8C242A366700F76D6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2458,6 +2625,15 @@
 			buildConfigurations = (
 				B3A35FA32425AA7500DD9B8E /* Debug */,
 				B3A35FA42425AA7500DD9B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2C2B29242CF12500BFAA18 /* Build configuration list for PBXNativeTarget "24-页面跳转" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2C2B2A242CF12500BFAA18 /* Debug */,
+				ED2C2B2B242CF12500BFAA18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
