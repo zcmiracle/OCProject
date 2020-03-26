@@ -39,19 +39,23 @@ int main(int argc, const char * argv[]) {
 
 #if 0
 
+// + 获取元类
 + (BOOL)isMemberOfClass:(Class)cls {
     return object_getClass((id)self) == cls;
 }
 
-- (BOOL)isMemberOfClass:(Class)cls {
-    return [self class] == cls;
-}
 
 + (BOOL)isKindOfClass:(Class)cls {
     for (Class tcls = object_getClass((id)self); tcls; tcls = tcls->superclass) {
         if (tcls == cls) return YES;
     }
     return NO;
+}
+
+
+// - 获取类对象
+- (BOOL)isMemberOfClass:(Class)cls {
+    return [self class] == cls;
 }
 
 - (BOOL)isKindOfClass:(Class)cls {

@@ -52,6 +52,9 @@
 		B3860088242C463000762C2D /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B3860087242C463000762C2D /* NSObject+Category.m */; };
 		B386009C242C525500762C2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B386009B242C525500762C2D /* main.m */; };
 		B38600A2242C52D300762C2D /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = B38600A1242C52D300762C2D /* Test.m */; };
+		B38600AA242C59B800762C2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B38600A9242C59B800762C2D /* main.m */; };
+		B38600B0242C59DC00762C2D /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B38600AF242C59DC00762C2D /* UserModel.m */; };
+		B38600B4242C5F2500762C2D /* NSObject+Coding.m in Sources */ = {isa = PBXBuildFile; fileRef = B38600B3242C5F2500762C2D /* NSObject+Coding.m */; };
 		B3A35F7C2425A31C00DD9B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F7B2425A31C00DD9B8E /* main.m */; };
 		B3A35F852425A49B00DD9B8E /* ZCObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F842425A49B00DD9B8E /* ZCObserver.m */; };
 		B3A35F882425A67000DD9B8E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F872425A67000DD9B8E /* Student.m */; };
@@ -189,6 +192,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		B3860097242C525500762C2D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B38600A5242C59B800762C2D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -372,6 +384,14 @@
 		B386009B242C525500762C2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B38600A0242C52D300762C2D /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		B38600A1242C52D300762C2D /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		B38600A7242C59B800762C2D /* 23-Runtime归档和解档 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "23-Runtime归档和解档"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38600A9242C59B800762C2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B38600AE242C59DC00762C2D /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		B38600AF242C59DC00762C2D /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		B38600B1242C5B7F00762C2D /* UserModel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UserModel.plist; sourceTree = "<group>"; };
+		B38600B2242C5F2500762C2D /* NSObject+Coding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Coding.h"; sourceTree = "<group>"; };
+		B38600B3242C5F2500762C2D /* NSObject+Coding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Coding.m"; sourceTree = "<group>"; };
+		B38600B5242C799C00762C2D /* ZCCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCCoding.h; sourceTree = "<group>"; };
 		B3A35F792425A31C00DD9B8E /* 04-KVC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-KVC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A35F7B2425A31C00DD9B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3A35F832425A49B00DD9B8E /* ZCObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCObserver.h; sourceTree = "<group>"; };
@@ -512,6 +532,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B3860096242C525500762C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38600A4242C59B800762C2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -693,6 +720,7 @@
 				ED40C5B4242BA74900D335F0 /* 20-字典转模型 */,
 				B386007A242C41D700762C2D /* 21-self+super */,
 				B386009A242C525500762C2D /* 22-isMemberOf+isKindOf */,
+				B38600A8242C59B800762C2D /* 23-Runtime归档和解档 */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -722,6 +750,7 @@
 				ED40C5B3242BA74900D335F0 /* 20-字典转模型 */,
 				B3860079242C41D700762C2D /* 21-self+super */,
 				B3860099242C525500762C2D /* 22-isMemberOf+isKindOf */,
+				B38600A7242C59B800762C2D /* 23-Runtime归档和解档 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -811,6 +840,20 @@
 				B38600A1242C52D300762C2D /* Test.m */,
 			);
 			path = "22-isMemberOf+isKindOf";
+			sourceTree = "<group>";
+		};
+		B38600A8242C59B800762C2D /* 23-Runtime归档和解档 */ = {
+			isa = PBXGroup;
+			children = (
+				B38600A9242C59B800762C2D /* main.m */,
+				B38600AE242C59DC00762C2D /* UserModel.h */,
+				B38600AF242C59DC00762C2D /* UserModel.m */,
+				B38600B2242C5F2500762C2D /* NSObject+Coding.h */,
+				B38600B3242C5F2500762C2D /* NSObject+Coding.m */,
+				B38600B5242C799C00762C2D /* ZCCoding.h */,
+				B38600B1242C5B7F00762C2D /* UserModel.plist */,
+			);
+			path = "23-Runtime归档和解档";
 			sourceTree = "<group>";
 		};
 		B3A35F7A2425A31C00DD9B8E /* 04-KVC赋值 */ = {
@@ -1141,6 +1184,23 @@
 			productReference = B3860099242C525500762C2D /* 22-isMemberOf+isKindOf */;
 			productType = "com.apple.product-type.tool";
 		};
+		B38600A6242C59B800762C2D /* 23-Runtime归档和解档 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38600AB242C59B800762C2D /* Build configuration list for PBXNativeTarget "23-Runtime归档和解档" */;
+			buildPhases = (
+				B38600A3242C59B800762C2D /* Sources */,
+				B38600A4242C59B800762C2D /* Frameworks */,
+				B38600A5242C59B800762C2D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "23-Runtime归档和解档";
+			productName = "23-Runtime归档和解档";
+			productReference = B38600A7242C59B800762C2D /* 23-Runtime归档和解档 */;
+			productType = "com.apple.product-type.tool";
+		};
 		B3A35F782425A31C00DD9B8E /* 04-KVC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3A35F7F2425A31C00DD9B8E /* Build configuration list for PBXNativeTarget "04-KVC" */;
@@ -1342,6 +1402,9 @@
 					B3860098242C525500762C2D = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					B38600A6242C59B800762C2D = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					B3A35F782425A31C00DD9B8E = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -1406,6 +1469,7 @@
 				ED40C5B2242BA74900D335F0 /* 20-字典转模型 */,
 				B3860078242C41D700762C2D /* 21-self+super */,
 				B3860098242C525500762C2D /* 22-isMemberOf+isKindOf */,
+				B38600A6242C59B800762C2D /* 23-Runtime归档和解档 */,
 			);
 		};
 /* End PBXProject section */
@@ -1545,6 +1609,16 @@
 			files = (
 				B386009C242C525500762C2D /* main.m in Sources */,
 				B38600A2242C52D300762C2D /* Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38600A3242C59B800762C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38600B0242C59DC00762C2D /* UserModel.m in Sources */,
+				B38600B4242C5F2500762C2D /* NSObject+Coding.m in Sources */,
+				B38600AA242C59B800762C2D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2009,6 +2083,28 @@
 			};
 			name = Release;
 		};
+		B38600AC242C59B800762C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B38600AD242C59B800762C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B3A35F7D2425A31C00DD9B8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2326,6 +2422,15 @@
 			buildConfigurations = (
 				B386009E242C525500762C2D /* Debug */,
 				B386009F242C525500762C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38600AB242C59B800762C2D /* Build configuration list for PBXNativeTarget "23-Runtime归档和解档" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38600AC242C59B800762C2D /* Debug */,
+				B38600AD242C59B800762C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
