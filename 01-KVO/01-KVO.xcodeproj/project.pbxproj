@@ -442,6 +442,7 @@
 		B3F6B1A7242DF77600578DC2 /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 		B3F6B1A9242E043A00578DC2 /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
 		B3F6B1AA242E043B00578DC2 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
+		B3F6B1AC242E07C100578DC2 /* RuntimeAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeAPI.m; sourceTree = "<group>"; };
 		ED2C2B13242CF12500BFAA18 /* 24-页面跳转.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "24-页面跳转.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2C2B15242CF12500BFAA18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED2C2B16242CF12500BFAA18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -860,6 +861,7 @@
 				B35B82A12424D94F001060C5 /* ZCObserverInfo.m */,
 				B35B829B2424D2B2001060C5 /* RuntimeKit.h */,
 				B35B829A2424D2B2001060C5 /* RuntimeKit.m */,
+				B3F6B1AC242E07C100578DC2 /* RuntimeAPI.m */,
 			);
 			path = "03-自定义KVO实现";
 			sourceTree = "<group>";
@@ -989,14 +991,14 @@
 				ED2C2B16242CF12500BFAA18 /* AppDelegate.m */,
 				ED2C2B18242CF12500BFAA18 /* SceneDelegate.h */,
 				ED2C2B19242CF12500BFAA18 /* SceneDelegate.m */,
+				ED2C2B1B242CF12500BFAA18 /* ViewController.h */,
+				ED2C2B1C242CF12500BFAA18 /* ViewController.m */,
 				ED2C2B2C242CFC2700BFAA18 /* PersonViewController.h */,
 				ED2C2B2D242CFC2700BFAA18 /* PersonViewController.m */,
 				ED2C2B2F242CFC3800BFAA18 /* StudentViewController.h */,
 				ED2C2B30242CFC3800BFAA18 /* StudentViewController.m */,
 				ED2C2B32242CFD0300BFAA18 /* TeacherViewController.h */,
 				ED2C2B33242CFD0300BFAA18 /* TeacherViewController.m */,
-				ED2C2B1B242CF12500BFAA18 /* ViewController.h */,
-				ED2C2B1C242CF12500BFAA18 /* ViewController.m */,
 				ED2C2B1E242CF12500BFAA18 /* Main.storyboard */,
 				ED2C2B21242CF12500BFAA18 /* Assets.xcassets */,
 				ED2C2B23242CF12500BFAA18 /* LaunchScreen.storyboard */,
@@ -2424,7 +2426,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-5------RunLoop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -2443,7 +2445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-5------RunLoop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -2455,7 +2457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "24-页面跳转/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2463,7 +2465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Fearless.com.-4-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -2474,7 +2476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "24-页面跳转/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2482,7 +2484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Fearless.com.-4-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

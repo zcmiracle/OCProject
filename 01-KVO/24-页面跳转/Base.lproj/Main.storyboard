@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qaO-RD-GR5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qaO-RD-GR5">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -80,7 +81,7 @@
         <!--Person View Controller-->
         <scene sceneID="ujY-nZ-fat">
             <objects>
-                <viewController id="MHW-Fs-4Ek" customClass="PersonViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PersonViewController" id="MHW-Fs-4Ek" customClass="PersonViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p3l-nT-DoC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,7 +111,7 @@
         <!--Student View Controller-->
         <scene sceneID="dSm-Hv-Eex">
             <objects>
-                <viewController id="T2B-R9-Qdj" customClass="StudentViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StudentViewController" id="T2B-R9-Qdj" customClass="StudentViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PKa-Kr-uhy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,7 +141,7 @@
         <!--Teacher View Controller-->
         <scene sceneID="FUk-XE-W8w">
             <objects>
-                <viewController id="uOw-Cw-taD" customClass="TeacherViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TeacherViewController" id="uOw-Cw-taD" customClass="TeacherViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KFC-bq-BeW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
