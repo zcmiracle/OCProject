@@ -86,7 +86,7 @@
         Method method = class_getInstanceMethod([self class], @selector(testVcViewDidLoad));
         IMP methodIMP = method_getImplementation(method);
         const char *types = method_getTypeEncoding(method);
-        class_addMethod(cls, @selector(testVcViewDidLoad), methodIMP, types);
+        class_addMethod(cls, @selector(viewDidLoad), methodIMP, types);
             
     }
     
@@ -102,7 +102,6 @@
     }
     
     NSDictionary *values = dictionary[@"property"];
-
     [values enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
         
         if (class_getProperty(cls, [key UTF8String])) {
@@ -118,16 +117,25 @@
     [self.navigationController pushViewController:instance animated:YES];
 }
 
+// 转换成C++后，默认有两个参数(id self, SEL _cmd)
 - (void)testVcViewDidLoad {
     
     [super viewDidLoad];
+    SEL method = _cmd;
+    // self = <TestViewController: 0x7fc25e400870>
     [self setValue:[UIColor orangeColor] forKeyPath:@"view.backgroundColor"];
 
-
-        
-    
-//    self.label.text = [NSString stringWithFormat:@"age = %@, sex = %@", self.age, self.sex];
-
+    // 初始化label
+    [self setValue:[[UILabel alloc] initWithFrame:CGRectMake(20, 200, 300, 30)] forKey:@"label"];
+    UILabel *label = [self valueForKey:@"label"];
+    // 添加到视图上
+    [[self valueForKey:@"view"] performSelector:@selector(addSubview:) withObject:label];
+    // label属性
+    label.textColor = [UIColor redColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.font = [UIFont systemFontOfSize:20];
+    label.backgroundColor = [UIColor whiteColor];
+    label.text = [self valueForKey:@"phoneNumber"];
 }
 
 @end
