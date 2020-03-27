@@ -62,6 +62,15 @@
 		B3A35F962425A85000DD9B8E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F952425A85000DD9B8E /* Student.m */; };
 		B3A35F992425A8C200DD9B8E /* ZCObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F972425A8C100DD9B8E /* ZCObserver.m */; };
 		B3A35FA12425AA7500DD9B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35FA02425AA7500DD9B8E /* main.m */; };
+		B3F6B191242DF60500578DC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B190242DF60500578DC2 /* AppDelegate.m */; };
+		B3F6B194242DF60500578DC2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B193242DF60500578DC2 /* SceneDelegate.m */; };
+		B3F6B197242DF60500578DC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B196242DF60500578DC2 /* ViewController.m */; };
+		B3F6B19A242DF60500578DC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F6B198242DF60500578DC2 /* Main.storyboard */; };
+		B3F6B19C242DF60600578DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F6B19B242DF60600578DC2 /* Assets.xcassets */; };
+		B3F6B19F242DF60600578DC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F6B19D242DF60600578DC2 /* LaunchScreen.storyboard */; };
+		B3F6B1A2242DF60600578DC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B1A1242DF60600578DC2 /* main.m */; };
+		B3F6B1A8242DF77600578DC2 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B1A7242DF77600578DC2 /* TimerViewController.m */; };
+		B3F6B1AB242E043B00578DC2 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B1A9242E043A00578DC2 /* GCDTimer.m */; };
 		ED2C2B17242CF12500BFAA18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B16242CF12500BFAA18 /* AppDelegate.m */; };
 		ED2C2B1A242CF12500BFAA18 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B19242CF12500BFAA18 /* SceneDelegate.m */; };
 		ED2C2B1D242CF12500BFAA18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B1C242CF12500BFAA18 /* ViewController.m */; };
@@ -417,6 +426,22 @@
 		B3A35F9E2425AA7500DD9B8E /* 06-Block变量捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06-Block变量捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A35FA02425AA7500DD9B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3A35FA52425AE2800DD9B8E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B3F6B18D242DF60500578DC2 /* 25-子线程开启RunLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "25-子线程开启RunLoop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F6B18F242DF60500578DC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3F6B190242DF60500578DC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3F6B192242DF60500578DC2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B3F6B193242DF60500578DC2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B3F6B195242DF60500578DC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3F6B196242DF60500578DC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3F6B199242DF60500578DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3F6B19B242DF60600578DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3F6B19E242DF60600578DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3F6B1A0242DF60600578DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F6B1A1242DF60600578DC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3F6B1A6242DF77600578DC2 /* TimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		B3F6B1A7242DF77600578DC2 /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		B3F6B1A9242E043A00578DC2 /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
+		B3F6B1AA242E043B00578DC2 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
 		ED2C2B13242CF12500BFAA18 /* 24-页面跳转.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "24-页面跳转.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2C2B15242CF12500BFAA18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED2C2B16242CF12500BFAA18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -594,6 +619,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3F6B18A242DF60500578DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED2C2B10242CF12500BFAA18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -757,6 +789,7 @@
 				B386009A242C525500762C2D /* 22-isMemberOf+isKindOf */,
 				B38600A8242C59B800762C2D /* 23-Runtime归档和解档 */,
 				ED2C2B14242CF12500BFAA18 /* 24-页面跳转 */,
+				B3F6B18E242DF60500578DC2 /* 25-子线程开启RunLoop */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -788,6 +821,7 @@
 				B3860099242C525500762C2D /* 22-isMemberOf+isKindOf */,
 				B38600A7242C59B800762C2D /* 23-Runtime归档和解档 */,
 				ED2C2B13242CF12500BFAA18 /* 24-页面跳转.app */,
+				B3F6B18D242DF60500578DC2 /* 25-子线程开启RunLoop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -924,6 +958,28 @@
 				B3A35FA52425AE2800DD9B8E /* main.cpp */,
 			);
 			path = "06-Block变量捕获";
+			sourceTree = "<group>";
+		};
+		B3F6B18E242DF60500578DC2 /* 25-子线程开启RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				B3F6B18F242DF60500578DC2 /* AppDelegate.h */,
+				B3F6B190242DF60500578DC2 /* AppDelegate.m */,
+				B3F6B192242DF60500578DC2 /* SceneDelegate.h */,
+				B3F6B193242DF60500578DC2 /* SceneDelegate.m */,
+				B3F6B195242DF60500578DC2 /* ViewController.h */,
+				B3F6B196242DF60500578DC2 /* ViewController.m */,
+				B3F6B1A6242DF77600578DC2 /* TimerViewController.h */,
+				B3F6B1A7242DF77600578DC2 /* TimerViewController.m */,
+				B3F6B1AA242E043B00578DC2 /* GCDTimer.h */,
+				B3F6B1A9242E043A00578DC2 /* GCDTimer.m */,
+				B3F6B198242DF60500578DC2 /* Main.storyboard */,
+				B3F6B19B242DF60600578DC2 /* Assets.xcassets */,
+				B3F6B19D242DF60600578DC2 /* LaunchScreen.storyboard */,
+				B3F6B1A0242DF60600578DC2 /* Info.plist */,
+				B3F6B1A1242DF60600578DC2 /* main.m */,
+			);
+			path = "25-子线程开启RunLoop";
 			sourceTree = "<group>";
 		};
 		ED2C2B14242CF12500BFAA18 /* 24-页面跳转 */ = {
@@ -1313,6 +1369,23 @@
 			productReference = B3A35F9E2425AA7500DD9B8E /* 06-Block变量捕获 */;
 			productType = "com.apple.product-type.tool";
 		};
+		B3F6B18C242DF60500578DC2 /* 25-子线程开启RunLoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F6B1A3242DF60600578DC2 /* Build configuration list for PBXNativeTarget "25-子线程开启RunLoop" */;
+			buildPhases = (
+				B3F6B189242DF60500578DC2 /* Sources */,
+				B3F6B18A242DF60500578DC2 /* Frameworks */,
+				B3F6B18B242DF60500578DC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "25-子线程开启RunLoop";
+			productName = "25-子线程开启RunLoop";
+			productReference = B3F6B18D242DF60500578DC2 /* 25-子线程开启RunLoop.app */;
+			productType = "com.apple.product-type.application";
+		};
 		ED2C2B12242CF12500BFAA18 /* 24-页面跳转 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED2C2B29242CF12500BFAA18 /* Build configuration list for PBXNativeTarget "24-页面跳转" */;
@@ -1492,6 +1565,9 @@
 					B3A35F9D2425AA7500DD9B8E = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					B3F6B18C242DF60500578DC2 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 					ED2C2B12242CF12500BFAA18 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -1552,11 +1628,22 @@
 				B3860098242C525500762C2D /* 22-isMemberOf+isKindOf */,
 				B38600A6242C59B800762C2D /* 23-Runtime归档和解档 */,
 				ED2C2B12242CF12500BFAA18 /* 24-页面跳转 */,
+				B3F6B18C242DF60500578DC2 /* 25-子线程开启RunLoop */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B3F6B18B242DF60500578DC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F6B19F242DF60600578DC2 /* LaunchScreen.storyboard in Resources */,
+				B3F6B19C242DF60600578DC2 /* Assets.xcassets in Resources */,
+				B3F6B19A242DF60500578DC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED2C2B11242CF12500BFAA18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1745,6 +1832,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3F6B189242DF60500578DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F6B1AB242E043B00578DC2 /* GCDTimer.m in Sources */,
+				B3F6B197242DF60500578DC2 /* ViewController.m in Sources */,
+				B3F6B191242DF60500578DC2 /* AppDelegate.m in Sources */,
+				B3F6B1A8242DF77600578DC2 /* TimerViewController.m in Sources */,
+				B3F6B1A2242DF60600578DC2 /* main.m in Sources */,
+				B3F6B194242DF60500578DC2 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED2C2B0F242CF12500BFAA18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1821,6 +1921,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		B3F6B198242DF60500578DC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F6B199242DF60500578DC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3F6B19D242DF60600578DC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F6B19E242DF60600578DC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		ED2C2B1E242CF12500BFAA18 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2293,6 +2409,45 @@
 			};
 			name = Release;
 		};
+		B3F6B1A4242DF60600578DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "25-子线程开启RunLoop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-5------RunLoop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3F6B1A5242DF60600578DC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "25-子线程开启RunLoop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-5------RunLoop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		ED2C2B2A242CF12500BFAA18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2625,6 +2780,15 @@
 			buildConfigurations = (
 				B3A35FA32425AA7500DD9B8E /* Debug */,
 				B3A35FA42425AA7500DD9B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F6B1A3242DF60600578DC2 /* Build configuration list for PBXNativeTarget "25-子线程开启RunLoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F6B1A4242DF60600578DC2 /* Debug */,
+				B3F6B1A5242DF60600578DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,6 +9,7 @@
 #import "TeacherViewController.h"
 
 @interface TeacherViewController ()
+
 @property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
