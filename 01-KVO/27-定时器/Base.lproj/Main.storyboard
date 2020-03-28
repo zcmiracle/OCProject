@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zeg-VD-oK8">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="8wd-aY-tn2">
+            <objects>
+                <navigationController id="zeg-VD-oK8" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mWm-LR-MvC">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ehv-fo-Of3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0oP-Kd-xrj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-622" y="138"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dew-d1-9md">
+                                <rect key="frame" x="107" y="375" width="200" height="146"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="146" id="imm-HF-HZj"/>
+                                    <constraint firstAttribute="width" constant="200" id="wnX-iT-OMy"/>
+                                </constraints>
+                                <state key="normal" title="跳转到定时器页面"/>
+                                <connections>
+                                    <segue destination="5O1-X1-nwh" kind="show" id="ZFV-lP-FRM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="dew-d1-9md" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4RU-9p-dj4"/>
+                            <constraint firstItem="dew-d1-9md" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Z6s-fK-WjF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MeV-nU-ngP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="198.55072463768118" y="137.94642857142856"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="lhr-ig-v4v">
+            <objects>
+                <viewController id="5O1-X1-nwh" customClass="ViewController2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MR9-3Z-aZg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bo-Gv-pZv">
+                                <rect key="frame" x="30" y="138" width="354" height="40"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2EG-j7-kNZ"/>
+                                </constraints>
+                                <state key="normal" title="定时器1"/>
+                                <connections>
+                                    <action selector="startTimer1:" destination="5O1-X1-nwh" eventType="touchUpInside" id="86L-7z-Fm6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cK8-Jl-Sf5">
+                                <rect key="frame" x="30" y="198" width="354" height="40"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BaW-Nd-szJ"/>
+                                </constraints>
+                                <state key="normal" title="定时器2"/>
+                                <connections>
+                                    <action selector="startTimer2:" destination="5O1-X1-nwh" eventType="touchUpInside" id="8rI-dr-4MU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ee1-Bs-quh">
+                                <rect key="frame" x="30" y="258" width="354" height="40"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dMi-oE-BAK"/>
+                                </constraints>
+                                <state key="normal" title="定时器3"/>
+                                <connections>
+                                    <action selector="startTimer3:" destination="5O1-X1-nwh" eventType="touchUpInside" id="daj-7u-JEO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aY3-sC-hDS">
+                                <rect key="frame" x="30" y="318" width="354" height="40"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="nHE-tH-EOx"/>
+                                </constraints>
+                                <state key="normal" title="定时器4"/>
+                                <connections>
+                                    <action selector="startTimer4:" destination="5O1-X1-nwh" eventType="touchUpInside" id="K32-Ve-dYA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aY3-sC-hDS" firstAttribute="top" secondItem="ee1-Bs-quh" secondAttribute="bottom" constant="20" id="5D6-kg-x7Z"/>
+                            <constraint firstItem="6bo-Gv-pZv" firstAttribute="centerX" secondItem="MR9-3Z-aZg" secondAttribute="centerX" id="IPk-Ev-58U"/>
+                            <constraint firstItem="ee1-Bs-quh" firstAttribute="leading" secondItem="RiX-Ha-9R7" secondAttribute="leading" constant="30" id="Qpm-8o-u4B"/>
+                            <constraint firstItem="aY3-sC-hDS" firstAttribute="leading" secondItem="RiX-Ha-9R7" secondAttribute="leading" constant="30" id="Zit-VV-wVi"/>
+                            <constraint firstItem="6bo-Gv-pZv" firstAttribute="leading" secondItem="RiX-Ha-9R7" secondAttribute="leading" constant="30" id="bDq-YM-TtJ"/>
+                            <constraint firstItem="cK8-Jl-Sf5" firstAttribute="leading" secondItem="RiX-Ha-9R7" secondAttribute="leading" constant="30" id="bVq-DM-GMi"/>
+                            <constraint firstItem="cK8-Jl-Sf5" firstAttribute="top" secondItem="6bo-Gv-pZv" secondAttribute="bottom" constant="20" id="cbT-XP-aRg"/>
+                            <constraint firstItem="RiX-Ha-9R7" firstAttribute="trailing" secondItem="ee1-Bs-quh" secondAttribute="trailing" constant="30" id="dYz-io-22F"/>
+                            <constraint firstItem="RiX-Ha-9R7" firstAttribute="trailing" secondItem="cK8-Jl-Sf5" secondAttribute="trailing" constant="30" id="kNa-Iu-dXF"/>
+                            <constraint firstItem="RiX-Ha-9R7" firstAttribute="trailing" secondItem="6bo-Gv-pZv" secondAttribute="trailing" constant="30" id="l8P-Bn-cgM"/>
+                            <constraint firstItem="ee1-Bs-quh" firstAttribute="top" secondItem="cK8-Jl-Sf5" secondAttribute="bottom" constant="20" id="loQ-0B-HUu"/>
+                            <constraint firstItem="cK8-Jl-Sf5" firstAttribute="centerX" secondItem="MR9-3Z-aZg" secondAttribute="centerX" id="n0R-18-vPo"/>
+                            <constraint firstItem="RiX-Ha-9R7" firstAttribute="trailing" secondItem="aY3-sC-hDS" secondAttribute="trailing" constant="30" id="qTA-w6-gsI"/>
+                            <constraint firstItem="6bo-Gv-pZv" firstAttribute="top" secondItem="RiX-Ha-9R7" secondAttribute="top" constant="50" id="wXc-2K-c6Z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RiX-Ha-9R7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MCV-rj-duk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fUX-wD-TNt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1004.3478260869566" y="150"/>
+        </scene>
+    </scenes>
+</document>
