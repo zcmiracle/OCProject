@@ -78,6 +78,18 @@
 		ED267C6A242E5DF100895C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED267C69242E5DF100895C5A /* Assets.xcassets */; };
 		ED267C6D242E5DF100895C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED267C6B242E5DF100895C5A /* LaunchScreen.storyboard */; };
 		ED267C70242E5DF100895C5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED267C6F242E5DF100895C5A /* main.m */; };
+		ED28526E243075FF00F0990A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28526D243075FF00F0990A /* AppDelegate.m */; };
+		ED285271243075FF00F0990A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED285270243075FF00F0990A /* SceneDelegate.m */; };
+		ED285274243075FF00F0990A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED285273243075FF00F0990A /* ViewController.m */; };
+		ED285277243075FF00F0990A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED285275243075FF00F0990A /* Main.storyboard */; };
+		ED2852792430760000F0990A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2852782430760000F0990A /* Assets.xcassets */; };
+		ED28527C2430760000F0990A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED28527A2430760000F0990A /* LaunchScreen.storyboard */; };
+		ED28527F2430760000F0990A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28527E2430760000F0990A /* main.m */; };
+		ED285287243086DC00F0990A /* GreyViewColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED285286243086DC00F0990A /* GreyViewColor.m */; };
+		ED28528A243086E400F0990A /* RedViewColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED285289243086E400F0990A /* RedViewColor.m */; };
+		ED28528D2430876000F0990A /* YellowViewColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28528C2430876000F0990A /* YellowViewColor.m */; };
+		ED2852902430876C00F0990A /* PurpleViewColor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28528F2430876C00F0990A /* PurpleViewColor.m */; };
+		ED28529324309EA200F0990A /* UIView+HitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ED28529224309EA200F0990A /* UIView+HitTest.m */; };
 		ED2C2B17242CF12500BFAA18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B16242CF12500BFAA18 /* AppDelegate.m */; };
 		ED2C2B1A242CF12500BFAA18 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B19242CF12500BFAA18 /* SceneDelegate.m */; };
 		ED2C2B1D242CF12500BFAA18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2C2B1C242CF12500BFAA18 /* ViewController.m */; };
@@ -473,6 +485,29 @@
 		ED267C6C242E5DF100895C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED267C6E242E5DF100895C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED267C6F242E5DF100895C5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED28526A243075FF00F0990A /* 28-事件传递及响应.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "28-事件传递及响应.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED28526C243075FF00F0990A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED28526D243075FF00F0990A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED28526F243075FF00F0990A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ED285270243075FF00F0990A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ED285272243075FF00F0990A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED285273243075FF00F0990A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED285276243075FF00F0990A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED2852782430760000F0990A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED28527B2430760000F0990A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED28527D2430760000F0990A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED28527E2430760000F0990A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED285283243076D400F0990A /* 笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "笔记.h"; sourceTree = "<group>"; };
+		ED285285243086DC00F0990A /* GreyViewColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreyViewColor.h; sourceTree = "<group>"; };
+		ED285286243086DC00F0990A /* GreyViewColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreyViewColor.m; sourceTree = "<group>"; };
+		ED285288243086E400F0990A /* RedViewColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedViewColor.h; sourceTree = "<group>"; };
+		ED285289243086E400F0990A /* RedViewColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedViewColor.m; sourceTree = "<group>"; };
+		ED28528B2430876000F0990A /* YellowViewColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YellowViewColor.h; sourceTree = "<group>"; };
+		ED28528C2430876000F0990A /* YellowViewColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YellowViewColor.m; sourceTree = "<group>"; };
+		ED28528E2430876C00F0990A /* PurpleViewColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurpleViewColor.h; sourceTree = "<group>"; };
+		ED28528F2430876C00F0990A /* PurpleViewColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PurpleViewColor.m; sourceTree = "<group>"; };
+		ED28529124309EA200F0990A /* UIView+HitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HitTest.h"; sourceTree = "<group>"; };
+		ED28529224309EA200F0990A /* UIView+HitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HitTest.m"; sourceTree = "<group>"; };
 		ED2C2B13242CF12500BFAA18 /* 24-页面跳转.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "24-页面跳转.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2C2B15242CF12500BFAA18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED2C2B16242CF12500BFAA18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -684,6 +719,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED285267243075FF00F0990A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED2C2B10242CF12500BFAA18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -857,6 +899,7 @@
 				B3F6B18E242DF60500578DC2 /* 25-子线程开启RunLoop */,
 				ED267C5C242E5DF000895C5A /* 26-线程保活 */,
 				EDF3DFB3242F5E1100C92DBC /* 27-定时器 */,
+				ED28526B243075FF00F0990A /* 28-事件传递及响应 */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -891,6 +934,7 @@
 				B3F6B18D242DF60500578DC2 /* 25-子线程开启RunLoop.app */,
 				ED267C5B242E5DF000895C5A /* 26-线程保活.app */,
 				EDF3DFB2242F5E1100C92DBC /* 27-定时器.app */,
+				ED28526A243075FF00F0990A /* 28-事件传递及响应.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1068,6 +1112,43 @@
 				ED267C6F242E5DF100895C5A /* main.m */,
 			);
 			path = "26-线程保活";
+			sourceTree = "<group>";
+		};
+		ED28526B243075FF00F0990A /* 28-事件传递及响应 */ = {
+			isa = PBXGroup;
+			children = (
+				ED28526C243075FF00F0990A /* AppDelegate.h */,
+				ED28526D243075FF00F0990A /* AppDelegate.m */,
+				ED28526F243075FF00F0990A /* SceneDelegate.h */,
+				ED285270243075FF00F0990A /* SceneDelegate.m */,
+				ED285272243075FF00F0990A /* ViewController.h */,
+				ED285273243075FF00F0990A /* ViewController.m */,
+				ED285284243086BC00F0990A /* View */,
+				ED285283243076D400F0990A /* 笔记.h */,
+				ED285275243075FF00F0990A /* Main.storyboard */,
+				ED2852782430760000F0990A /* Assets.xcassets */,
+				ED28527A2430760000F0990A /* LaunchScreen.storyboard */,
+				ED28527D2430760000F0990A /* Info.plist */,
+				ED28527E2430760000F0990A /* main.m */,
+			);
+			path = "28-事件传递及响应";
+			sourceTree = "<group>";
+		};
+		ED285284243086BC00F0990A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED285285243086DC00F0990A /* GreyViewColor.h */,
+				ED285286243086DC00F0990A /* GreyViewColor.m */,
+				ED285288243086E400F0990A /* RedViewColor.h */,
+				ED285289243086E400F0990A /* RedViewColor.m */,
+				ED28528B2430876000F0990A /* YellowViewColor.h */,
+				ED28528C2430876000F0990A /* YellowViewColor.m */,
+				ED28528E2430876C00F0990A /* PurpleViewColor.h */,
+				ED28528F2430876C00F0990A /* PurpleViewColor.m */,
+				ED28529124309EA200F0990A /* UIView+HitTest.h */,
+				ED28529224309EA200F0990A /* UIView+HitTest.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		ED2C2B14242CF12500BFAA18 /* 24-页面跳转 */ = {
@@ -1517,6 +1598,23 @@
 			productReference = ED267C5B242E5DF000895C5A /* 26-线程保活.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ED285269243075FF00F0990A /* 28-事件传递及响应 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2852822430760000F0990A /* Build configuration list for PBXNativeTarget "28-事件传递及响应" */;
+			buildPhases = (
+				ED285266243075FF00F0990A /* Sources */,
+				ED285267243075FF00F0990A /* Frameworks */,
+				ED285268243075FF00F0990A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "28-事件传递及响应";
+			productName = "28-事件传递及响应";
+			productReference = ED28526A243075FF00F0990A /* 28-事件传递及响应.app */;
+			productType = "com.apple.product-type.application";
+		};
 		ED2C2B12242CF12500BFAA18 /* 24-页面跳转 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED2C2B29242CF12500BFAA18 /* Build configuration list for PBXNativeTarget "24-页面跳转" */;
@@ -1719,6 +1817,9 @@
 					ED267C5A242E5DF000895C5A = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					ED285269243075FF00F0990A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					ED2C2B12242CF12500BFAA18 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -1785,6 +1886,7 @@
 				B3F6B18C242DF60500578DC2 /* 25-子线程开启RunLoop */,
 				ED267C5A242E5DF000895C5A /* 26-线程保活 */,
 				EDF3DFB1242F5E1100C92DBC /* 27-定时器 */,
+				ED285269243075FF00F0990A /* 28-事件传递及响应 */,
 			);
 		};
 /* End PBXProject section */
@@ -1807,6 +1909,16 @@
 				ED267C6D242E5DF100895C5A /* LaunchScreen.storyboard in Resources */,
 				ED267C6A242E5DF100895C5A /* Assets.xcassets in Resources */,
 				ED267C68242E5DF100895C5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED285268243075FF00F0990A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED28527C2430760000F0990A /* LaunchScreen.storyboard in Resources */,
+				ED2852792430760000F0990A /* Assets.xcassets in Resources */,
+				ED285277243075FF00F0990A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2032,6 +2144,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED285266243075FF00F0990A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED28528A243086E400F0990A /* RedViewColor.m in Sources */,
+				ED28528D2430876000F0990A /* YellowViewColor.m in Sources */,
+				ED285274243075FF00F0990A /* ViewController.m in Sources */,
+				ED28526E243075FF00F0990A /* AppDelegate.m in Sources */,
+				ED285287243086DC00F0990A /* GreyViewColor.m in Sources */,
+				ED28529324309EA200F0990A /* UIView+HitTest.m in Sources */,
+				ED28527F2430760000F0990A /* main.m in Sources */,
+				ED2852902430876C00F0990A /* PurpleViewColor.m in Sources */,
+				ED285271243075FF00F0990A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED2C2B0F242CF12500BFAA18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2151,6 +2279,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				ED267C6C242E5DF100895C5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ED285275243075FF00F0990A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED285276243075FF00F0990A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED28527A2430760000F0990A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED28527B2430760000F0990A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2721,6 +2865,45 @@
 			};
 			name = Release;
 		};
+		ED2852802430760000F0990A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "28-事件传递及响应/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fearless.com.-8--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED2852812430760000F0990A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "28-事件传递及响应/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fearless.com.-8--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		ED2C2B2A242CF12500BFAA18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3110,6 +3293,15 @@
 			buildConfigurations = (
 				ED267C71242E5DF100895C5A /* Debug */,
 				ED267C72242E5DF100895C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2852822430760000F0990A /* Build configuration list for PBXNativeTarget "28-事件传递及响应" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2852802430760000F0990A /* Debug */,
+				ED2852812430760000F0990A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
