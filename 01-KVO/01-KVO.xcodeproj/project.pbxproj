@@ -139,6 +139,24 @@
 		ED40C5C5242BA90D00D335F0 /* ZCStudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED40C5C4242BA90D00D335F0 /* ZCStudentModel.m */; };
 		ED40C5C8242BA91700D335F0 /* ZCBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED40C5C7242BA91700D335F0 /* ZCBaseModel.m */; };
 		ED67B17A2425213000010423 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67B1782425213000010423 /* Person.m */; };
+		EDB6C19A2432323C00427016 /* SSKeychain.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB6C1942432323C00427016 /* SSKeychain.strings */; };
+		EDB6C19B2432323C00427016 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6C1982432323C00427016 /* SSKeychain.m */; };
+		EDB6C19C2432323C00427016 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6C1992432323C00427016 /* SSKeychainQuery.m */; };
+		EDB6C1A6243237A600427016 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6C1A5243237A600427016 /* AppDelegate.m */; };
+		EDB6C1A9243237A600427016 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6C1A8243237A600427016 /* SceneDelegate.m */; };
+		EDB6C1AC243237A600427016 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6C1AB243237A600427016 /* ViewController.m */; };
+		EDB6C1AF243237A600427016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB6C1AD243237A600427016 /* Main.storyboard */; };
+		EDB6C1B1243237A700427016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB6C1B0243237A700427016 /* Assets.xcassets */; };
+		EDB6C1B4243237A700427016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB6C1B2243237A700427016 /* LaunchScreen.storyboard */; };
+		EDB6C1B7243237A700427016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6C1B6243237A700427016 /* main.m */; };
+		EDB6C1BD243237DA00427016 /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6C1BC243237DA00427016 /* EncryptionTools.m */; };
+		EDB6C1C62432511D00427016 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6C1C52432511D00427016 /* AppDelegate.m */; };
+		EDB6C1C92432511D00427016 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6C1C82432511D00427016 /* SceneDelegate.m */; };
+		EDB6C1CC2432511D00427016 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6C1CB2432511D00427016 /* ViewController.m */; };
+		EDB6C1CF2432511D00427016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB6C1CD2432511D00427016 /* Main.storyboard */; };
+		EDB6C1D12432511E00427016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB6C1D02432511E00427016 /* Assets.xcassets */; };
+		EDB6C1D42432511E00427016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB6C1D22432511E00427016 /* LaunchScreen.storyboard */; };
+		EDB6C1D72432511E00427016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6C1D62432511E00427016 /* main.m */; };
 		EDC1CBEE24267BF900488563 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC1CBED24267BF900488563 /* main.m */; };
 		EDF3DFB6242F5E1100C92DBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF3DFB5242F5E1100C92DBC /* AppDelegate.m */; };
 		EDF3DFB9242F5E1100C92DBC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF3DFB8242F5E1100C92DBC /* SceneDelegate.m */; };
@@ -632,6 +650,38 @@
 		ED67B1782425213000010423 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "01-KVO原理解析/Person.m"; sourceTree = SOURCE_ROOT; };
 		ED67B1792425213000010423 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "01-KVO原理解析/Person.h"; sourceTree = SOURCE_ROOT; };
 		ED9D9B5324277CE7006A42A9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EDB6C1952432323C00427016 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SSKeychain.strings; sourceTree = "<group>"; };
+		EDB6C1962432323C00427016 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		EDB6C1972432323C00427016 /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		EDB6C1982432323C00427016 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		EDB6C1992432323C00427016 /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		EDB6C19D243233DB00427016 /* 31-MD5.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "31-MD5.entitlements"; sourceTree = "<group>"; };
+		EDB6C1A2243237A600427016 /* 32-对称加密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "32-对称加密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB6C1A4243237A600427016 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDB6C1A5243237A600427016 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDB6C1A7243237A600427016 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EDB6C1A8243237A600427016 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EDB6C1AA243237A600427016 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDB6C1AB243237A600427016 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDB6C1AE243237A600427016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDB6C1B0243237A700427016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDB6C1B3243237A700427016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDB6C1B5243237A700427016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB6C1B6243237A700427016 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB6C1BB243237DA00427016 /* EncryptionTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
+		EDB6C1BC243237DA00427016 /* EncryptionTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
+		EDB6C1C22432511D00427016 /* 33-RSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "33-RSA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB6C1C42432511D00427016 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDB6C1C52432511D00427016 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDB6C1C72432511D00427016 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EDB6C1C82432511D00427016 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EDB6C1CA2432511D00427016 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDB6C1CB2432511D00427016 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDB6C1CE2432511D00427016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDB6C1D02432511E00427016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDB6C1D32432511E00427016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDB6C1D52432511E00427016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB6C1D62432511E00427016 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDC1CBEB24267BF900488563 /* 07-__block修饰符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-__block修饰符"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC1CBED24267BF900488563 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDF3DFB2242F5E1100C92DBC /* 27-定时器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "27-定时器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -860,6 +910,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDB6C19F243237A600427016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB6C1BF2432511D00427016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDC1CBE824267BF900488563 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -949,12 +1013,14 @@
 		B3479A2D24320DFD005F7BDC /* 31-MD5 */ = {
 			isa = PBXGroup;
 			children = (
+				EDB6C19D243233DB00427016 /* 31-MD5.entitlements */,
 				B3479A2E24320DFD005F7BDC /* AppDelegate.h */,
 				B3479A2F24320DFD005F7BDC /* AppDelegate.m */,
 				B3479A3124320DFD005F7BDC /* SceneDelegate.h */,
 				B3479A3224320DFD005F7BDC /* SceneDelegate.m */,
 				B3479A3424320DFD005F7BDC /* ViewController.h */,
 				B3479A3524320DFD005F7BDC /* ViewController.m */,
+				EDB6C1932432323C00427016 /* SSKeychain */,
 				B3479A4524320F16005F7BDC /* NSString+Hash.h */,
 				B3479A4624320F16005F7BDC /* NSString+Hash.m */,
 				B3479A3724320DFD005F7BDC /* Main.storyboard */,
@@ -1084,6 +1150,8 @@
 				B34799FF2432001B005F7BDC /* 29-主线程+主队列 */,
 				B3479A1C24320118005F7BDC /* 30-copyIvarList+copyPropertyList */,
 				B3479A2D24320DFD005F7BDC /* 31-MD5 */,
+				EDB6C1A3243237A600427016 /* 32-对称加密 */,
+				EDB6C1C32432511D00427016 /* 33-RSA */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1122,6 +1190,8 @@
 				B34799FE2432001B005F7BDC /* 29-主线程+主队列.app */,
 				B3479A1B24320118005F7BDC /* 30-copyIvarList+copyPropertyList */,
 				B3479A2C24320DFD005F7BDC /* 31-MD5.app */,
+				EDB6C1A2243237A600427016 /* 32-对称加密.app */,
+				EDB6C1C22432511D00427016 /* 33-RSA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1391,6 +1461,56 @@
 				ED40C5C7242BA91700D335F0 /* ZCBaseModel.m */,
 			);
 			path = "20-字典转模型";
+			sourceTree = "<group>";
+		};
+		EDB6C1932432323C00427016 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6C1942432323C00427016 /* SSKeychain.strings */,
+				EDB6C1962432323C00427016 /* SSKeychain.h */,
+				EDB6C1972432323C00427016 /* SSKeychainQuery.h */,
+				EDB6C1982432323C00427016 /* SSKeychain.m */,
+				EDB6C1992432323C00427016 /* SSKeychainQuery.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		EDB6C1A3243237A600427016 /* 32-对称加密 */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6C1A4243237A600427016 /* AppDelegate.h */,
+				EDB6C1A5243237A600427016 /* AppDelegate.m */,
+				EDB6C1A7243237A600427016 /* SceneDelegate.h */,
+				EDB6C1A8243237A600427016 /* SceneDelegate.m */,
+				EDB6C1AA243237A600427016 /* ViewController.h */,
+				EDB6C1AB243237A600427016 /* ViewController.m */,
+				EDB6C1BB243237DA00427016 /* EncryptionTools.h */,
+				EDB6C1BC243237DA00427016 /* EncryptionTools.m */,
+				EDB6C1AD243237A600427016 /* Main.storyboard */,
+				EDB6C1B0243237A700427016 /* Assets.xcassets */,
+				EDB6C1B2243237A700427016 /* LaunchScreen.storyboard */,
+				EDB6C1B5243237A700427016 /* Info.plist */,
+				EDB6C1B6243237A700427016 /* main.m */,
+			);
+			path = "32-对称加密";
+			sourceTree = "<group>";
+		};
+		EDB6C1C32432511D00427016 /* 33-RSA */ = {
+			isa = PBXGroup;
+			children = (
+				EDB6C1C42432511D00427016 /* AppDelegate.h */,
+				EDB6C1C52432511D00427016 /* AppDelegate.m */,
+				EDB6C1C72432511D00427016 /* SceneDelegate.h */,
+				EDB6C1C82432511D00427016 /* SceneDelegate.m */,
+				EDB6C1CA2432511D00427016 /* ViewController.h */,
+				EDB6C1CB2432511D00427016 /* ViewController.m */,
+				EDB6C1CD2432511D00427016 /* Main.storyboard */,
+				EDB6C1D02432511E00427016 /* Assets.xcassets */,
+				EDB6C1D22432511E00427016 /* LaunchScreen.storyboard */,
+				EDB6C1D52432511E00427016 /* Info.plist */,
+				EDB6C1D62432511E00427016 /* main.m */,
+			);
+			path = "33-RSA";
 			sourceTree = "<group>";
 		};
 		EDC1CBEC24267BF900488563 /* 07-__block修饰符 */ = {
@@ -1924,6 +2044,40 @@
 			productReference = ED40C5B3242BA74900D335F0 /* 20-字典转模型 */;
 			productType = "com.apple.product-type.tool";
 		};
+		EDB6C1A1243237A600427016 /* 32-对称加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB6C1B8243237A700427016 /* Build configuration list for PBXNativeTarget "32-对称加密" */;
+			buildPhases = (
+				EDB6C19E243237A600427016 /* Sources */,
+				EDB6C19F243237A600427016 /* Frameworks */,
+				EDB6C1A0243237A600427016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "32-对称加密";
+			productName = "32-对称加密";
+			productReference = EDB6C1A2243237A600427016 /* 32-对称加密.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDB6C1C12432511D00427016 /* 33-RSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB6C1D82432511E00427016 /* Build configuration list for PBXNativeTarget "33-RSA" */;
+			buildPhases = (
+				EDB6C1BE2432511D00427016 /* Sources */,
+				EDB6C1BF2432511D00427016 /* Frameworks */,
+				EDB6C1C02432511D00427016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "33-RSA";
+			productName = "33-RSA";
+			productReference = EDB6C1C22432511D00427016 /* 33-RSA.app */;
+			productType = "com.apple.product-type.application";
+		};
 		EDC1CBEA24267BF900488563 /* 07-__block修饰符 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDC1CBF124267BF900488563 /* Build configuration list for PBXNativeTarget "07-__block修饰符" */;
@@ -2054,6 +2208,12 @@
 					ED40C5B2242BA74900D335F0 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					EDB6C1A1243237A600427016 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EDB6C1C12432511D00427016 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					EDC1CBEA24267BF900488563 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -2106,6 +2266,8 @@
 				B34799FD2432001B005F7BDC /* 29-主线程+主队列 */,
 				B3479A1A24320118005F7BDC /* 30-copyIvarList+copyPropertyList */,
 				B3479A2B24320DFD005F7BDC /* 31-MD5 */,
+				EDB6C1A1243237A600427016 /* 32-对称加密 */,
+				EDB6C1C12432511D00427016 /* 33-RSA */,
 			);
 		};
 /* End PBXProject section */
@@ -2135,6 +2297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB6C19A2432323C00427016 /* SSKeychain.strings in Resources */,
 				B3479A3E24320DFE005F7BDC /* LaunchScreen.storyboard in Resources */,
 				B3479A3B24320DFE005F7BDC /* Assets.xcassets in Resources */,
 				B3479A3924320DFD005F7BDC /* Main.storyboard in Resources */,
@@ -2168,6 +2331,26 @@
 				ED2C2B25242CF12500BFAA18 /* LaunchScreen.storyboard in Resources */,
 				ED2C2B22242CF12500BFAA18 /* Assets.xcassets in Resources */,
 				ED2C2B20242CF12500BFAA18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB6C1A0243237A600427016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB6C1B4243237A700427016 /* LaunchScreen.storyboard in Resources */,
+				EDB6C1B1243237A700427016 /* Assets.xcassets in Resources */,
+				EDB6C1AF243237A600427016 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB6C1C02432511D00427016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB6C1D42432511E00427016 /* LaunchScreen.storyboard in Resources */,
+				EDB6C1D12432511E00427016 /* Assets.xcassets in Resources */,
+				EDB6C1CF2432511D00427016 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2229,8 +2412,10 @@
 				B3479A3624320DFD005F7BDC /* ViewController.m in Sources */,
 				B3479A3024320DFD005F7BDC /* AppDelegate.m in Sources */,
 				B3479A4124320DFE005F7BDC /* main.m in Sources */,
+				EDB6C19C2432323C00427016 /* SSKeychainQuery.m in Sources */,
 				B3479A4724320F16005F7BDC /* NSString+Hash.m in Sources */,
 				B3479A3324320DFD005F7BDC /* SceneDelegate.m in Sources */,
+				EDB6C19B2432323C00427016 /* SSKeychain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2501,6 +2686,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDB6C19E243237A600427016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB6C1AC243237A600427016 /* ViewController.m in Sources */,
+				EDB6C1A6243237A600427016 /* AppDelegate.m in Sources */,
+				EDB6C1BD243237DA00427016 /* EncryptionTools.m in Sources */,
+				EDB6C1B7243237A700427016 /* main.m in Sources */,
+				EDB6C1A9243237A600427016 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB6C1BE2432511D00427016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB6C1CC2432511D00427016 /* ViewController.m in Sources */,
+				EDB6C1C62432511D00427016 /* AppDelegate.m in Sources */,
+				EDB6C1D72432511E00427016 /* main.m in Sources */,
+				EDB6C1C92432511D00427016 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDC1CBE724267BF900488563 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2611,6 +2819,46 @@
 			isa = PBXVariantGroup;
 			children = (
 				ED2C2B24242CF12500BFAA18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB6C1942432323C00427016 /* SSKeychain.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB6C1952432323C00427016 /* en */,
+			);
+			name = SSKeychain.strings;
+			sourceTree = "<group>";
+		};
+		EDB6C1AD243237A600427016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB6C1AE243237A600427016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB6C1B2243237A700427016 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB6C1B3243237A700427016 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB6C1CD2432511D00427016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB6C1CE2432511D00427016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB6C1D22432511E00427016 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB6C1D32432511E00427016 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2738,6 +2986,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "31-MD5/31-MD5.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "31-MD5/Info.plist";
@@ -2757,6 +3006,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "31-MD5/31-MD5.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "31-MD5/Info.plist";
@@ -3453,6 +3703,84 @@
 			};
 			name = Release;
 		};
+		EDB6C1B9243237A700427016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "32-对称加密/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fearless.com.-2-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDB6C1BA243237A700427016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "32-对称加密/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fearless.com.-2-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB6C1D92432511E00427016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "33-RSA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fearless.com.-3-RSA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDB6C1DA2432511E00427016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "33-RSA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fearless.com.-3-RSA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		EDC1CBEF24267BF900488563 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3783,6 +4111,24 @@
 			buildConfigurations = (
 				ED40C5B8242BA74900D335F0 /* Debug */,
 				ED40C5B9242BA74900D335F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB6C1B8243237A700427016 /* Build configuration list for PBXNativeTarget "32-对称加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB6C1B9243237A700427016 /* Debug */,
+				EDB6C1BA243237A700427016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB6C1D82432511E00427016 /* Build configuration list for PBXNativeTarget "33-RSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB6C1D92432511E00427016 /* Debug */,
+				EDB6C1DA2432511E00427016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

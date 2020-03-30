@@ -21,8 +21,8 @@ int main(int argc, const char * argv[]) {
         user.height = @"172";
         NSLog(@"personID = %@, name = %@, age = %@, money = %@, height = %@", user.personID, user.name, user.age, user.money, user.height);
         
-        // 归档
-        NSString *file = [[NSBundle bundleWithPath:@"/Users/xfb/Desktop/"] pathForResource:@"UserModel" ofType:@"plist"];
+        // 归档 /Users/fearess/Desktop/UserModel.plist
+        NSString *file = [[NSBundle bundleWithPath:@"/Users/fearess/Desktop/"] pathForResource:@"UserModel" ofType:@"plist"];
         [NSKeyedArchiver archiveRootObject:user toFile:file];
         // 解档
         UserModel *userM = [NSKeyedUnarchiver unarchiveObjectWithFile:file];
