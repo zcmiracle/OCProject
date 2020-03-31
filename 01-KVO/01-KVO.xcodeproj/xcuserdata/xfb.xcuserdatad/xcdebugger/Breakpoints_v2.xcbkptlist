@@ -58,23 +58,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "45F621AF-13E6-4A6E-ADE6-0DE57CBC32D3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "23-Runtime&#x5f52;&#x6863;&#x548c;&#x89e3;&#x6863;/NSObject+Coding.m"
-            timestampString = "0"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "-zc_decode:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D6FC2977-C28A-4C3C-BF9C-6CC76EE7D4DC"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"

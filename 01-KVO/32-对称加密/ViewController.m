@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
     // AES - ECB 加密
     // 1> 加密过程是先加密，再base64编码
     // 2> 解密过程是先base64解码，再解密
@@ -49,16 +48,6 @@
 
     NSString *DES_ECB_DecryptString = [[EncryptionTools sharedEncryptionTools] decryptString:@"pNySTk5zlTk=" keyString:keystring iv:nil];
     NSLog(@"DES_ECB解密字符串 = %@",DES_ECB_DecryptString);
-
 }
-////DES - ECB
-//    [EncryptionTools sharedEncryptionTools].algorithm = kCCAlgorithmDES;
-//     NSString *DES_ECB_EncryptString =  [[EncryptionTools sharedEncryptionTools]encryptString:@"hello" keyString:key iv:nil];
-//
-//    NSLog(@"DES_ECB加密字符串 %@",DES_ECB_EncryptString);
-//
-//    NSString *ECB_CBC_DecryptString = [[EncryptionTools sharedEncryptionTools]decryptString:@"DHq5763/Eq4=" keyString:key iv:nil];
-//    NSLog(@"DES_ECB解密字符串 %@",ECB_CBC_DecryptString);
-//}
 
 @end

@@ -10,8 +10,10 @@
 #import "ZCTest.h"
 
 @implementation ZCTest
+
 {
     NSString *height;
     NSString *_width;
 }
+
 @end

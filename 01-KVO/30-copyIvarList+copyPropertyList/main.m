@@ -13,9 +13,14 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
 
+        ZCTest *test = [[ZCTest alloc] init];
         
-//        [RuntimeKit fetc];
+        NSArray *propertyList = [RuntimeKit fetchPropertyList:[test class]];
+        NSArray *ivarList = [RuntimeKit fetchIvarList:[test class]];
         
+        NSLog(@"propertyList --- %@", propertyList);
+        NSLog(@"ivarList --- %@", ivarList);
+
     }
     return 0;
 }

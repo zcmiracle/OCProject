@@ -42,7 +42,6 @@ static NSString *salt = @"Fearless";
     
     // 加载用户信息
     [self loadUserMessage];
-    
 }
 
 - (void)loadUserMessage {
@@ -73,8 +72,9 @@ static NSString *salt = @"Fearless";
     
     // 3、HMAC 40d858e5318ebca11efbcf0bb371c7f0
     // (密码 + 服务器的key + 202003302010) HMAC
-    // 服务器 (密码 + 服务器的key + 202003302011) HMAC 一分钟内进行®
+    // 服务器 (密码 + 服务器的key + 202003302011) HMAC 一分钟内进行
     // 实际开发中密钥来自服务器，注册的时候
+    // 不是很安全，只要网络中监听到这个值就能登录，无需破解
     NSString *key = nil;
     if (key == nil) {
         // 1、发送网络请求获取密钥
@@ -88,7 +88,10 @@ static NSString *salt = @"Fearless";
             [SSKeychain setPassword:key forService:LoginSericeName account:KeySericeName];
         }
     }
-    password = [password hmacMD5StringWithKey:key];
+//    password = [password hmacMD5StringWithKey:key];
+
+    // 4、密码+时间的一个混合 da8deeca6ead5a25d0f256c62be29b5b
+    password = [self getPassword:password];
 
     if ([self loginWithUserName:userName password:password]) {
         NSLog(@"登录成功");
@@ -96,6 +99,17 @@ static NSString *salt = @"Fearless";
     } else {
         NSLog(@"账号或密码错误");
     }
+}
+
+- (NSString *)getPassword:(NSString *)password {
+    // 1、一个字符串key md5计算
+    NSString *md5Key = [@"key123" md5String];
+    // 2、把原密码和 生成的md5Key值进行hmac 加密
+    NSString *hmacKey = [password hmacMD5StringWithKey:md5Key];
+    // 3、从服务器获取当前时间 到分钟的字符串
+    NSString *time = @"202003311030";
+    // 第二步产生的  (hmacKey + 时间)  和第一步的md5值只进行hmac加密
+    return [[hmacKey stringByAppendingString:time] hmacMD5StringWithKey:md5Key];
 }
 
 - (void)savePasswordWithUserName:(NSString *)userName
@@ -113,8 +127,7 @@ static NSString *salt = @"Fearless";
 
 // 从服务器获取key，根据用户名去获取
 - (NSString *)getKeyWithUserName:(NSString *)count {
-    
-    // 1、需要授权
+     // 1、需要授权
     // 2、直接返回密钥
     NSString *key = [SSKeychain passwordForService:LoginSericeName account:self.userNameTextF.text];
     if (key == NULL) {
@@ -127,7 +140,7 @@ static NSString *salt = @"Fearless";
 - (BOOL)loginWithUserName:(NSString *)userName
                  password:(NSString *)password {
     if ([userName isEqualToString:@"123"] &&
-        [password isEqualToString:@"40d858e5318ebca11efbcf0bb371c7f0"]) {
+        [password isEqualToString:@"da8deeca6ead5a25d0f256c62be29b5b"]) {
         return YES;
     } else {
         return NO;

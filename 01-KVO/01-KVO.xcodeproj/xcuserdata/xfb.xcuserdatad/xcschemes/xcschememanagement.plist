@@ -184,6 +184,16 @@
 			<key>orderHint</key>
 			<integer>30</integer>
 		</dict>
+		<key>32-对称加密.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
+		<key>33-RSA.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>32</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>
