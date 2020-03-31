@@ -21,6 +21,41 @@ int main(int argc, const char * argv[]) {
         NSLog(@"propertyList --- %@", propertyList);
         NSLog(@"ivarList --- %@", ivarList);
 
+        /**
+          property会获取到成员变量
+          ivar还会获取到私有成员变量 在.m文件中的
+         
+          propertyList --- (
+                 {
+                 propertyAttributes = "T@\"NSString\",C,N,V_age";
+                 propertyName = age;
+             }
+         )
+         
+         ivarList --- (
+                 {
+                 ivarName = "_name";
+                 ivarType = "@\"NSString\"";
+             },
+                 {
+                 ivarName = "_userName";
+                 ivarType = "@\"NSString\"";
+             },
+                 {
+                 ivarName = height;
+                 ivarType = "@\"NSString\"";
+             },
+                 {
+                 ivarName = "_width";
+                 ivarType = "@\"NSString\"";
+             },
+                 {
+                 ivarName = "_age";
+                 ivarType = "@\"NSString\"";
+             }
+         )
+         */
+        
     }
     return 0;
 }
