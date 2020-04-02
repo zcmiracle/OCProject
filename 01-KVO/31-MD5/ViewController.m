@@ -75,6 +75,9 @@ static NSString *salt = @"Fearless";
     // 服务器 (密码 + 服务器的key + 202003302011) HMAC 一分钟内进行
     // 实际开发中密钥来自服务器，注册的时候
     // 不是很安全，只要网络中监听到这个值就能登录，无需破解
+    
+    // 【HMAC(密码 + 服务器key) + 时间】.md5
+    
     NSString *key = nil;
     if (key == nil) {
         // 1、发送网络请求获取密钥

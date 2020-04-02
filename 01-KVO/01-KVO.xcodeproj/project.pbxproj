@@ -422,6 +422,7 @@
 		B3383D312431A010008A4613 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B3383D332431BFB5008A4613 /* GreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreenView.h; sourceTree = "<group>"; };
 		B3383D342431BFB5008A4613 /* GreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreenView.m; sourceTree = "<group>"; };
+		B346F86F243581E800432299 /* 对称加密笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "对称加密笔记.h"; sourceTree = "<group>"; };
 		B34799CD2431F539005F7BDC /* ThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadViewController.h; sourceTree = "<group>"; };
 		B34799CE2431F539005F7BDC /* ThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadViewController.m; sourceTree = "<group>"; };
 		B34799FE2432001B005F7BDC /* 29-主线程+主队列.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "29-主线程+主队列.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1493,6 +1494,7 @@
 				EDB6C1AB243237A600427016 /* ViewController.m */,
 				EDB6C1BB243237DA00427016 /* EncryptionTools.h */,
 				EDB6C1BC243237DA00427016 /* EncryptionTools.m */,
+				B346F86F243581E800432299 /* 对称加密笔记.h */,
 				EDB6C1AD243237A600427016 /* Main.storyboard */,
 				EDB6C1B0243237A700427016 /* Assets.xcassets */,
 				EDB6C1B2243237A700427016 /* LaunchScreen.storyboard */,
