@@ -106,6 +106,18 @@
 		B3F6B1A2242DF60600578DC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B1A1242DF60600578DC2 /* main.m */; };
 		B3F6B1A8242DF77600578DC2 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B1A7242DF77600578DC2 /* TimerViewController.m */; };
 		B3F6B1AB242E043B00578DC2 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B1A9242E043A00578DC2 /* GCDTimer.m */; };
+		ED21806D2438D3B900D7CD4A /* ZCTest+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = ED21806C2438D3B900D7CD4A /* ZCTest+Category.m */; };
+		ED2180762438E42700D7CD4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2180752438E42700D7CD4A /* AppDelegate.m */; };
+		ED2180792438E42700D7CD4A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2180782438E42700D7CD4A /* SceneDelegate.m */; };
+		ED21807C2438E42700D7CD4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED21807B2438E42700D7CD4A /* ViewController.m */; };
+		ED21807F2438E42700D7CD4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED21807D2438E42700D7CD4A /* Main.storyboard */; };
+		ED2180812438E42700D7CD4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2180802438E42700D7CD4A /* Assets.xcassets */; };
+		ED2180842438E42700D7CD4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2180822438E42700D7CD4A /* LaunchScreen.storyboard */; };
+		ED2180872438E42800D7CD4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2180862438E42700D7CD4A /* main.m */; };
+		ED21808D2438EB9900D7CD4A /* ZCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED21808C2438EB9900D7CD4A /* ZCAppDelegate.m */; };
+		ED2180902438EC3100D7CD4A /* ZCApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = ED21808F2438EC3100D7CD4A /* ZCApplication.m */; };
+		ED2180932438EE5D00D7CD4A /* AppDelegate+Location.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2180922438EE5D00D7CD4A /* AppDelegate+Location.m */; };
+		ED2180962438EE6A00D7CD4A /* AppDelegate+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2180952438EE6A00D7CD4A /* AppDelegate+Config.m */; };
 		ED267C5F242E5DF100895C5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED267C5E242E5DF100895C5A /* AppDelegate.m */; };
 		ED267C62242E5DF100895C5A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED267C61242E5DF100895C5A /* SceneDelegate.m */; };
 		ED267C65242E5DF100895C5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED267C64242E5DF100895C5A /* ViewController.m */; };
@@ -590,6 +602,28 @@
 		B3F6B1A9242E043A00578DC2 /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
 		B3F6B1AA242E043B00578DC2 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
 		B3F6B1AC242E07C100578DC2 /* RuntimeAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeAPI.m; sourceTree = "<group>"; };
+		ED21806B2438D3B900D7CD4A /* ZCTest+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZCTest+Category.h"; sourceTree = "<group>"; };
+		ED21806C2438D3B900D7CD4A /* ZCTest+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZCTest+Category.m"; sourceTree = "<group>"; };
+		ED2180722438E42700D7CD4A /* 34-App启动过程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "34-App启动过程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2180742438E42700D7CD4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED2180752438E42700D7CD4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED2180772438E42700D7CD4A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ED2180782438E42700D7CD4A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ED21807A2438E42700D7CD4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED21807B2438E42700D7CD4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED21807E2438E42700D7CD4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED2180802438E42700D7CD4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED2180832438E42700D7CD4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED2180852438E42700D7CD4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2180862438E42700D7CD4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED21808B2438EB9900D7CD4A /* ZCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCAppDelegate.h; sourceTree = "<group>"; };
+		ED21808C2438EB9900D7CD4A /* ZCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCAppDelegate.m; sourceTree = "<group>"; };
+		ED21808E2438EC3100D7CD4A /* ZCApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCApplication.h; sourceTree = "<group>"; };
+		ED21808F2438EC3100D7CD4A /* ZCApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCApplication.m; sourceTree = "<group>"; };
+		ED2180912438EE5D00D7CD4A /* AppDelegate+Location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Location.h"; sourceTree = "<group>"; };
+		ED2180922438EE5D00D7CD4A /* AppDelegate+Location.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Location.m"; sourceTree = "<group>"; };
+		ED2180942438EE6A00D7CD4A /* AppDelegate+Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Config.h"; sourceTree = "<group>"; };
+		ED2180952438EE6A00D7CD4A /* AppDelegate+Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Config.m"; sourceTree = "<group>"; };
 		ED267C5B242E5DF000895C5A /* 26-线程保活.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "26-线程保活.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED267C5D242E5DF100895C5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED267C5E242E5DF100895C5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -866,6 +900,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED21806F2438E42700D7CD4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED267C58242E5DF000895C5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1011,6 +1052,8 @@
 				B3479A1D24320118005F7BDC /* main.m */,
 				B3479A2224320136005F7BDC /* ZCTest.h */,
 				B3479A2324320136005F7BDC /* ZCTest.m */,
+				ED21806B2438D3B900D7CD4A /* ZCTest+Category.h */,
+				ED21806C2438D3B900D7CD4A /* ZCTest+Category.m */,
 				B31F2F272432EA7200251789 /* RuntimeKit.h */,
 				B31F2F282432EA7200251789 /* RuntimeKit.m */,
 			);
@@ -1160,6 +1203,7 @@
 				B3479A2D24320DFD005F7BDC /* 31-MD5 */,
 				EDB6C1A3243237A600427016 /* 32-对称加密 */,
 				EDB6C1C32432511D00427016 /* 33-RSA */,
+				ED2180732438E42700D7CD4A /* 34-App启动过程 */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1200,6 +1244,7 @@
 				B3479A2C24320DFD005F7BDC /* 31-MD5.app */,
 				EDB6C1A2243237A600427016 /* 32-对称加密.app */,
 				EDB6C1C22432511D00427016 /* 33-RSA.app */,
+				ED2180722438E42700D7CD4A /* 34-App启动过程.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1359,6 +1404,32 @@
 				B3F6B1A1242DF60600578DC2 /* main.m */,
 			);
 			path = "25-子线程开启RunLoop";
+			sourceTree = "<group>";
+		};
+		ED2180732438E42700D7CD4A /* 34-App启动过程 */ = {
+			isa = PBXGroup;
+			children = (
+				ED2180742438E42700D7CD4A /* AppDelegate.h */,
+				ED2180752438E42700D7CD4A /* AppDelegate.m */,
+				ED2180912438EE5D00D7CD4A /* AppDelegate+Location.h */,
+				ED2180922438EE5D00D7CD4A /* AppDelegate+Location.m */,
+				ED2180942438EE6A00D7CD4A /* AppDelegate+Config.h */,
+				ED2180952438EE6A00D7CD4A /* AppDelegate+Config.m */,
+				ED21808B2438EB9900D7CD4A /* ZCAppDelegate.h */,
+				ED21808C2438EB9900D7CD4A /* ZCAppDelegate.m */,
+				ED21808E2438EC3100D7CD4A /* ZCApplication.h */,
+				ED21808F2438EC3100D7CD4A /* ZCApplication.m */,
+				ED2180772438E42700D7CD4A /* SceneDelegate.h */,
+				ED2180782438E42700D7CD4A /* SceneDelegate.m */,
+				ED21807A2438E42700D7CD4A /* ViewController.h */,
+				ED21807B2438E42700D7CD4A /* ViewController.m */,
+				ED21807D2438E42700D7CD4A /* Main.storyboard */,
+				ED2180802438E42700D7CD4A /* Assets.xcassets */,
+				ED2180822438E42700D7CD4A /* LaunchScreen.storyboard */,
+				ED2180852438E42700D7CD4A /* Info.plist */,
+				ED2180862438E42700D7CD4A /* main.m */,
+			);
+			path = "34-App启动过程";
 			sourceTree = "<group>";
 		};
 		ED267C5C242E5DF000895C5A /* 26-线程保活 */ = {
@@ -1934,6 +2005,23 @@
 			productReference = B3F6B18D242DF60500578DC2 /* 25-子线程开启RunLoop.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ED2180712438E42700D7CD4A /* 34-App启动过程 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED21808A2438E42800D7CD4A /* Build configuration list for PBXNativeTarget "34-App启动过程" */;
+			buildPhases = (
+				ED21806E2438E42700D7CD4A /* Sources */,
+				ED21806F2438E42700D7CD4A /* Frameworks */,
+				ED2180702438E42700D7CD4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "34-App启动过程";
+			productName = "34-App启动过程";
+			productReference = ED2180722438E42700D7CD4A /* 34-App启动过程.app */;
+			productType = "com.apple.product-type.application";
+		};
 		ED267C5A242E5DF000895C5A /* 26-线程保活 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED267C73242E5DF100895C5A /* Build configuration list for PBXNativeTarget "26-线程保活" */;
@@ -2196,6 +2284,9 @@
 					B3F6B18C242DF60500578DC2 = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					ED2180712438E42700D7CD4A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					ED267C5A242E5DF000895C5A = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -2277,6 +2368,7 @@
 				B3479A2B24320DFD005F7BDC /* 31-MD5 */,
 				EDB6C1A1243237A600427016 /* 32-对称加密 */,
 				EDB6C1C12432511D00427016 /* 33-RSA */,
+				ED2180712438E42700D7CD4A /* 34-App启动过程 */,
 			);
 		};
 /* End PBXProject section */
@@ -2320,6 +2412,16 @@
 				B3F6B19F242DF60600578DC2 /* LaunchScreen.storyboard in Resources */,
 				B3F6B19C242DF60600578DC2 /* Assets.xcassets in Resources */,
 				B3F6B19A242DF60500578DC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2180702438E42700D7CD4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2180842438E42700D7CD4A /* LaunchScreen.storyboard in Resources */,
+				ED2180812438E42700D7CD4A /* Assets.xcassets in Resources */,
+				ED21807F2438E42700D7CD4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2411,6 +2513,7 @@
 			files = (
 				B31F2F292432EA7200251789 /* RuntimeKit.m in Sources */,
 				B3479A2424320136005F7BDC /* ZCTest.m in Sources */,
+				ED21806D2438D3B900D7CD4A /* ZCTest+Category.m in Sources */,
 				B3479A1E24320118005F7BDC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2617,6 +2720,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED21806E2438E42700D7CD4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED21807C2438E42700D7CD4A /* ViewController.m in Sources */,
+				ED2180902438EC3100D7CD4A /* ZCApplication.m in Sources */,
+				ED21808D2438EB9900D7CD4A /* ZCAppDelegate.m in Sources */,
+				ED2180932438EE5D00D7CD4A /* AppDelegate+Location.m in Sources */,
+				ED2180962438EE6A00D7CD4A /* AppDelegate+Config.m in Sources */,
+				ED2180762438E42700D7CD4A /* AppDelegate.m in Sources */,
+				ED2180872438E42800D7CD4A /* main.m in Sources */,
+				ED2180792438E42700D7CD4A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED267C57242E5DF000895C5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2797,6 +2915,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B3F6B19E242DF60600578DC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ED21807D2438E42700D7CD4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED21807E2438E42700D7CD4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED2180822438E42700D7CD4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2180832438E42700D7CD4A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3525,6 +3659,45 @@
 			};
 			name = Release;
 		};
+		ED2180882438E42800D7CD4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "34-App启动过程/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fearless.com.-4-App----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED2180892438E42800D7CD4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "34-App启动过程/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Fearless.com.-4-App----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		ED267C71242E5DF100895C5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4058,6 +4231,15 @@
 			buildConfigurations = (
 				B3F6B1A4242DF60600578DC2 /* Debug */,
 				B3F6B1A5242DF60600578DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED21808A2438E42800D7CD4A /* Build configuration list for PBXNativeTarget "34-App启动过程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2180882438E42800D7CD4A /* Debug */,
+				ED2180892438E42800D7CD4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

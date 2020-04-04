@@ -48,4 +48,8 @@
 //    return NO;
 //}
 
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"%s", __func__);
+}
 @end

@@ -51,7 +51,7 @@
         self.timer2 = [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
             NSLog(@"定时器启动 %@", [NSThread currentThread] );
         }];
-        //需要立即执行
+        // 需要立即执行
         [self.timer2 fire];
         // 调用子线程runLoop
         [[NSRunLoop currentRunLoop] run];

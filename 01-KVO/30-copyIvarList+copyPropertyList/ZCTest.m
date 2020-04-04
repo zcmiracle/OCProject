@@ -9,6 +9,13 @@
 
 #import "ZCTest.h"
 
+
+@interface ZCTest ()
+
+@property (nonatomic, copy) NSString *age123;
+
+@end
+
 @implementation ZCTest
 
 {
