@@ -106,6 +106,24 @@
 		B3F6B1A2242DF60600578DC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B1A1242DF60600578DC2 /* main.m */; };
 		B3F6B1A8242DF77600578DC2 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B1A7242DF77600578DC2 /* TimerViewController.m */; };
 		B3F6B1AB242E043B00578DC2 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B1A9242E043A00578DC2 /* GCDTimer.m */; };
+		B3FCD2D6243C3146008DFE5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD2D5243C3146008DFE5B /* AppDelegate.m */; };
+		B3FCD2D9243C3146008DFE5B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD2D8243C3146008DFE5B /* SceneDelegate.m */; };
+		B3FCD2DC243C3146008DFE5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD2DB243C3146008DFE5B /* ViewController.m */; };
+		B3FCD2DF243C3146008DFE5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FCD2DD243C3146008DFE5B /* Main.storyboard */; };
+		B3FCD2E1243C3147008DFE5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FCD2E0243C3147008DFE5B /* Assets.xcassets */; };
+		B3FCD2E4243C3147008DFE5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FCD2E2243C3147008DFE5B /* LaunchScreen.storyboard */; };
+		B3FCD2E7243C3147008DFE5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD2E6243C3147008DFE5B /* main.m */; };
+		B3FCD2EF243C591D008DFE5B /* ImageCompressController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD2ED243C591D008DFE5B /* ImageCompressController.m */; };
+		B3FCD2F0243C591D008DFE5B /* ImageCompressController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3FCD2EE243C591D008DFE5B /* ImageCompressController.xib */; };
+		B3FCD2F4243C5941008DFE5B /* ImageFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD2F2243C5941008DFE5B /* ImageFilterController.m */; };
+		B3FCD2F5243C5941008DFE5B /* ImageFilterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3FCD2F3243C5941008DFE5B /* ImageFilterController.xib */; };
+		B3FCD2F9243C59DF008DFE5B /* ShotScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD2F7243C59DF008DFE5B /* ShotScreenController.m */; };
+		B3FCD2FA243C59DF008DFE5B /* ShotScreenController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3FCD2F8243C59DF008DFE5B /* ShotScreenController.xib */; };
+		B3FCD2FF243C8367008DFE5B /* GCDGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD2FE243C8367008DFE5B /* GCDGroupController.m */; };
+		B3FCD302243C83AC008DFE5B /* ReadWriteController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD301243C83AC008DFE5B /* ReadWriteController.m */; };
+		B3FCD305243C83CA008DFE5B /* LockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD304243C83CA008DFE5B /* LockViewController.m */; };
+		B3FCD308243C83DE008DFE5B /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD307243C83DE008DFE5B /* RunLoopViewController.m */; };
+		B3FCD30D243C8E4B008DFE5B /* SemaphoreLock.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FCD30C243C8E4B008DFE5B /* SemaphoreLock.m */; };
 		ED16FA162439A9ED00DBA762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED16FA152439A9ED00DBA762 /* AppDelegate.m */; };
 		ED16FA192439A9ED00DBA762 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED16FA182439A9ED00DBA762 /* SceneDelegate.m */; };
 		ED16FA1C2439A9ED00DBA762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED16FA1B2439A9ED00DBA762 /* ViewController.m */; };
@@ -622,6 +640,39 @@
 		B3F6B1A9242E043A00578DC2 /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
 		B3F6B1AA242E043B00578DC2 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
 		B3F6B1AC242E07C100578DC2 /* RuntimeAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeAPI.m; sourceTree = "<group>"; };
+		B3FCD2D2243C3146008DFE5B /* 37-UIImageView加载原理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "37-UIImageView加载原理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FCD2D4243C3146008DFE5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3FCD2D5243C3146008DFE5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3FCD2D7243C3146008DFE5B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B3FCD2D8243C3146008DFE5B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B3FCD2DA243C3146008DFE5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3FCD2DB243C3146008DFE5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3FCD2DE243C3146008DFE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3FCD2E0243C3147008DFE5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3FCD2E3243C3147008DFE5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3FCD2E5243C3147008DFE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FCD2E6243C3147008DFE5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3FCD2EB243C3167008DFE5B /* UIImage笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage笔记.h"; sourceTree = "<group>"; };
+		B3FCD2EC243C591D008DFE5B /* ImageCompressController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCompressController.h; sourceTree = "<group>"; };
+		B3FCD2ED243C591D008DFE5B /* ImageCompressController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCompressController.m; sourceTree = "<group>"; };
+		B3FCD2EE243C591D008DFE5B /* ImageCompressController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCompressController.xib; sourceTree = "<group>"; };
+		B3FCD2F1243C5941008DFE5B /* ImageFilterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageFilterController.h; sourceTree = "<group>"; };
+		B3FCD2F2243C5941008DFE5B /* ImageFilterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFilterController.m; sourceTree = "<group>"; };
+		B3FCD2F3243C5941008DFE5B /* ImageFilterController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageFilterController.xib; sourceTree = "<group>"; };
+		B3FCD2F6243C59DF008DFE5B /* ShotScreenController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShotScreenController.h; sourceTree = "<group>"; };
+		B3FCD2F7243C59DF008DFE5B /* ShotScreenController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShotScreenController.m; sourceTree = "<group>"; };
+		B3FCD2F8243C59DF008DFE5B /* ShotScreenController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShotScreenController.xib; sourceTree = "<group>"; };
+		B3FCD2FD243C8367008DFE5B /* GCDGroupController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDGroupController.h; sourceTree = "<group>"; };
+		B3FCD2FE243C8367008DFE5B /* GCDGroupController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDGroupController.m; sourceTree = "<group>"; };
+		B3FCD300243C83AC008DFE5B /* ReadWriteController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadWriteController.h; sourceTree = "<group>"; };
+		B3FCD301243C83AC008DFE5B /* ReadWriteController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadWriteController.m; sourceTree = "<group>"; };
+		B3FCD303243C83CA008DFE5B /* LockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockViewController.h; sourceTree = "<group>"; };
+		B3FCD304243C83CA008DFE5B /* LockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockViewController.m; sourceTree = "<group>"; };
+		B3FCD306243C83DE008DFE5B /* RunLoopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
+		B3FCD307243C83DE008DFE5B /* RunLoopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
+		B3FCD309243C8E06008DFE5B /* Runloop_Source.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Runloop_Source.h; sourceTree = "<group>"; };
+		B3FCD30B243C8E4B008DFE5B /* SemaphoreLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SemaphoreLock.h; sourceTree = "<group>"; };
+		B3FCD30C243C8E4B008DFE5B /* SemaphoreLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SemaphoreLock.m; sourceTree = "<group>"; };
 		ED16F9E82439A90200DBA762 /* App启动过程笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App启动过程笔记.h"; sourceTree = "<group>"; };
 		ED16FA122439A9ED00DBA762 /* 35-控制器加载和UI初始化过程.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "35-控制器加载和UI初始化过程.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED16FA142439A9ED00DBA762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -956,6 +1007,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3FCD2CF243C3146008DFE5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED16FA0F2439A9ED00DBA762 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1276,6 +1334,7 @@
 				ED2180732438E42700D7CD4A /* 34-App启动过程 */,
 				ED16FA132439A9ED00DBA762 /* 35-控制器加载和UI初始化过程 */,
 				ED2644FD243AD230006D029E /* 36-线程组 */,
+				B3FCD2D3243C3146008DFE5B /* 37-UIImageView加载原理 */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1319,6 +1378,7 @@
 				ED2180722438E42700D7CD4A /* 34-App启动过程.app */,
 				ED16FA122439A9ED00DBA762 /* 35-控制器加载和UI初始化过程.app */,
 				ED2644FC243AD230006D029E /* 36-线程组.app */,
+				B3FCD2D2243C3146008DFE5B /* 37-UIImageView加载原理.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1480,6 +1540,66 @@
 			path = "25-子线程开启RunLoop";
 			sourceTree = "<group>";
 		};
+		B3FCD2D3243C3146008DFE5B /* 37-UIImageView加载原理 */ = {
+			isa = PBXGroup;
+			children = (
+				B3FCD2D4243C3146008DFE5B /* AppDelegate.h */,
+				B3FCD2D5243C3146008DFE5B /* AppDelegate.m */,
+				B3FCD2D7243C3146008DFE5B /* SceneDelegate.h */,
+				B3FCD2D8243C3146008DFE5B /* SceneDelegate.m */,
+				B3FCD2DA243C3146008DFE5B /* ViewController.h */,
+				B3FCD2DB243C3146008DFE5B /* ViewController.m */,
+				B3FCD2EB243C3167008DFE5B /* UIImage笔记.h */,
+				B3FCD2FB243C59E8008DFE5B /* Controller */,
+				B3FCD2DD243C3146008DFE5B /* Main.storyboard */,
+				B3FCD2E0243C3147008DFE5B /* Assets.xcassets */,
+				B3FCD2E2243C3147008DFE5B /* LaunchScreen.storyboard */,
+				B3FCD2E5243C3147008DFE5B /* Info.plist */,
+				B3FCD2E6243C3147008DFE5B /* main.m */,
+			);
+			path = "37-UIImageView加载原理";
+			sourceTree = "<group>";
+		};
+		B3FCD2FB243C59E8008DFE5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3FCD2EC243C591D008DFE5B /* ImageCompressController.h */,
+				B3FCD2ED243C591D008DFE5B /* ImageCompressController.m */,
+				B3FCD2EE243C591D008DFE5B /* ImageCompressController.xib */,
+				B3FCD2F1243C5941008DFE5B /* ImageFilterController.h */,
+				B3FCD2F2243C5941008DFE5B /* ImageFilterController.m */,
+				B3FCD2F3243C5941008DFE5B /* ImageFilterController.xib */,
+				B3FCD2F6243C59DF008DFE5B /* ShotScreenController.h */,
+				B3FCD2F7243C59DF008DFE5B /* ShotScreenController.m */,
+				B3FCD2F8243C59DF008DFE5B /* ShotScreenController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3FCD2FC243C8351008DFE5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3FCD2FD243C8367008DFE5B /* GCDGroupController.h */,
+				B3FCD2FE243C8367008DFE5B /* GCDGroupController.m */,
+				B3FCD300243C83AC008DFE5B /* ReadWriteController.h */,
+				B3FCD301243C83AC008DFE5B /* ReadWriteController.m */,
+				B3FCD303243C83CA008DFE5B /* LockViewController.h */,
+				B3FCD304243C83CA008DFE5B /* LockViewController.m */,
+				B3FCD306243C83DE008DFE5B /* RunLoopViewController.h */,
+				B3FCD307243C83DE008DFE5B /* RunLoopViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3FCD30A243C8E38008DFE5B /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				B3FCD30B243C8E4B008DFE5B /* SemaphoreLock.h */,
+				B3FCD30C243C8E4B008DFE5B /* SemaphoreLock.m */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
 		ED16FA132439A9ED00DBA762 /* 35-控制器加载和UI初始化过程 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1553,6 +1673,9 @@
 				ED264502243AD230006D029E /* SceneDelegate.m */,
 				ED264504243AD230006D029E /* ViewController.h */,
 				ED264505243AD230006D029E /* ViewController.m */,
+				B3FCD309243C8E06008DFE5B /* Runloop_Source.h */,
+				B3FCD30A243C8E38008DFE5B /* Lock */,
+				B3FCD2FC243C8351008DFE5B /* Controller */,
 				ED264507243AD230006D029E /* Main.storyboard */,
 				ED26450A243AD231006D029E /* Assets.xcassets */,
 				ED26450C243AD231006D029E /* LaunchScreen.storyboard */,
@@ -2135,6 +2258,23 @@
 			productReference = B3F6B18D242DF60500578DC2 /* 25-子线程开启RunLoop.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B3FCD2D1243C3146008DFE5B /* 37-UIImageView加载原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FCD2E8243C3147008DFE5B /* Build configuration list for PBXNativeTarget "37-UIImageView加载原理" */;
+			buildPhases = (
+				B3FCD2CE243C3146008DFE5B /* Sources */,
+				B3FCD2CF243C3146008DFE5B /* Frameworks */,
+				B3FCD2D0243C3146008DFE5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "37-UIImageView加载原理";
+			productName = "37-UIImageView加载原理";
+			productReference = B3FCD2D2243C3146008DFE5B /* 37-UIImageView加载原理.app */;
+			productType = "com.apple.product-type.application";
+		};
 		ED16FA112439A9ED00DBA762 /* 35-控制器加载和UI初始化过程 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED16FA282439A9ED00DBA762 /* Build configuration list for PBXNativeTarget "35-控制器加载和UI初始化过程" */;
@@ -2379,6 +2519,7 @@
 		B35B82692424BCBB001060C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = XFB;
 				TargetAttributes = {
@@ -2446,6 +2587,9 @@
 						CreatedOnToolsVersion = 11.1;
 					};
 					B3F6B18C242DF60500578DC2 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					B3FCD2D1243C3146008DFE5B = {
 						CreatedOnToolsVersion = 11.1;
 					};
 					ED16FA112439A9ED00DBA762 = {
@@ -2541,6 +2685,7 @@
 				ED2180712438E42700D7CD4A /* 34-App启动过程 */,
 				ED16FA112439A9ED00DBA762 /* 35-控制器加载和UI初始化过程 */,
 				ED2644FB243AD230006D029E /* 36-线程组 */,
+				B3FCD2D1243C3146008DFE5B /* 37-UIImageView加载原理 */,
 			);
 		};
 /* End PBXProject section */
@@ -2584,6 +2729,19 @@
 				B3F6B19F242DF60600578DC2 /* LaunchScreen.storyboard in Resources */,
 				B3F6B19C242DF60600578DC2 /* Assets.xcassets in Resources */,
 				B3F6B19A242DF60500578DC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FCD2D0243C3146008DFE5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FCD2E4243C3147008DFE5B /* LaunchScreen.storyboard in Resources */,
+				B3FCD2E1243C3147008DFE5B /* Assets.xcassets in Resources */,
+				B3FCD2DF243C3146008DFE5B /* Main.storyboard in Resources */,
+				B3FCD2FA243C59DF008DFE5B /* ShotScreenController.xib in Resources */,
+				B3FCD2F5243C5941008DFE5B /* ImageFilterController.xib in Resources */,
+				B3FCD2F0243C591D008DFE5B /* ImageCompressController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2914,6 +3072,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3FCD2CE243C3146008DFE5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FCD2DC243C3146008DFE5B /* ViewController.m in Sources */,
+				B3FCD2F4243C5941008DFE5B /* ImageFilterController.m in Sources */,
+				B3FCD2D6243C3146008DFE5B /* AppDelegate.m in Sources */,
+				B3FCD2EF243C591D008DFE5B /* ImageCompressController.m in Sources */,
+				B3FCD2E7243C3147008DFE5B /* main.m in Sources */,
+				B3FCD2F9243C59DF008DFE5B /* ShotScreenController.m in Sources */,
+				B3FCD2D9243C3146008DFE5B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ED16FA0E2439A9ED00DBA762 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2948,10 +3120,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3FCD308243C83DE008DFE5B /* RunLoopViewController.m in Sources */,
+				B3FCD30D243C8E4B008DFE5B /* SemaphoreLock.m in Sources */,
 				ED264506243AD230006D029E /* ViewController.m in Sources */,
 				ED264500243AD230006D029E /* AppDelegate.m in Sources */,
 				ED264511243AD231006D029E /* main.m in Sources */,
 				ED264503243AD230006D029E /* SceneDelegate.m in Sources */,
+				B3FCD2FF243C8367008DFE5B /* GCDGroupController.m in Sources */,
+				B3FCD305243C83CA008DFE5B /* LockViewController.m in Sources */,
+				B3FCD302243C83AC008DFE5B /* ReadWriteController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3135,6 +3312,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B3F6B19E242DF60600578DC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B3FCD2DD243C3146008DFE5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FCD2DE243C3146008DFE5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3FCD2E2243C3147008DFE5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FCD2E3243C3147008DFE5B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3911,6 +4104,45 @@
 			};
 			name = Release;
 		};
+		B3FCD2E9243C3147008DFE5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "37-UIImageView加载原理/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-7-UIImageView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3FCD2EA243C3147008DFE5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "37-UIImageView加载原理/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-7-UIImageView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		ED16FA292439A9ED00DBA762 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3918,7 +4150,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "35-控制器加载和UI初始化过程/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3937,7 +4169,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "35-控制器加载和UI初始化过程/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3957,7 +4189,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "34-App启动过程/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3976,7 +4208,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "34-App启动过程/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3996,7 +4228,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "36-线程组/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4015,7 +4247,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "36-线程组/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4561,6 +4793,15 @@
 			buildConfigurations = (
 				B3F6B1A4242DF60600578DC2 /* Debug */,
 				B3F6B1A5242DF60600578DC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FCD2E8243C3147008DFE5B /* Build configuration list for PBXNativeTarget "37-UIImageView加载原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FCD2E9243C3147008DFE5B /* Debug */,
+				B3FCD2EA243C3147008DFE5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
