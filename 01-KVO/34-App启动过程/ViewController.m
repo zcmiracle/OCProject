@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+- (IBAction)changeAnchorPoint:(UIButton *)sender {
+}
 
 
 @end
