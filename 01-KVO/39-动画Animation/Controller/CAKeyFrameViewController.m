@@ -5,7 +5,7 @@
 //
 //  Created by XFB on 2020/4/8.
 //  Copyright © 2020 XFB. All rights reserved.
-//  关键帧动画
+//  关键帧动画 核心动画
 
 #import "CAKeyFrameViewController.h"
 
