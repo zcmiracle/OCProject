@@ -53,9 +53,9 @@
     } else if (indexPath.row == 3) { // 关键帧动画
         vc = [CAKeyFrameViewController new];
     } else if (indexPath.row == 4) { // 时间函数
-        vc = [TransitionViewController new];
-    } else if (indexPath.row == 5) { // 过渡转场动画
         vc = [CAMediaTimeViewController new];
+    } else if (indexPath.row == 5) { // 过渡转场动画
+        vc = [TransitionViewController new];
     } else if (indexPath.row == 6) { // 动画案例
         vc = [AnimationCaseViewController new];
     }

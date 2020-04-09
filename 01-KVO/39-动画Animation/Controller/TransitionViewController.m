@@ -11,23 +11,31 @@
 
 @interface TransitionViewController ()
 
+@property (nonatomic, strong) CAShapeLayer *shapeLayer;
+
 @end
 
 @implementation TransitionViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.shapeLayer = [CAShapeLayer layer];
+    self.shapeLayer.contents = (__bridge id)[UIImage imageNamed:@"plane"].CGImage;
+    self.shapeLayer.frame = CGRectMake(100, 100, 50, 50);
+    [self.view.layer addSublayer:self.shapeLayer];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    CATransition *transitionAnim = [CATransition animation];
+    transitionAnim.type = @"cube";
+    transitionAnim.subtype = kCATransitionFromRight;
+    transitionAnim.duration = 2.0;
+    [self.shapeLayer addAnimation:transitionAnim forKey:nil];
+    
+    self.shapeLayer.contents = (__bridge id)[UIImage imageNamed:@"test"].CGImage;
 }
-*/
 
 @end
