@@ -33,10 +33,10 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
-    //    [self testBackgroundColor];
-    //    [self testScale];
-    //    [self testTransform3DRotate];
-    //    [self testTransform];
+//        [self testBackgroundColor];
+//        [self testScale];
+//        [self testTransform3DRotate];
+//        [self testTransform];
     [self testTranlate];
 }
 
@@ -48,7 +48,7 @@
     self.animation.keyPath = @"position";
     // byValue：增加多少值
     // tovalue：最终变成什么值
-    self.animation.byValue = [NSValue valueWithCGPoint:CGPointMake(200, 300)];
+    self.animation.byValue = [NSValue valueWithCGPoint:CGPointMake(100, 100)];
     
     // 设置动画时间
     self.animation.duration = 3.0f;

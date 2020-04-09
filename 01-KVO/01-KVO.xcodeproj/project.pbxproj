@@ -683,6 +683,7 @@
 		B3B234F02431D96A00CA5A86 /* PermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermenantThread.m; sourceTree = "<group>"; };
 		B3B234F22431D99300CA5A86 /* ZCThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCThread.h; sourceTree = "<group>"; };
 		B3B234F32431D99300CA5A86 /* ZCThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCThread.m; sourceTree = "<group>"; };
+		B3B9041E243EAD60004CBE08 /* 动画笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "动画笔记.h"; sourceTree = "<group>"; };
 		B3F6B18D242DF60500578DC2 /* 25-子线程开启RunLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "25-子线程开启RunLoop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F6B18F242DF60500578DC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3F6B190242DF60500578DC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1217,6 +1218,7 @@
 				B328956A243DDC48009F5925 /* SceneDelegate.m */,
 				B328956C243DDC48009F5925 /* ViewController.h */,
 				B328956D243DDC48009F5925 /* ViewController.m */,
+				B3B9041E243EAD60004CBE08 /* 动画笔记.h */,
 				B328957D243DE076009F5925 /* Controller */,
 				B328956F243DDC48009F5925 /* Main.storyboard */,
 				B3289572243DDC49009F5925 /* Assets.xcassets */,
