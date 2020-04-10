@@ -9,9 +9,7 @@
 #import "AnimationDelegateController.h"
 #import "BezierPathViewController.h"
 
-@interface AnimationDelegateController () <CAAnimationDelegate> {
-    CABasicAnimation *_animation;
-}
+@interface AnimationDelegateController () <CAAnimationDelegate>
 
 @property (nonatomic, strong) CALayer *layer;
 @property (nonatomic, strong) CABasicAnimation *animation;

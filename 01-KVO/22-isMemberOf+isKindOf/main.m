@@ -32,6 +32,9 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%d", [NSObject isMemberOfClass:object_getClass([NSObject class])]); // 1
         NSLog(@"%d", [Test isKindOfClass:object_getClass([Test class])]); // 1
         NSLog(@"%d", [Test isMemberOfClass:object_getClass([Test class])]); // 1
+        
+        
+        // 一个是要拿元类 一个是拿类对象，并且会去查找父类
     }
     return 0;
 }

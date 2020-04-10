@@ -1,16 +1,18 @@
 //
-//  BasicAnimationViewController.h
-//  39-动画Animation
+//  Student.h
+//  41-objc_msgSend总结
 //
 //  Created by XFB on 2020/4/10.
 //  Copyright © 2020 XFB. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Person.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BasicAnimationViewController : UIViewController
+@interface Student : Person
+
+- (void)studying;
 
 @end
 

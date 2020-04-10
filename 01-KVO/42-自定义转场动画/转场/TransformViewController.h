@@ -1,6 +1,6 @@
 //
-//  BasicAnimationViewController.h
-//  39-动画Animation
+//  TransformViewController.h
+//  42-自定义转场动画
 //
 //  Created by XFB on 2020/4/10.
 //  Copyright © 2020 XFB. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BasicAnimationViewController : UIViewController
+@interface TransformViewController : UIViewController
 
 @end
 

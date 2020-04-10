@@ -49,7 +49,7 @@
     } else if (indexPath.row == 1) { // 贝塞尔曲线
         vc = [BezierPathViewController new];
     } else if (indexPath.row == 2) { // 基础动画
-        vc = [BasicAnimationViewController new];
+        vc = [[BasicAnimationViewController alloc] initWithNibName:@"BasicAnimationViewController" bundle:nil];
     } else if (indexPath.row == 3) { // 关键帧动画
         vc = [CAKeyFrameViewController new];
     } else if (indexPath.row == 4) { // 时间函数
