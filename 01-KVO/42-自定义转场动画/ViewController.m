@@ -10,6 +10,9 @@
 #import "TransformViewController.h"
 #import "InteractiveTransition.h"
 
+#import "PresentAnimator.h"
+#import "DismissAnimator.h"
+
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource, UIViewControllerTransitioningDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -50,7 +53,19 @@
         vc.transitioningDelegate = self;
         [self presentViewController:vc animated:YES completion:nil];
     }
-    
+}
+
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
+    return [DismissAnimator new];
+}
+
+- (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
+    return [PresentAnimator new];
+}
+
+- (id<UIViewControllerInteractiveTransitioning>)interactionControllerForDismissal:(id<UIViewControllerAnimatedTransitioning>)animator {
+    return self.interactiveTransition.isInteractive? self.interactiveTransition:nil;
 }
 
 - (NSArray *)dataSource {

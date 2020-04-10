@@ -35,17 +35,16 @@
             CGPoint transitionPoint = [gesture translationInView:presentedViewController.view];
             NSLog(@"transitionPoint %@", NSStringFromCGPoint(transitionPoint));
             
-            CGFloat ration = transitionPoint.y / [UIScreen mainScreen].bounds.size.height;
-            if (ration >= 0.5) {
+            CGFloat ratio = transitionPoint.y / [UIScreen mainScreen].bounds.size.height;
+            if (ratio >= 0.5) {
                 shouldCompletion = YES;
             } else {
                 shouldCompletion = NO;
             }
-            [self updateInteractiveTransition:ration];
+            [self updateInteractiveTransition:ratio];
         }
             break;
         case UIGestureRecognizerStateEnded:
-            break;
         case UIGestureRecognizerStateCancelled: {
             if (shouldCompletion) {
                 [self finishInteractiveTransition];

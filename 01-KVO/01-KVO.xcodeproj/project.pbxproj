@@ -225,6 +225,8 @@
 		ED40C5C2242BA8F900D335F0 /* ZCPersonModel3.m in Sources */ = {isa = PBXBuildFile; fileRef = ED40C5C1242BA8F900D335F0 /* ZCPersonModel3.m */; };
 		ED40C5C5242BA90D00D335F0 /* ZCStudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED40C5C4242BA90D00D335F0 /* ZCStudentModel.m */; };
 		ED40C5C8242BA91700D335F0 /* ZCBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED40C5C7242BA91700D335F0 /* ZCBaseModel.m */; };
+		ED48005F2440AD06005C7F67 /* PresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED48005E2440AD06005C7F67 /* PresentAnimator.m */; };
+		ED4800622440AD56005C7F67 /* DismissAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4800612440AD56005C7F67 /* DismissAnimator.m */; };
 		ED67B17A2425213000010423 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ED67B1782425213000010423 /* Person.m */; };
 		EDB6C19A2432323C00427016 /* SSKeychain.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB6C1942432323C00427016 /* SSKeychain.strings */; };
 		EDB6C19B2432323C00427016 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB6C1982432323C00427016 /* SSKeychain.m */; };
@@ -914,6 +916,10 @@
 		ED40C5C4242BA90D00D335F0 /* ZCStudentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCStudentModel.m; sourceTree = "<group>"; };
 		ED40C5C6242BA91700D335F0 /* ZCBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCBaseModel.h; sourceTree = "<group>"; };
 		ED40C5C7242BA91700D335F0 /* ZCBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCBaseModel.m; sourceTree = "<group>"; };
+		ED48005D2440AD06005C7F67 /* PresentAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentAnimator.h; sourceTree = "<group>"; };
+		ED48005E2440AD06005C7F67 /* PresentAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentAnimator.m; sourceTree = "<group>"; };
+		ED4800602440AD56005C7F67 /* DismissAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DismissAnimator.h; sourceTree = "<group>"; };
+		ED4800612440AD56005C7F67 /* DismissAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DismissAnimator.m; sourceTree = "<group>"; };
 		ED67B1782425213000010423 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "01-KVO原理解析/Person.m"; sourceTree = SOURCE_ROOT; };
 		ED67B1792425213000010423 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "01-KVO原理解析/Person.h"; sourceTree = SOURCE_ROOT; };
 		ED9D9B5324277CE7006A42A9 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -1476,6 +1482,10 @@
 				B34FB08F24407C19000AC039 /* TransformViewController.m */,
 				B34FB09224407C9A000AC039 /* InteractiveTransition.h */,
 				B34FB09324407C9A000AC039 /* InteractiveTransition.m */,
+				ED48005D2440AD06005C7F67 /* PresentAnimator.h */,
+				ED48005E2440AD06005C7F67 /* PresentAnimator.m */,
+				ED4800602440AD56005C7F67 /* DismissAnimator.h */,
+				ED4800612440AD56005C7F67 /* DismissAnimator.m */,
 			);
 			path = "转场";
 			sourceTree = "<group>";
@@ -3353,6 +3363,8 @@
 			files = (
 				B34FB09024407C19000AC039 /* TransformViewController.m in Sources */,
 				B34FB07F244079EF000AC039 /* ViewController.m in Sources */,
+				ED48005F2440AD06005C7F67 /* PresentAnimator.m in Sources */,
+				ED4800622440AD56005C7F67 /* DismissAnimator.m in Sources */,
 				B34FB079244079EF000AC039 /* AppDelegate.m in Sources */,
 				B34FB08A244079F1000AC039 /* main.m in Sources */,
 				B34FB07C244079EF000AC039 /* SceneDelegate.m in Sources */,
