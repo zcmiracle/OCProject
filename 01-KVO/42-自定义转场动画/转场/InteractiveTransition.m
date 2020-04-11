@@ -29,8 +29,7 @@
             self.isInteractive = YES;
             [presentedViewController dismissViewControllerAnimated:YES completion:nil];
             break;
-            
-        case UIGestureRecognizerStateChanged: {
+         case UIGestureRecognizerStateChanged: {
             // 监听当前滑动的距离
             CGPoint transitionPoint = [gesture translationInView:presentedViewController.view];
             NSLog(@"transitionPoint %@", NSStringFromCGPoint(transitionPoint));
