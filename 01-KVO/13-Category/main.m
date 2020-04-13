@@ -17,7 +17,19 @@ int main(int argc, const char * argv[]) {
   
         Person *person = [[Person alloc] init];
         [person test];
-     
+        // 私有方法前向引用
+        [person ExtensionPrivateMethod];
+        // 类的.m文件中实现，类和分类的.h都没有声明
+        [person performSelector:@selector(noInterfacePrivateMethod)];
+        // 分类的.m文件中实现，类和分类的.h都没有声明
+        [person performSelector:@selector(noInterfaceCategoryPrivateMethod)];
+
+        // No visible @interface for 'Person' declares the selector 'noInterfacePrivateMethod'
+        // [person noInterfacePrivateMethod];
+        // No visible @interface for 'Person' declares the selector 'noInterfaceCategoryPrivateMethod'
+        // [person noInterfaceCategoryPrivateMethod];
+
+        
         // 后编译的先调用 while(i--)
         
         // runtime动态加载类的时候。合并分类的数据

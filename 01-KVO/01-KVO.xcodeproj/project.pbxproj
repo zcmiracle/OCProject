@@ -741,6 +741,7 @@
 		B3A35F9E2425AA7500DD9B8E /* 06-Block变量捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06-Block变量捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A35FA02425AA7500DD9B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3A35FA52425AE2800DD9B8E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B3AAA9E224446CA9001BB403 /* person.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = person.cpp; sourceTree = "<group>"; };
 		B3B234EF2431D96A00CA5A86 /* PermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermenantThread.h; sourceTree = "<group>"; };
 		B3B234F02431D96A00CA5A86 /* PermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermenantThread.m; sourceTree = "<group>"; };
 		B3B234F22431D99300CA5A86 /* ZCThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCThread.h; sourceTree = "<group>"; };
@@ -2048,6 +2049,7 @@
 				ED387ED22428E7B200321E1D /* main.m */,
 				ED387ED72428E7BD00321E1D /* Person.h */,
 				ED387ED82428E7BD00321E1D /* Person.m */,
+				B3AAA9E224446CA9001BB403 /* person.cpp */,
 				ED387EDA2428E7CE00321E1D /* Person+Category.h */,
 				ED387EDB2428E7CE00321E1D /* Person+Category.m */,
 			);

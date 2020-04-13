@@ -10,6 +10,10 @@
 
 @implementation Person (Category1)
 
+- (void)noInterfaceCategoryPrivateMethod {
+    NSLog(@"没有在类扩展@interface()中声明，并且在Category的私有方法");
+}
+
 - (void)test {
     NSLog(@"%s", __func__);
 }

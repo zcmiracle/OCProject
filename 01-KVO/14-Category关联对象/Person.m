@@ -10,4 +10,14 @@
 
 @implementation Person
 
+// xcrun -sdk iphoneos clang -arch arm64 -rewrite-objc -fobjc-arc -fobjc-runtime=ios-12.0.0 main.m
+
+//+ (instancetype)shareInstance {
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        
+//    });
+//    return self;
+//}
+
 @end
