@@ -11,6 +11,7 @@
 #import "Person.h"
 #import "Person+Category1.h"
 #import "Person+Category2.h"
+#import <objc/runtime.h>
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -24,6 +25,24 @@ int main(int argc, const char * argv[]) {
         // 分类的.m文件中实现，类和分类的.h都没有声明
         [person performSelector:@selector(noInterfaceCategoryPrivateMethod)];
 
+        // 调用person中的test方法
+        unsigned int count = 0;
+        Method *methodList = class_copyMethodList([Person class], &count);
+        IMP imp = NULL;
+        SEL sel = NULL;
+        for (unsigned int i = 0; i < count; i ++) {
+            Method method = methodList[i];
+            SEL methodSEL = method_getName(method);
+            NSString *methodName = [NSString stringWithUTF8String:sel_getName(methodSEL)];
+            if ([methodName isEqualToString:@"test"]) {
+                imp = method_getImplementation(method);
+                sel = method_getName(method);
+            }
+        }
+        // 通过函数指针调用类中的test方法
+        ((void(*)(id, SEL))(void *)imp)(person, sel);
+        free(methodList);
+        
         // No visible @interface for 'Person' declares the selector 'noInterfacePrivateMethod'
         // [person noInterfacePrivateMethod];
         // No visible @interface for 'Person' declares the selector 'noInterfaceCategoryPrivateMethod'
