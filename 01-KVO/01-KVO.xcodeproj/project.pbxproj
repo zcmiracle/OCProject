@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3126A0B24666105000153C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3126A0A24666105000153C6 /* AppDelegate.m */; };
+		B3126A0E24666105000153C6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3126A0D24666105000153C6 /* SceneDelegate.m */; };
+		B3126A1124666105000153C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3126A1024666105000153C6 /* ViewController.m */; };
+		B3126A1424666105000153C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3126A1224666105000153C6 /* Main.storyboard */; };
+		B3126A162466610A000153C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3126A1524666109000153C6 /* Assets.xcassets */; };
+		B3126A192466610A000153C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3126A172466610A000153C6 /* LaunchScreen.storyboard */; };
+		B3126A1C2466610A000153C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3126A1B2466610A000153C6 /* main.m */; };
+		B3126A242466613A000153C6 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B3126A232466613A000153C6 /* NSArray+Safe.m */; };
+		B3126A2C246682D0000153C6 /* NSObject+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = B3126A2B246682D0000153C6 /* NSObject+Swizzled.m */; };
+		B3126A2F24668797000153C6 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B3126A2E24668797000153C6 /* NSMutableArray+Safe.m */; };
+		B3126A322466A073000153C6 /* CrashLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B3126A312466A073000153C6 /* CrashLog.m */; };
 		B31F2F292432EA7200251789 /* RuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B31F2F282432EA7200251789 /* RuntimeKit.m */; };
 		B328954A243D74FA009F5925 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3289549243D74FA009F5925 /* AppDelegate.m */; };
 		B328954D243D74FA009F5925 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B328954C243D74FA009F5925 /* SceneDelegate.m */; };
@@ -498,6 +509,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B3126A0724666104000153C6 /* 43-RuntimeSafeCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "43-RuntimeSafeCategory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3126A0924666105000153C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3126A0A24666105000153C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3126A0C24666105000153C6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B3126A0D24666105000153C6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B3126A0F24666105000153C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3126A1024666105000153C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3126A1324666105000153C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3126A1524666109000153C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3126A182466610A000153C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3126A1A2466610A000153C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3126A1B2466610A000153C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3126A222466613A000153C6 /* NSArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		B3126A232466613A000153C6 /* NSArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		B3126A2A246682D0000153C6 /* NSObject+Swizzled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzled.h"; sourceTree = "<group>"; };
+		B3126A2B246682D0000153C6 /* NSObject+Swizzled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzled.m"; sourceTree = "<group>"; };
+		B3126A2D24668797000153C6 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
+		B3126A2E24668797000153C6 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		B3126A302466A073000153C6 /* CrashLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashLog.h; sourceTree = "<group>"; };
+		B3126A312466A073000153C6 /* CrashLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashLog.m; sourceTree = "<group>"; };
 		B31F2F262432CF4F00251789 /* MD5笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MD5笔记.h"; sourceTree = "<group>"; };
 		B31F2F272432EA7200251789 /* RuntimeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeKit.h; sourceTree = "<group>"; };
 		B31F2F282432EA7200251789 /* RuntimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeKit.m; sourceTree = "<group>"; };
@@ -981,6 +1012,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B3126A0424666104000153C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3289543243D74FA009F5925 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1278,6 +1316,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3126A0824666105000153C6 /* 43-RuntimeSafeCategory */ = {
+			isa = PBXGroup;
+			children = (
+				B3126A0924666105000153C6 /* AppDelegate.h */,
+				B3126A0A24666105000153C6 /* AppDelegate.m */,
+				B3126A0C24666105000153C6 /* SceneDelegate.h */,
+				B3126A0D24666105000153C6 /* SceneDelegate.m */,
+				B3126A0F24666105000153C6 /* ViewController.h */,
+				B3126A1024666105000153C6 /* ViewController.m */,
+				B3126A2024666119000153C6 /* Category */,
+				B3126A1224666105000153C6 /* Main.storyboard */,
+				B3126A1524666109000153C6 /* Assets.xcassets */,
+				B3126A172466610A000153C6 /* LaunchScreen.storyboard */,
+				B3126A1A2466610A000153C6 /* Info.plist */,
+				B3126A1B2466610A000153C6 /* main.m */,
+			);
+			path = "43-RuntimeSafeCategory";
+			sourceTree = "<group>";
+		};
+		B3126A2024666119000153C6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B3126A302466A073000153C6 /* CrashLog.h */,
+				B3126A312466A073000153C6 /* CrashLog.m */,
+				B3126A252466613E000153C6 /* NSObject */,
+				B3126A2124666122000153C6 /* NSArray */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B3126A2124666122000153C6 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				B3126A222466613A000153C6 /* NSArray+Safe.h */,
+				B3126A232466613A000153C6 /* NSArray+Safe.m */,
+				B3126A2D24668797000153C6 /* NSMutableArray+Safe.h */,
+				B3126A2E24668797000153C6 /* NSMutableArray+Safe.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		B3126A252466613E000153C6 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				B3126A2A246682D0000153C6 /* NSObject+Swizzled.h */,
+				B3126A2B246682D0000153C6 /* NSObject+Swizzled.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
 		B3289547243D74FA009F5925 /* 38-postion和anchorPoint */ = {
 			isa = PBXGroup;
 			children = (
@@ -1620,6 +1708,7 @@
 				B34FB0572440470A000AC039 /* 40-类方法+实例方法区别 */,
 				B34FB065244052B7000AC039 /* 41-objc_msgSend总结 */,
 				B34FB076244079EF000AC039 /* 42-自定义转场动画 */,
+				B3126A0824666105000153C6 /* 43-RuntimeSafeCategory */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1669,6 +1758,7 @@
 				B34FB0562440470A000AC039 /* 40-类方法+实例方法区别 */,
 				B34FB064244052B7000AC039 /* 41-objc_msgSend总结 */,
 				B34FB075244079EF000AC039 /* 42-自定义转场动画.app */,
+				B3126A0724666104000153C6 /* 43-RuntimeSafeCategory.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2175,6 +2265,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B3126A0624666104000153C6 /* 43-RuntimeSafeCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3126A1F2466610A000153C6 /* Build configuration list for PBXNativeTarget "43-RuntimeSafeCategory" */;
+			buildPhases = (
+				B3126A0324666104000153C6 /* Sources */,
+				B3126A0424666104000153C6 /* Frameworks */,
+				B3126A0524666104000153C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "43-RuntimeSafeCategory";
+			productName = "43-RuntimeSafeCategory";
+			productReference = B3126A0724666104000153C6 /* 43-RuntimeSafeCategory.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B3289545243D74FA009F5925 /* 38-postion和anchorPoint */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B328955E243D74FC009F5925 /* Build configuration list for PBXNativeTarget "38-postion和anchorPoint" */;
@@ -2899,6 +3006,9 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = XFB;
 				TargetAttributes = {
+					B3126A0624666104000153C6 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
 					B3289545243D74FA009F5925 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -3082,11 +3192,22 @@
 				B34FB0552440470A000AC039 /* 40-类方法+实例方法区别 */,
 				B34FB063244052B7000AC039 /* 41-objc_msgSend总结 */,
 				B34FB074244079EF000AC039 /* 42-自定义转场动画 */,
+				B3126A0624666104000153C6 /* 43-RuntimeSafeCategory */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B3126A0524666104000153C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3126A192466610A000153C6 /* LaunchScreen.storyboard in Resources */,
+				B3126A162466610A000153C6 /* Assets.xcassets in Resources */,
+				B3126A1424666105000153C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3289544243D74FA009F5925 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3257,6 +3378,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B3126A0324666104000153C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3126A322466A073000153C6 /* CrashLog.m in Sources */,
+				B3126A2F24668797000153C6 /* NSMutableArray+Safe.m in Sources */,
+				B3126A1124666105000153C6 /* ViewController.m in Sources */,
+				B3126A242466613A000153C6 /* NSArray+Safe.m in Sources */,
+				B3126A0B24666105000153C6 /* AppDelegate.m in Sources */,
+				B3126A2C246682D0000153C6 /* NSObject+Swizzled.m in Sources */,
+				B3126A1C2466610A000153C6 /* main.m in Sources */,
+				B3126A0E24666105000153C6 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3289542243D74FA009F5925 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3750,6 +3886,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		B3126A1224666105000153C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3126A1324666105000153C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3126A172466610A000153C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3126A182466610A000153C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		B3289551243D74FA009F5925 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -4009,6 +4161,45 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B3126A1D2466610A000153C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "43-RuntimeSafeCategory/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-3-RuntimeSafeCategory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3126A1E2466610A000153C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "43-RuntimeSafeCategory/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-3-RuntimeSafeCategory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		B328955C243D74FC009F5925 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -5287,6 +5478,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B3126A1F2466610A000153C6 /* Build configuration list for PBXNativeTarget "43-RuntimeSafeCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3126A1D2466610A000153C6 /* Debug */,
+				B3126A1E2466610A000153C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B328955E243D74FC009F5925 /* Build configuration list for PBXNativeTarget "38-postion和anchorPoint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
