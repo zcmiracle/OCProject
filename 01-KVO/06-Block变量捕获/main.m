@@ -31,7 +31,7 @@ int main(int argc, const char * argv[]) {
             NSLog(@"局部变量---对象类型：%@", obj);
             NSLog(@"静态局部变量：%d", staticAge);
             NSLog(@"全局变量：%d", globalAge);
-            NSLog(@"静态全局变量：%d", staticGlobalAge);
+            NSLog(@"静态 ：%d", staticGlobalAge);
         };
         // Block的调用就是函数调用
         Block();

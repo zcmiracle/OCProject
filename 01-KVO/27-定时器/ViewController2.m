@@ -61,8 +61,15 @@
 
 - (IBAction)startTimer4:(id)sender {
     self.gcdTimerTask = [GCDTimer execTask:^{
-        NSLog(@"GCD定时器 --- ");
+//        NSLog(@"GCD定时器 --- ");
+        NSLog(@"------%@", [NSThread currentThread]);
     } start:0.0 interval:1.0 repeats:YES async:YES];
+    
+    [GCDTimer execTask:^{
+//        NSLog(@"GCD定时器 --- ");
+        NSLog(@"000000%@", [NSThread currentThread]);
+    } start:0.0 interval:1.0 repeats:YES async:YES];
+    
 }
 
 - (void)updateTimer {

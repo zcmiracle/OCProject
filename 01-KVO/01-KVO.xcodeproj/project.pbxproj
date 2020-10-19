@@ -18,6 +18,8 @@
 		B3126A2C246682D0000153C6 /* NSObject+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = B3126A2B246682D0000153C6 /* NSObject+Swizzled.m */; };
 		B3126A2F24668797000153C6 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = B3126A2E24668797000153C6 /* NSMutableArray+Safe.m */; };
 		B3126A322466A073000153C6 /* CrashLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B3126A312466A073000153C6 /* CrashLog.m */; };
+		B313F098249209B700736747 /* AutomaticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B313F095249209B700736747 /* AutomaticCell.m */; };
+		B313F099249209B700736747 /* AutomaticCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B313F096249209B700736747 /* AutomaticCell.xib */; };
 		B31F2F292432EA7200251789 /* RuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B31F2F282432EA7200251789 /* RuntimeKit.m */; };
 		B328954A243D74FA009F5925 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3289549243D74FA009F5925 /* AppDelegate.m */; };
 		B328954D243D74FA009F5925 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B328954C243D74FA009F5925 /* SceneDelegate.m */; };
@@ -135,6 +137,9 @@
 		B38600AA242C59B800762C2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B38600A9242C59B800762C2D /* main.m */; };
 		B38600B0242C59DC00762C2D /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B38600AF242C59DC00762C2D /* UserModel.m */; };
 		B38600B4242C5F2500762C2D /* NSObject+Coding.m in Sources */ = {isa = PBXBuildFile; fileRef = B38600B3242C5F2500762C2D /* NSObject+Coding.m */; };
+		B38A2CD7253D44900029443F /* Gauge.m in Sources */ = {isa = PBXBuildFile; fileRef = B38A2CD6253D44900029443F /* Gauge.m */; };
+		B38A2CDB253D90FD0029443F /* zhizhen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B38A2CDA253D90FC0029443F /* zhizhen@2x.png */; };
+		B38A2CDE253D98CF0029443F /* HumidityView.m in Sources */ = {isa = PBXBuildFile; fileRef = B38A2CDD253D98CF0029443F /* HumidityView.m */; };
 		B3A35F7C2425A31C00DD9B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F7B2425A31C00DD9B8E /* main.m */; };
 		B3A35F852425A49B00DD9B8E /* ZCObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F842425A49B00DD9B8E /* ZCObserver.m */; };
 		B3A35F882425A67000DD9B8E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F872425A67000DD9B8E /* Student.m */; };
@@ -144,6 +149,7 @@
 		B3A35FA12425AA7500DD9B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35FA02425AA7500DD9B8E /* main.m */; };
 		B3B234F12431D96A00CA5A86 /* PermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B234F02431D96A00CA5A86 /* PermenantThread.m */; };
 		B3B234F42431D99300CA5A86 /* ZCThread.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B234F32431D99300CA5A86 /* ZCThread.m */; };
+		B3B3E4F625397DC8000FA552 /* OrangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B3E4F525397DC8000FA552 /* OrangeView.m */; };
 		B3F6B191242DF60500578DC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B190242DF60500578DC2 /* AppDelegate.m */; };
 		B3F6B194242DF60500578DC2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B193242DF60500578DC2 /* SceneDelegate.m */; };
 		B3F6B197242DF60500578DC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B196242DF60500578DC2 /* ViewController.m */; };
@@ -529,6 +535,9 @@
 		B3126A2E24668797000153C6 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
 		B3126A302466A073000153C6 /* CrashLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashLog.h; sourceTree = "<group>"; };
 		B3126A312466A073000153C6 /* CrashLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashLog.m; sourceTree = "<group>"; };
+		B313F095249209B700736747 /* AutomaticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutomaticCell.m; sourceTree = "<group>"; };
+		B313F096249209B700736747 /* AutomaticCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutomaticCell.xib; sourceTree = "<group>"; };
+		B313F097249209B700736747 /* AutomaticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutomaticCell.h; sourceTree = "<group>"; };
 		B31F2F262432CF4F00251789 /* MD5笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MD5笔记.h"; sourceTree = "<group>"; };
 		B31F2F272432EA7200251789 /* RuntimeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeKit.h; sourceTree = "<group>"; };
 		B31F2F282432EA7200251789 /* RuntimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeKit.m; sourceTree = "<group>"; };
@@ -757,6 +766,11 @@
 		B38600B2242C5F2500762C2D /* NSObject+Coding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Coding.h"; sourceTree = "<group>"; };
 		B38600B3242C5F2500762C2D /* NSObject+Coding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Coding.m"; sourceTree = "<group>"; };
 		B38600B5242C799C00762C2D /* ZCCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCCoding.h; sourceTree = "<group>"; };
+		B38A2CD5253D44900029443F /* Gauge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gauge.h; sourceTree = "<group>"; };
+		B38A2CD6253D44900029443F /* Gauge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gauge.m; sourceTree = "<group>"; };
+		B38A2CDA253D90FC0029443F /* zhizhen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhizhen@2x.png"; sourceTree = "<group>"; };
+		B38A2CDC253D98CF0029443F /* HumidityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HumidityView.h; sourceTree = "<group>"; };
+		B38A2CDD253D98CF0029443F /* HumidityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HumidityView.m; sourceTree = "<group>"; };
 		B3A35F792425A31C00DD9B8E /* 04-KVC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-KVC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A35F7B2425A31C00DD9B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3A35F832425A49B00DD9B8E /* ZCObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCObserver.h; sourceTree = "<group>"; };
@@ -777,6 +791,8 @@
 		B3B234F02431D96A00CA5A86 /* PermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermenantThread.m; sourceTree = "<group>"; };
 		B3B234F22431D99300CA5A86 /* ZCThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCThread.h; sourceTree = "<group>"; };
 		B3B234F32431D99300CA5A86 /* ZCThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCThread.m; sourceTree = "<group>"; };
+		B3B3E4F425397DC8000FA552 /* OrangeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrangeView.h; sourceTree = "<group>"; };
+		B3B3E4F525397DC8000FA552 /* OrangeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrangeView.m; sourceTree = "<group>"; };
 		B3B9041E243EAD60004CBE08 /* 动画笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "动画笔记.h"; sourceTree = "<group>"; };
 		B3F6B18D242DF60500578DC2 /* 25-子线程开启RunLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "25-子线程开启RunLoop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F6B18F242DF60500578DC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1325,6 +1341,14 @@
 				B3126A0D24666105000153C6 /* SceneDelegate.m */,
 				B3126A0F24666105000153C6 /* ViewController.h */,
 				B3126A1024666105000153C6 /* ViewController.m */,
+				B38A2CDA253D90FC0029443F /* zhizhen@2x.png */,
+				B38A2CD5253D44900029443F /* Gauge.h */,
+				B38A2CD6253D44900029443F /* Gauge.m */,
+				B38A2CDC253D98CF0029443F /* HumidityView.h */,
+				B38A2CDD253D98CF0029443F /* HumidityView.m */,
+				B313F097249209B700736747 /* AutomaticCell.h */,
+				B313F095249209B700736747 /* AutomaticCell.m */,
+				B313F096249209B700736747 /* AutomaticCell.xib */,
 				B3126A2024666119000153C6 /* Category */,
 				B3126A1224666105000153C6 /* Main.storyboard */,
 				B3126A1524666109000153C6 /* Assets.xcassets */,
@@ -1375,6 +1399,8 @@
 				B328954C243D74FA009F5925 /* SceneDelegate.m */,
 				B328954E243D74FA009F5925 /* ViewController.h */,
 				B328954F243D74FA009F5925 /* ViewController.m */,
+				B3B3E4F425397DC8000FA552 /* OrangeView.h */,
+				B3B3E4F525397DC8000FA552 /* OrangeView.m */,
 				B328955F243DBE18009F5925 /* 笔记.h */,
 				B3289551243D74FA009F5925 /* Main.storyboard */,
 				B3289554243D74FC009F5925 /* Assets.xcassets */,
@@ -3203,7 +3229,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3126A192466610A000153C6 /* LaunchScreen.storyboard in Resources */,
+				B313F099249209B700736747 /* AutomaticCell.xib in Resources */,
 				B3126A162466610A000153C6 /* Assets.xcassets in Resources */,
+				B38A2CDB253D90FD0029443F /* zhizhen@2x.png in Resources */,
 				B3126A1424666105000153C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3382,8 +3410,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B313F098249209B700736747 /* AutomaticCell.m in Sources */,
+				B38A2CD7253D44900029443F /* Gauge.m in Sources */,
 				B3126A322466A073000153C6 /* CrashLog.m in Sources */,
 				B3126A2F24668797000153C6 /* NSMutableArray+Safe.m in Sources */,
+				B38A2CDE253D98CF0029443F /* HumidityView.m in Sources */,
 				B3126A1124666105000153C6 /* ViewController.m in Sources */,
 				B3126A242466613A000153C6 /* NSArray+Safe.m in Sources */,
 				B3126A0B24666105000153C6 /* AppDelegate.m in Sources */,
@@ -3401,6 +3432,7 @@
 				B328954A243D74FA009F5925 /* AppDelegate.m in Sources */,
 				B328955B243D74FC009F5925 /* main.m in Sources */,
 				B328954D243D74FA009F5925 /* SceneDelegate.m in Sources */,
+				B3B3E4F625397DC8000FA552 /* OrangeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

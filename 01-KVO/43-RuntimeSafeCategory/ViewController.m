@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "AutomaticCell.h"
+#import "Gauge.h"
 
-@interface ViewController ()
+@interface ViewController () <UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSMutableArray *dataSource;
 
 @end
 
@@ -17,27 +22,49 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+   
     
-    // objectAtIndexedSubscript
-    NSArray *array = @[@"1", @"2", @"3"];
-//    NSLog(@"%@", array[5]);
+    Gauge *view = [[Gauge alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width/2, 200)];
+    [view setGaugeValue:26 animation:YES];
+    view.backgroundColor = [UIColor colorWithRed:8/255.0 green:17/255.0 blue:42/255.0 alpha:1];
+    [self.view addSubview:view];
+ 
     
-//    NSArray *array1 = [NSArray arrayWithObjects:nil count:10];
-    NSArray *array1 = [NSArray arrayWithObject:array];
-//    + (instancetype)arrayWithObjects:(const ObjectType _Nonnull [_Nonnull])objects count:(NSUInteger)cnt;
-
-    NSArray *array2 = @[@"1"];
-    array2[3];
-
-    array1[4];
+    UIView *view3 = [[UIView alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/2, 0, [UIScreen mainScreen].bounds.size.width/2, 200)];
+    [self.view addSubview:view3];
     
-    NSMutableArray *mutableArray = @[].mutableCopy;
-    [mutableArray addObject:@"1"];
-    [mutableArray addObject:@"2"];
-    [mutableArray addObject:nil];
-    [mutableArray addObject:nil];
-    NSLog(@"%@", mutableArray[5]);
+    Gauge *view2 = [[Gauge alloc] initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width/2, 200)];
+    [view2 setGaugeValue:80 animation:YES];
+    view2.backgroundColor = [UIColor colorWithRed:8/255.0 green:17/255.0 blue:42/255.0 alpha:1];
+    [view3 addSubview:view2];
 
+
+}
+
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+//        _tableView.estimatedRowHeight = 100;
+        _tableView.backgroundColor = [UIColor orangeColor];
+        [_tableView registerNib:[UINib nibWithNibName:@"AutomaticCell" bundle:nil] forCellReuseIdentifier:@"AutomaticCell"];
+    }
+    return _tableView;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 10;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    AutomaticCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AutomaticCell"];
+    if (indexPath.row%2 == 0) {
+        cell.typeString = @"0";
+    } else {
+        cell.typeString = @"1";
+    }
+    return cell;
 }
 
 
