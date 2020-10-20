@@ -300,32 +300,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "345ED8E8-CF4C-4057-92AC-C862D50381AD"
+            uuid = "B5EC2D05-882B-41CE-971F-E3A7FD007164"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "43-RuntimeSafeCategory/Gauge.m"
+            filePath = "43-RuntimeSafeCategory/AmountLabel.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "291"
-            endingLineNumber = "291"
-            landmarkName = "-parseToAngle:"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "-changeAnimation"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4EF9D6ED-BE42-40BB-B77F-ABDCBF138A29"
+            uuid = "DDB20F33-86B5-4537-ABA9-3E35E7224D12"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "43-RuntimeSafeCategory/Gauge.m"
+            filePath = "43-RuntimeSafeCategory/AmountLabel.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "206"
-            endingLineNumber = "206"
-            landmarkName = "-setGaugeValue:animation:"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "-changeAnimation"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5CD2D6E3-9D2D-4048-A997-D3B084BA587E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "43-RuntimeSafeCategory/UICountingLabel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "-countFrom:to:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

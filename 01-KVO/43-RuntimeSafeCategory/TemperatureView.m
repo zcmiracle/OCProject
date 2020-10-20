@@ -1,16 +1,16 @@
 //
-//  Gauge.m
+//  TemperatureView.m
 //  43-RuntimeSafeCategory
 //
-//  Created by Fearless on 2020/10/19.
-//  Copyright © 2020 Fearless. All rights reserved.
+//  Created by XFB on 2020/10/20.
+//  Copyright © 2020 XFB. All rights reserved.
 //
 
-#import "Gauge.h"
+#import "TemperatureView.h"
+#import "UICountingLabel.h"
 #import <QuartzCore/QuartzCore.h>
 #import "NSString+FLTextSize.h"
 #import "UIView+FLFrame.h"
-#import "UICountingLabel.h"
 
 #define MAXOFFSETANGLE 130.0f
 #define POINTEROFFSET  90.0f
@@ -27,7 +27,7 @@
 // 3.获取RGB颜色
 #define RGB(r,g,b) RGBA(r,g,b,1.0f)
 
-@interface Gauge ()
+@interface TemperatureView ()
 {
     // 最大值
     CGFloat maxNum;
@@ -81,7 +81,7 @@
 
 @end
   
-@implementation Gauge
+@implementation TemperatureView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
@@ -348,7 +348,7 @@
     }
     [self.leftCenterLabel countFrom:-41 to:gaugeValue];
 
-    self.pointer2.layer.anchorPoint = CGPointMake(0.5, 0.95);
+    self.pointer2.layer.anchorPoint = CGPointMake(0.5, 0.93);
     self.pointer2.center = CGPointMake(self.fl_width/2, self.fl_height/2);
     self.pointer2.transform = CGAffineTransformMakeScale(scoleNum, scoleNum);
     [self addSubview:self.pointer2];

@@ -138,8 +138,6 @@
 		B38600B0242C59DC00762C2D /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B38600AF242C59DC00762C2D /* UserModel.m */; };
 		B38600B4242C5F2500762C2D /* NSObject+Coding.m in Sources */ = {isa = PBXBuildFile; fileRef = B38600B3242C5F2500762C2D /* NSObject+Coding.m */; };
 		B38A2CD7253D44900029443F /* Gauge.m in Sources */ = {isa = PBXBuildFile; fileRef = B38A2CD6253D44900029443F /* Gauge.m */; };
-		B38A2CDB253D90FD0029443F /* zhizhen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B38A2CDA253D90FC0029443F /* zhizhen@2x.png */; };
-		B38A2CDE253D98CF0029443F /* HumidityView.m in Sources */ = {isa = PBXBuildFile; fileRef = B38A2CDD253D98CF0029443F /* HumidityView.m */; };
 		B3A35F7C2425A31C00DD9B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F7B2425A31C00DD9B8E /* main.m */; };
 		B3A35F852425A49B00DD9B8E /* ZCObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F842425A49B00DD9B8E /* ZCObserver.m */; };
 		B3A35F882425A67000DD9B8E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F872425A67000DD9B8E /* Student.m */; };
@@ -150,6 +148,11 @@
 		B3B234F12431D96A00CA5A86 /* PermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B234F02431D96A00CA5A86 /* PermenantThread.m */; };
 		B3B234F42431D99300CA5A86 /* ZCThread.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B234F32431D99300CA5A86 /* ZCThread.m */; };
 		B3B3E4F625397DC8000FA552 /* OrangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B3E4F525397DC8000FA552 /* OrangeView.m */; };
+		B3D2D335253E88B000F61238 /* zhizhen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D2D334253E88AF00F61238 /* zhizhen@2x.png */; };
+		B3D2D338253EB1CD00F61238 /* AmountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D2D337253EB1CD00F61238 /* AmountLabel.m */; };
+		B3D2D33B253EB7EC00F61238 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D2D339253EB7EC00F61238 /* UICountingLabel.m */; };
+		B3D2D33E253EDC1A00F61238 /* TemperatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D2D33D253EDC1A00F61238 /* TemperatureView.m */; };
+		B3D2D341253EDDDD00F61238 /* HumidityView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D2D340253EDDDD00F61238 /* HumidityView.m */; };
 		B3F6B191242DF60500578DC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B190242DF60500578DC2 /* AppDelegate.m */; };
 		B3F6B194242DF60500578DC2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B193242DF60500578DC2 /* SceneDelegate.m */; };
 		B3F6B197242DF60500578DC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F6B196242DF60500578DC2 /* ViewController.m */; };
@@ -771,9 +774,6 @@
 		B38600B5242C799C00762C2D /* ZCCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCCoding.h; sourceTree = "<group>"; };
 		B38A2CD5253D44900029443F /* Gauge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gauge.h; sourceTree = "<group>"; };
 		B38A2CD6253D44900029443F /* Gauge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gauge.m; sourceTree = "<group>"; };
-		B38A2CDA253D90FC0029443F /* zhizhen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhizhen@2x.png"; sourceTree = "<group>"; };
-		B38A2CDC253D98CF0029443F /* HumidityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HumidityView.h; sourceTree = "<group>"; };
-		B38A2CDD253D98CF0029443F /* HumidityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HumidityView.m; sourceTree = "<group>"; };
 		B3A35F792425A31C00DD9B8E /* 04-KVC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-KVC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A35F7B2425A31C00DD9B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3A35F832425A49B00DD9B8E /* ZCObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCObserver.h; sourceTree = "<group>"; };
@@ -797,6 +797,15 @@
 		B3B3E4F425397DC8000FA552 /* OrangeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrangeView.h; sourceTree = "<group>"; };
 		B3B3E4F525397DC8000FA552 /* OrangeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrangeView.m; sourceTree = "<group>"; };
 		B3B9041E243EAD60004CBE08 /* 动画笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "动画笔记.h"; sourceTree = "<group>"; };
+		B3D2D334253E88AF00F61238 /* zhizhen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhizhen@2x.png"; sourceTree = "<group>"; };
+		B3D2D336253EB1CD00F61238 /* AmountLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmountLabel.h; sourceTree = "<group>"; };
+		B3D2D337253EB1CD00F61238 /* AmountLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmountLabel.m; sourceTree = "<group>"; };
+		B3D2D339253EB7EC00F61238 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		B3D2D33A253EB7EC00F61238 /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		B3D2D33C253EDC1A00F61238 /* TemperatureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureView.h; sourceTree = "<group>"; };
+		B3D2D33D253EDC1A00F61238 /* TemperatureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureView.m; sourceTree = "<group>"; };
+		B3D2D33F253EDDDD00F61238 /* HumidityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HumidityView.h; sourceTree = "<group>"; };
+		B3D2D340253EDDDD00F61238 /* HumidityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HumidityView.m; sourceTree = "<group>"; };
 		B3F6B18D242DF60500578DC2 /* 25-子线程开启RunLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "25-子线程开启RunLoop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F6B18F242DF60500578DC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3F6B190242DF60500578DC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1356,11 +1365,17 @@
 				ED53D545253DDF6D00A3408E /* NSString+FLTextSize.m */,
 				ED53D547253DDF6D00A3408E /* UIView+FLFrame.h */,
 				ED53D548253DDF6D00A3408E /* UIView+FLFrame.m */,
-				B38A2CDA253D90FC0029443F /* zhizhen@2x.png */,
 				B38A2CD5253D44900029443F /* Gauge.h */,
 				B38A2CD6253D44900029443F /* Gauge.m */,
-				B38A2CDC253D98CF0029443F /* HumidityView.h */,
-				B38A2CDD253D98CF0029443F /* HumidityView.m */,
+				B3D2D33C253EDC1A00F61238 /* TemperatureView.h */,
+				B3D2D33D253EDC1A00F61238 /* TemperatureView.m */,
+				B3D2D33F253EDDDD00F61238 /* HumidityView.h */,
+				B3D2D340253EDDDD00F61238 /* HumidityView.m */,
+				B3D2D33A253EB7EC00F61238 /* UICountingLabel.h */,
+				B3D2D339253EB7EC00F61238 /* UICountingLabel.m */,
+				B3D2D336253EB1CD00F61238 /* AmountLabel.h */,
+				B3D2D337253EB1CD00F61238 /* AmountLabel.m */,
+				B3D2D334253E88AF00F61238 /* zhizhen@2x.png */,
 				B313F097249209B700736747 /* AutomaticCell.h */,
 				B313F095249209B700736747 /* AutomaticCell.m */,
 				B313F096249209B700736747 /* AutomaticCell.xib */,
@@ -3246,7 +3261,7 @@
 				B3126A192466610A000153C6 /* LaunchScreen.storyboard in Resources */,
 				B313F099249209B700736747 /* AutomaticCell.xib in Resources */,
 				B3126A162466610A000153C6 /* Assets.xcassets in Resources */,
-				B38A2CDB253D90FD0029443F /* zhizhen@2x.png in Resources */,
+				B3D2D335253E88B000F61238 /* zhizhen@2x.png in Resources */,
 				B3126A1424666105000153C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3426,13 +3441,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B313F098249209B700736747 /* AutomaticCell.m in Sources */,
+				B3D2D33B253EB7EC00F61238 /* UICountingLabel.m in Sources */,
 				B38A2CD7253D44900029443F /* Gauge.m in Sources */,
+				B3D2D341253EDDDD00F61238 /* HumidityView.m in Sources */,
 				B3126A322466A073000153C6 /* CrashLog.m in Sources */,
 				B3126A2F24668797000153C6 /* NSMutableArray+Safe.m in Sources */,
+				B3D2D338253EB1CD00F61238 /* AmountLabel.m in Sources */,
 				ED53D54C253DDF6D00A3408E /* UIView+FLFrame.m in Sources */,
-				B38A2CDE253D98CF0029443F /* HumidityView.m in Sources */,
 				ED53D54A253DDF6D00A3408E /* NSString+FLTextSize.m in Sources */,
 				B3126A1124666105000153C6 /* ViewController.m in Sources */,
+				B3D2D33E253EDC1A00F61238 /* TemperatureView.m in Sources */,
 				B3126A242466613A000153C6 /* NSArray+Safe.m in Sources */,
 				B3126A0B24666105000153C6 /* AppDelegate.m in Sources */,
 				ED53D54B253DDF6D00A3408E /* FLCircleProgressView.m in Sources */,
@@ -4226,7 +4244,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-3-RuntimeSafeCategory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -4245,7 +4263,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-3-RuntimeSafeCategory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

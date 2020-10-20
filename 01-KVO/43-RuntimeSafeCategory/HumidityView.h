@@ -2,7 +2,7 @@
 //  HumidityView.h
 //  43-RuntimeSafeCategory
 //
-//  Created by XFB on 2020/10/19.
+//  Created by XFB on 2020/10/20.
 //  Copyright © 2020 XFB. All rights reserved.
 //
 
@@ -11,6 +11,15 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HumidityView : UIView
+
+/// 设置湿度
+/// @param value 湿度
+/// @param isAnimation 是否执行动画
+- (void)setHumidityValue:(CGFloat)value animation:(BOOL)isAnimation;
+// 指针
+@property (nonatomic, strong) UIImageView *pointer2;
+
+//- (void)setTemperatureValue1:(CGFloat)value animation:(BOOL)isAnimation;
 
 @end
 
