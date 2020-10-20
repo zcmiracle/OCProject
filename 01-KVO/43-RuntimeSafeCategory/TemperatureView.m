@@ -493,7 +493,6 @@
     }
     CGFloat temp = (val-gaugeValue) * angleperValue;
     
-    
     NSLog(@"temp ------------------- %.2f", temp);
     return temp;
 }
@@ -591,7 +590,7 @@
         _rightCenterLabel = [[UILabel alloc] initWithFrame:CGRectMake(self.fl_width/2, self.fl_height-55, self.fl_width/2, 40)];
         _rightCenterLabel.autoresizesSubviews = YES;
         _rightCenterLabel.font = [UIFont boldSystemFontOfSize:22];
-        _rightCenterLabel.textColor = RGB(68, 145, 110);
+        _rightCenterLabel.textColor = RGB(58, 134, 239);
         _rightCenterLabel.backgroundColor = [UIColor clearColor];
         _rightCenterLabel.textAlignment = NSTextAlignmentLeft;
         _rightCenterLabel.text = @"℃";

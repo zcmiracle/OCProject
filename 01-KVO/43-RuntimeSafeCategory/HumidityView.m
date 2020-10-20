@@ -582,7 +582,7 @@
         _leftCenterLabel.autoresizesSubviews = YES;
         _leftCenterLabel.format = @"%d";
         _leftCenterLabel.font = [UIFont boldSystemFontOfSize:22];
-        _leftCenterLabel.textColor = RGB(58, 134, 239);
+        _leftCenterLabel.textColor = RGB(203, 91, 82);
         _leftCenterLabel.backgroundColor = [UIColor clearColor];
         _leftCenterLabel.textAlignment = NSTextAlignmentRight;
         _leftCenterLabel.text = @"0";
@@ -595,7 +595,7 @@
         _rightCenterLabel = [[UILabel alloc] initWithFrame:CGRectMake(self.fl_width/2, self.fl_height-55, self.fl_width/2, 40)];
         _rightCenterLabel.autoresizesSubviews = YES;
         _rightCenterLabel.font = [UIFont boldSystemFontOfSize:22];
-        _rightCenterLabel.textColor = RGB(68, 145, 110);
+        _rightCenterLabel.textColor = RGB(203, 91, 82);
         _rightCenterLabel.backgroundColor = [UIColor clearColor];
         _rightCenterLabel.textAlignment = NSTextAlignmentLeft;
         _rightCenterLabel.text = @"%";
