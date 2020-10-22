@@ -9,6 +9,10 @@
 #import "ViewController.h"
 #import "ZZCircleProgress.h"
 #import "CircleProgressView.h"
+#import "ManpowerAnalysisHeaderView.h"
+#import "ManpowerOverviewHeaderView.h"
+
+
 
 // 2.获取RGB颜色 + 透明度
 #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
@@ -49,11 +53,18 @@
 //    self.progressView.duration = 1.0;
 //    [self.view addSubview:self.progressView];
     
+    ManpowerAnalysisHeaderView *headerView = [ManpowerAnalysisHeaderView analysisHeaderView];
+    headerView.frame = CGRectMake(0, 400, ScreenWidth, 75);
+    [self.view addSubview:headerView];
+
+    ManpowerOverviewHeaderView *headerView1 = [ManpowerOverviewHeaderView headerView];
+    headerView1.frame = CGRectMake(0, 235, ScreenWidth-140, 120);
+    [self.view addSubview:headerView1];
     
-    self.circleProgressView = [[CircleProgressView alloc] initWithCircleProgressViewFrame:CGRectMake(ScreenWidth-180, 100, 180, 135) subTitle:@"OEE1"];
+    self.circleProgressView = [[CircleProgressView alloc] initWithCircleProgressViewFrame:CGRectMake(ScreenWidth-140, 100, 140, 120) subTitle:@"OEE1"];
     [self.view addSubview:self.circleProgressView];
 
-    self.circleProgressView1 = [[CircleProgressView alloc] initWithCircleProgressViewFrame:CGRectMake(ScreenWidth-180, 235, 180, 135) subTitle:@"点检完成率"];
+    self.circleProgressView1 = [[CircleProgressView alloc] initWithCircleProgressViewFrame:CGRectMake(ScreenWidth-140, 235, 140, 120) subTitle:@"点检完成率"];
     [self.view addSubview:self.circleProgressView1];
 }
 

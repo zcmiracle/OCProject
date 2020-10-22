@@ -187,6 +187,43 @@
 		B38600B0242C59DC00762C2D /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B38600AF242C59DC00762C2D /* UserModel.m */; };
 		B38600B4242C5F2500762C2D /* NSObject+Coding.m in Sources */ = {isa = PBXBuildFile; fileRef = B38600B3242C5F2500762C2D /* NSObject+Coding.m */; };
 		B38A2CD7253D44900029443F /* Gauge.m in Sources */ = {isa = PBXBuildFile; fileRef = B38A2CD6253D44900029443F /* Gauge.m */; };
+		B39530F6254135E800D74ABD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B39530F5254135E800D74ABD /* AppDelegate.m */; };
+		B39530F9254135E800D74ABD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B39530F8254135E800D74ABD /* SceneDelegate.m */; };
+		B39530FC254135E800D74ABD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B39530FB254135E800D74ABD /* ViewController.m */; };
+		B39530FF254135E800D74ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39530FD254135E800D74ABD /* Main.storyboard */; };
+		B3953101254135ED00D74ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3953100254135ED00D74ABD /* Assets.xcassets */; };
+		B3953104254135ED00D74ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3953102254135ED00D74ABD /* LaunchScreen.storyboard */; };
+		B3953107254135ED00D74ABD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3953106254135ED00D74ABD /* main.m */; };
+		B395312E254135FD00D74ABD /* ORChartUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B395310E254135FD00D74ABD /* ORChartUtilities.m */; };
+		B395312F254135FD00D74ABD /* ORLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3953111254135FD00D74ABD /* ORLineChartView.m */; };
+		B3953130254135FD00D74ABD /* ORLineChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B3953113254135FD00D74ABD /* ORLineChartConfig.m */; };
+		B3953131254135FD00D74ABD /* ORLineChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3953114254135FD00D74ABD /* ORLineChartCell.m */; };
+		B3953132254135FD00D74ABD /* ORLineChartValue.m in Sources */ = {isa = PBXBuildFile; fileRef = B3953117254135FD00D74ABD /* ORLineChartValue.m */; };
+		B3953133254135FD00D74ABD /* ORLineChartButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B395311A254135FD00D74ABD /* ORLineChartButton.m */; };
+		B3953134254135FD00D74ABD /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B395311B254135FD00D74ABD /* .gitkeep */; };
+		B3953135254135FD00D74ABD /* ORRingChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B395311D254135FD00D74ABD /* ORRingChartConfig.m */; };
+		B3953136254135FD00D74ABD /* ORRingChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3953121254135FD00D74ABD /* ORRingChartView.m */; };
+		B3953137254135FD00D74ABD /* ORChartUtilities+ORRing.m in Sources */ = {isa = PBXBuildFile; fileRef = B3953122254135FD00D74ABD /* ORChartUtilities+ORRing.m */; };
+		B3953138254135FD00D74ABD /* RunDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3953124254135FD00D74ABD /* RunDrawView.m */; };
+		B3953139254135FD00D74ABD /* UnusualDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3953125254135FD00D74ABD /* UnusualDrawView.m */; };
+		B395313A254135FD00D74ABD /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = B3953127254135FD00D74ABD /* UIView+Draw.m */; };
+		B395313B254135FD00D74ABD /* OfflineDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3953128254135FD00D74ABD /* OfflineDrawView.m */; };
+		B395313C254135FD00D74ABD /* AwaitOrderDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3953129254135FD00D74ABD /* AwaitOrderDrawView.m */; };
+		B395316825417A8E00D74ABD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B395316725417A8E00D74ABD /* AppDelegate.m */; };
+		B395316B25417A8E00D74ABD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B395316A25417A8E00D74ABD /* SceneDelegate.m */; };
+		B395316E25417A8E00D74ABD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B395316D25417A8E00D74ABD /* ViewController.m */; };
+		B395317125417A8E00D74ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B395316F25417A8E00D74ABD /* Main.storyboard */; };
+		B395317325417A9000D74ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B395317225417A9000D74ABD /* Assets.xcassets */; };
+		B395317625417A9000D74ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B395317425417A9000D74ABD /* LaunchScreen.storyboard */; };
+		B395317925417A9000D74ABD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B395317825417A9000D74ABD /* main.m */; };
+		B395318025417AF700D74ABD /* ManpowerAnalysisHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B395317F25417AF700D74ABD /* ManpowerAnalysisHeaderView.m */; };
+		B395318225417B0200D74ABD /* ManpowerAnalysisHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B395318125417B0200D74ABD /* ManpowerAnalysisHeaderView.xib */; };
+		B39531852541896800D74ABD /* ManpowerOverviewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B39531842541896800D74ABD /* ManpowerOverviewHeaderView.m */; };
+		B39531872541897700D74ABD /* ManpowerOverviewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B39531862541897700D74ABD /* ManpowerOverviewHeaderView.xib */; };
+		B395318E254190B200D74ABD /* ManpowerOverviewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3953189254190AF00D74ABD /* ManpowerOverviewHeaderView.xib */; };
+		B395318F254190B200D74ABD /* ManpowerAnalysisHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B395318A254190B000D74ABD /* ManpowerAnalysisHeaderView.xib */; };
+		B3953190254190B200D74ABD /* ManpowerOverviewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B395318B254190B000D74ABD /* ManpowerOverviewHeaderView.m */; };
+		B3953191254190B200D74ABD /* ManpowerAnalysisHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B395318C254190B100D74ABD /* ManpowerAnalysisHeaderView.m */; };
 		B3A35F7C2425A31C00DD9B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F7B2425A31C00DD9B8E /* main.m */; };
 		B3A35F852425A49B00DD9B8E /* ZCObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F842425A49B00DD9B8E /* ZCObserver.m */; };
 		B3A35F882425A67000DD9B8E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A35F872425A67000DD9B8E /* Student.m */; };
@@ -928,6 +965,72 @@
 		B38600B5242C799C00762C2D /* ZCCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCCoding.h; sourceTree = "<group>"; };
 		B38A2CD5253D44900029443F /* Gauge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gauge.h; sourceTree = "<group>"; };
 		B38A2CD6253D44900029443F /* Gauge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gauge.m; sourceTree = "<group>"; };
+		B39530F2254135E800D74ABD /* 47-DrawView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "47-DrawView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39530F4254135E800D74ABD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B39530F5254135E800D74ABD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B39530F7254135E800D74ABD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B39530F8254135E800D74ABD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B39530FA254135E800D74ABD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B39530FB254135E800D74ABD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B39530FE254135E800D74ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3953100254135ED00D74ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3953103254135ED00D74ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3953105254135ED00D74ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3953106254135ED00D74ABD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B395310C254135FD00D74ABD /* ORCharts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORCharts.h; sourceTree = "<group>"; };
+		B395310E254135FD00D74ABD /* ORChartUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORChartUtilities.m; sourceTree = "<group>"; };
+		B395310F254135FD00D74ABD /* ORChartUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORChartUtilities.h; sourceTree = "<group>"; };
+		B3953111254135FD00D74ABD /* ORLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineChartView.m; sourceTree = "<group>"; };
+		B3953112254135FD00D74ABD /* ORLineChartButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineChartButton.h; sourceTree = "<group>"; };
+		B3953113254135FD00D74ABD /* ORLineChartConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineChartConfig.m; sourceTree = "<group>"; };
+		B3953114254135FD00D74ABD /* ORLineChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineChartCell.m; sourceTree = "<group>"; };
+		B3953115254135FD00D74ABD /* ORLineChartValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineChartValue.h; sourceTree = "<group>"; };
+		B3953116254135FD00D74ABD /* ORLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineChartView.h; sourceTree = "<group>"; };
+		B3953117254135FD00D74ABD /* ORLineChartValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineChartValue.m; sourceTree = "<group>"; };
+		B3953118254135FD00D74ABD /* ORLineChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineChartCell.h; sourceTree = "<group>"; };
+		B3953119254135FD00D74ABD /* ORLineChartConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineChartConfig.h; sourceTree = "<group>"; };
+		B395311A254135FD00D74ABD /* ORLineChartButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineChartButton.m; sourceTree = "<group>"; };
+		B395311B254135FD00D74ABD /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B395311D254135FD00D74ABD /* ORRingChartConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORRingChartConfig.m; sourceTree = "<group>"; };
+		B395311E254135FD00D74ABD /* ORRingChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORRingChartView.h; sourceTree = "<group>"; };
+		B395311F254135FD00D74ABD /* ORChartUtilities+ORRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ORChartUtilities+ORRing.h"; sourceTree = "<group>"; };
+		B3953120254135FD00D74ABD /* ORRingChartConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORRingChartConfig.h; sourceTree = "<group>"; };
+		B3953121254135FD00D74ABD /* ORRingChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORRingChartView.m; sourceTree = "<group>"; };
+		B3953122254135FD00D74ABD /* ORChartUtilities+ORRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ORChartUtilities+ORRing.m"; sourceTree = "<group>"; };
+		B3953124254135FD00D74ABD /* RunDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunDrawView.m; sourceTree = "<group>"; };
+		B3953125254135FD00D74ABD /* UnusualDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnusualDrawView.m; sourceTree = "<group>"; };
+		B3953126254135FD00D74ABD /* AwaitOrderDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwaitOrderDrawView.h; sourceTree = "<group>"; };
+		B3953127254135FD00D74ABD /* UIView+Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Draw.m"; sourceTree = "<group>"; };
+		B3953128254135FD00D74ABD /* OfflineDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfflineDrawView.m; sourceTree = "<group>"; };
+		B3953129254135FD00D74ABD /* AwaitOrderDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwaitOrderDrawView.m; sourceTree = "<group>"; };
+		B395312A254135FD00D74ABD /* UnusualDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnusualDrawView.h; sourceTree = "<group>"; };
+		B395312B254135FD00D74ABD /* RunDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunDrawView.h; sourceTree = "<group>"; };
+		B395312C254135FD00D74ABD /* OfflineDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfflineDrawView.h; sourceTree = "<group>"; };
+		B395312D254135FD00D74ABD /* UIView+Draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Draw.h"; sourceTree = "<group>"; };
+		B395316425417A8E00D74ABD /* 48-Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "48-Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B395316625417A8E00D74ABD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B395316725417A8E00D74ABD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B395316925417A8E00D74ABD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B395316A25417A8E00D74ABD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B395316C25417A8E00D74ABD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B395316D25417A8E00D74ABD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B395317025417A8E00D74ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B395317225417A9000D74ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B395317525417A9000D74ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B395317725417A9000D74ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B395317825417A9000D74ABD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B395317E25417AF700D74ABD /* ManpowerAnalysisHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManpowerAnalysisHeaderView.h; sourceTree = "<group>"; };
+		B395317F25417AF700D74ABD /* ManpowerAnalysisHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManpowerAnalysisHeaderView.m; sourceTree = "<group>"; };
+		B395318125417B0200D74ABD /* ManpowerAnalysisHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManpowerAnalysisHeaderView.xib; sourceTree = "<group>"; };
+		B39531832541896800D74ABD /* ManpowerOverviewHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManpowerOverviewHeaderView.h; sourceTree = "<group>"; };
+		B39531842541896800D74ABD /* ManpowerOverviewHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManpowerOverviewHeaderView.m; sourceTree = "<group>"; };
+		B39531862541897700D74ABD /* ManpowerOverviewHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManpowerOverviewHeaderView.xib; sourceTree = "<group>"; };
+		B3953188254190AF00D74ABD /* ManpowerOverviewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManpowerOverviewHeaderView.h; path = "48-Analysis/View/ManpowerOverviewHeaderView.h"; sourceTree = SOURCE_ROOT; };
+		B3953189254190AF00D74ABD /* ManpowerOverviewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ManpowerOverviewHeaderView.xib; path = "48-Analysis/View/ManpowerOverviewHeaderView.xib"; sourceTree = SOURCE_ROOT; };
+		B395318A254190B000D74ABD /* ManpowerAnalysisHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ManpowerAnalysisHeaderView.xib; path = "48-Analysis/View/ManpowerAnalysisHeaderView.xib"; sourceTree = SOURCE_ROOT; };
+		B395318B254190B000D74ABD /* ManpowerOverviewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManpowerOverviewHeaderView.m; path = "48-Analysis/View/ManpowerOverviewHeaderView.m"; sourceTree = SOURCE_ROOT; };
+		B395318C254190B100D74ABD /* ManpowerAnalysisHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManpowerAnalysisHeaderView.m; path = "48-Analysis/View/ManpowerAnalysisHeaderView.m"; sourceTree = SOURCE_ROOT; };
+		B395318D254190B200D74ABD /* ManpowerAnalysisHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManpowerAnalysisHeaderView.h; path = "48-Analysis/View/ManpowerAnalysisHeaderView.h"; sourceTree = SOURCE_ROOT; };
 		B3A35F792425A31C00DD9B8E /* 04-KVC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04-KVC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A35F7B2425A31C00DD9B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3A35F832425A49B00DD9B8E /* ZCObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCObserver.h; sourceTree = "<group>"; };
@@ -1393,6 +1496,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B38600A4242C59B800762C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39530EF254135E800D74ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B395316125417A8E00D74ABD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1960,6 +2077,8 @@
 				B368CDC125400787008CA9AD /* 44-BarChartView */,
 				B368CE5525402149008CA9AD /* 45-CicleProgressView */,
 				B3BB9EB225402E59006EDEBF /* 46-ProductCapacity */,
+				B39530F3254135E800D74ABD /* 47-DrawView */,
+				B395316525417A8E00D74ABD /* 48-Analysis */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2013,6 +2132,8 @@
 				B368CDC025400787008CA9AD /* 44-BarChartView.app */,
 				B368CE5425402149008CA9AD /* 45-CicleProgressView.app */,
 				B3BB9EB125402E59006EDEBF /* 46-ProductCapacity.app */,
+				B39530F2254135E800D74ABD /* 47-DrawView.app */,
+				B395316425417A8E00D74ABD /* 48-Analysis.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2271,6 +2392,12 @@
 				B368CE5A25402149008CA9AD /* SceneDelegate.m */,
 				B3BB9EAA254026B2006EDEBF /* CircleProgressView.h */,
 				B3BB9EAB254026B2006EDEBF /* CircleProgressView.m */,
+				B395318D254190B200D74ABD /* ManpowerAnalysisHeaderView.h */,
+				B395318C254190B100D74ABD /* ManpowerAnalysisHeaderView.m */,
+				B395318A254190B000D74ABD /* ManpowerAnalysisHeaderView.xib */,
+				B3953188254190AF00D74ABD /* ManpowerOverviewHeaderView.h */,
+				B395318B254190B000D74ABD /* ManpowerOverviewHeaderView.m */,
+				B3953189254190AF00D74ABD /* ManpowerOverviewHeaderView.xib */,
 				B368CE6D2540215F008CA9AD /* ZZCircleProgress */,
 				B368CE5C25402149008CA9AD /* ViewController.h */,
 				B368CE5D25402149008CA9AD /* ViewController.m */,
@@ -2354,6 +2481,126 @@
 				B38600B1242C5B7F00762C2D /* UserModel.plist */,
 			);
 			path = "23-Runtime归档和解档";
+			sourceTree = "<group>";
+		};
+		B39530F3254135E800D74ABD /* 47-DrawView */ = {
+			isa = PBXGroup;
+			children = (
+				B39530F4254135E800D74ABD /* AppDelegate.h */,
+				B39530F5254135E800D74ABD /* AppDelegate.m */,
+				B39530F7254135E800D74ABD /* SceneDelegate.h */,
+				B39530F8254135E800D74ABD /* SceneDelegate.m */,
+				B39530FA254135E800D74ABD /* ViewController.h */,
+				B39530FB254135E800D74ABD /* ViewController.m */,
+				B395310B254135FD00D74ABD /* Classes */,
+				B3953123254135FD00D74ABD /* View */,
+				B39530FD254135E800D74ABD /* Main.storyboard */,
+				B3953100254135ED00D74ABD /* Assets.xcassets */,
+				B3953102254135ED00D74ABD /* LaunchScreen.storyboard */,
+				B3953105254135ED00D74ABD /* Info.plist */,
+				B3953106254135ED00D74ABD /* main.m */,
+			);
+			path = "47-DrawView";
+			sourceTree = "<group>";
+		};
+		B395310B254135FD00D74ABD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B395310C254135FD00D74ABD /* ORCharts.h */,
+				B395310D254135FD00D74ABD /* ORChartUtilities */,
+				B3953110254135FD00D74ABD /* ORLineChart */,
+				B395311B254135FD00D74ABD /* .gitkeep */,
+				B395311C254135FD00D74ABD /* ORRingChart */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B395310D254135FD00D74ABD /* ORChartUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				B395310E254135FD00D74ABD /* ORChartUtilities.m */,
+				B395310F254135FD00D74ABD /* ORChartUtilities.h */,
+			);
+			path = ORChartUtilities;
+			sourceTree = "<group>";
+		};
+		B3953110254135FD00D74ABD /* ORLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				B3953111254135FD00D74ABD /* ORLineChartView.m */,
+				B3953112254135FD00D74ABD /* ORLineChartButton.h */,
+				B3953113254135FD00D74ABD /* ORLineChartConfig.m */,
+				B3953114254135FD00D74ABD /* ORLineChartCell.m */,
+				B3953115254135FD00D74ABD /* ORLineChartValue.h */,
+				B3953116254135FD00D74ABD /* ORLineChartView.h */,
+				B3953117254135FD00D74ABD /* ORLineChartValue.m */,
+				B3953118254135FD00D74ABD /* ORLineChartCell.h */,
+				B3953119254135FD00D74ABD /* ORLineChartConfig.h */,
+				B395311A254135FD00D74ABD /* ORLineChartButton.m */,
+			);
+			path = ORLineChart;
+			sourceTree = "<group>";
+		};
+		B395311C254135FD00D74ABD /* ORRingChart */ = {
+			isa = PBXGroup;
+			children = (
+				B395311D254135FD00D74ABD /* ORRingChartConfig.m */,
+				B395311E254135FD00D74ABD /* ORRingChartView.h */,
+				B395311F254135FD00D74ABD /* ORChartUtilities+ORRing.h */,
+				B3953120254135FD00D74ABD /* ORRingChartConfig.h */,
+				B3953121254135FD00D74ABD /* ORRingChartView.m */,
+				B3953122254135FD00D74ABD /* ORChartUtilities+ORRing.m */,
+			);
+			path = ORRingChart;
+			sourceTree = "<group>";
+		};
+		B3953123254135FD00D74ABD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3953124254135FD00D74ABD /* RunDrawView.m */,
+				B3953125254135FD00D74ABD /* UnusualDrawView.m */,
+				B3953126254135FD00D74ABD /* AwaitOrderDrawView.h */,
+				B3953127254135FD00D74ABD /* UIView+Draw.m */,
+				B3953128254135FD00D74ABD /* OfflineDrawView.m */,
+				B3953129254135FD00D74ABD /* AwaitOrderDrawView.m */,
+				B395312A254135FD00D74ABD /* UnusualDrawView.h */,
+				B395312B254135FD00D74ABD /* RunDrawView.h */,
+				B395312C254135FD00D74ABD /* OfflineDrawView.h */,
+				B395312D254135FD00D74ABD /* UIView+Draw.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B395316525417A8E00D74ABD /* 48-Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				B395316625417A8E00D74ABD /* AppDelegate.h */,
+				B395316725417A8E00D74ABD /* AppDelegate.m */,
+				B395316925417A8E00D74ABD /* SceneDelegate.h */,
+				B395316A25417A8E00D74ABD /* SceneDelegate.m */,
+				B395316C25417A8E00D74ABD /* ViewController.h */,
+				B395316D25417A8E00D74ABD /* ViewController.m */,
+				B395317D25417A9A00D74ABD /* View */,
+				B395316F25417A8E00D74ABD /* Main.storyboard */,
+				B395317225417A9000D74ABD /* Assets.xcassets */,
+				B395317425417A9000D74ABD /* LaunchScreen.storyboard */,
+				B395317725417A9000D74ABD /* Info.plist */,
+				B395317825417A9000D74ABD /* main.m */,
+			);
+			path = "48-Analysis";
+			sourceTree = "<group>";
+		};
+		B395317D25417A9A00D74ABD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B395317E25417AF700D74ABD /* ManpowerAnalysisHeaderView.h */,
+				B395317F25417AF700D74ABD /* ManpowerAnalysisHeaderView.m */,
+				B395318125417B0200D74ABD /* ManpowerAnalysisHeaderView.xib */,
+				B39531832541896800D74ABD /* ManpowerOverviewHeaderView.h */,
+				B39531842541896800D74ABD /* ManpowerOverviewHeaderView.m */,
+				B39531862541897700D74ABD /* ManpowerOverviewHeaderView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B3A35F7A2425A31C00DD9B8E /* 04-KVC赋值 */ = {
@@ -3219,6 +3466,40 @@
 			productReference = B38600A7242C59B800762C2D /* 23-Runtime归档和解档 */;
 			productType = "com.apple.product-type.tool";
 		};
+		B39530F1254135E800D74ABD /* 47-DrawView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B395310A254135ED00D74ABD /* Build configuration list for PBXNativeTarget "47-DrawView" */;
+			buildPhases = (
+				B39530EE254135E800D74ABD /* Sources */,
+				B39530EF254135E800D74ABD /* Frameworks */,
+				B39530F0254135E800D74ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "47-DrawView";
+			productName = "47-DrawView";
+			productReference = B39530F2254135E800D74ABD /* 47-DrawView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B395316325417A8E00D74ABD /* 48-Analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B395317A25417A9000D74ABD /* Build configuration list for PBXNativeTarget "48-Analysis" */;
+			buildPhases = (
+				B395316025417A8E00D74ABD /* Sources */,
+				B395316125417A8E00D74ABD /* Frameworks */,
+				B395316225417A8E00D74ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "48-Analysis";
+			productName = "48-Analysis";
+			productReference = B395316425417A8E00D74ABD /* 48-Analysis.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B3A35F782425A31C00DD9B8E /* 04-KVC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3A35F7F2425A31C00DD9B8E /* Build configuration list for PBXNativeTarget "04-KVC" */;
@@ -3647,6 +3928,12 @@
 					B38600A6242C59B800762C2D = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					B39530F1254135E800D74ABD = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					B395316325417A8E00D74ABD = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
 					B3A35F782425A31C00DD9B8E = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -3768,6 +4055,8 @@
 				B368CDBF25400787008CA9AD /* 44-BarChartView */,
 				B368CE5325402149008CA9AD /* 45-CicleProgressView */,
 				B3BB9EB025402E59006EDEBF /* 46-ProductCapacity */,
+				B39530F1254135E800D74ABD /* 47-DrawView */,
+				B395316325417A8E00D74ABD /* 48-Analysis */,
 			);
 		};
 /* End PBXProject section */
@@ -3865,6 +4154,31 @@
 				B368CE632540214B008CA9AD /* Assets.xcassets in Resources */,
 				B368CE732540215F008CA9AD /* ZZCircleProgress.bundle in Resources */,
 				B368CE6125402149008CA9AD /* Main.storyboard in Resources */,
+				B395318F254190B200D74ABD /* ManpowerAnalysisHeaderView.xib in Resources */,
+				B395318E254190B200D74ABD /* ManpowerOverviewHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39530F0254135E800D74ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3953104254135ED00D74ABD /* LaunchScreen.storyboard in Resources */,
+				B3953101254135ED00D74ABD /* Assets.xcassets in Resources */,
+				B39530FF254135E800D74ABD /* Main.storyboard in Resources */,
+				B3953134254135FD00D74ABD /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B395316225417A8E00D74ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B395318225417B0200D74ABD /* ManpowerAnalysisHeaderView.xib in Resources */,
+				B395317625417A9000D74ABD /* LaunchScreen.storyboard in Resources */,
+				B395317325417A9000D74ABD /* Assets.xcassets in Resources */,
+				B395317125417A8E00D74ABD /* Main.storyboard in Resources */,
+				B39531872541897700D74ABD /* ManpowerOverviewHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4274,11 +4588,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3953191254190B200D74ABD /* ManpowerAnalysisHeaderView.m in Sources */,
 				B368CE5E25402149008CA9AD /* ViewController.m in Sources */,
 				B368CE5825402149008CA9AD /* AppDelegate.m in Sources */,
 				B368CE692540214B008CA9AD /* main.m in Sources */,
 				B368CE5B25402149008CA9AD /* SceneDelegate.m in Sources */,
 				B368CE7825402177008CA9AD /* ZZCircleProgress.m in Sources */,
+				B3953190254190B200D74ABD /* ManpowerOverviewHeaderView.m in Sources */,
 				B3BB9EAC254026B2006EDEBF /* CircleProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4330,6 +4646,44 @@
 				B38600B0242C59DC00762C2D /* UserModel.m in Sources */,
 				B38600B4242C5F2500762C2D /* NSObject+Coding.m in Sources */,
 				B38600AA242C59B800762C2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B39530EE254135E800D74ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B395312F254135FD00D74ABD /* ORLineChartView.m in Sources */,
+				B3953139254135FD00D74ABD /* UnusualDrawView.m in Sources */,
+				B395312E254135FD00D74ABD /* ORChartUtilities.m in Sources */,
+				B3953137254135FD00D74ABD /* ORChartUtilities+ORRing.m in Sources */,
+				B39530FC254135E800D74ABD /* ViewController.m in Sources */,
+				B3953132254135FD00D74ABD /* ORLineChartValue.m in Sources */,
+				B39530F6254135E800D74ABD /* AppDelegate.m in Sources */,
+				B3953130254135FD00D74ABD /* ORLineChartConfig.m in Sources */,
+				B3953107254135ED00D74ABD /* main.m in Sources */,
+				B39530F9254135E800D74ABD /* SceneDelegate.m in Sources */,
+				B395313B254135FD00D74ABD /* OfflineDrawView.m in Sources */,
+				B395313A254135FD00D74ABD /* UIView+Draw.m in Sources */,
+				B395313C254135FD00D74ABD /* AwaitOrderDrawView.m in Sources */,
+				B3953135254135FD00D74ABD /* ORRingChartConfig.m in Sources */,
+				B3953138254135FD00D74ABD /* RunDrawView.m in Sources */,
+				B3953131254135FD00D74ABD /* ORLineChartCell.m in Sources */,
+				B3953136254135FD00D74ABD /* ORRingChartView.m in Sources */,
+				B3953133254135FD00D74ABD /* ORLineChartButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B395316025417A8E00D74ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B395318025417AF700D74ABD /* ManpowerAnalysisHeaderView.m in Sources */,
+				B395316E25417A8E00D74ABD /* ViewController.m in Sources */,
+				B395316825417A8E00D74ABD /* AppDelegate.m in Sources */,
+				B39531852541896800D74ABD /* ManpowerOverviewHeaderView.m in Sources */,
+				B395317925417A9000D74ABD /* main.m in Sources */,
+				B395316B25417A8E00D74ABD /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4706,6 +5060,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				B368CE652540214B008CA9AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B39530FD254135E800D74ABD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39530FE254135E800D74ABD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3953102254135ED00D74ABD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3953103254135ED00D74ABD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B395316F25417A8E00D74ABD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B395317025417A8E00D74ABD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B395317425417A9000D74ABD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B395317525417A9000D74ABD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -5707,6 +6093,84 @@
 			};
 			name = Release;
 		};
+		B3953108254135ED00D74ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "47-DrawView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-7-DrawView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3953109254135ED00D74ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "47-DrawView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-7-DrawView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B395317B25417A9000D74ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "48-Analysis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-8-Analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B395317C25417A9000D74ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "48-Analysis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-8-Analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		B3A35F7D2425A31C00DD9B8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6570,6 +7034,24 @@
 			buildConfigurations = (
 				B38600AC242C59B800762C2D /* Debug */,
 				B38600AD242C59B800762C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B395310A254135ED00D74ABD /* Build configuration list for PBXNativeTarget "47-DrawView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3953108254135ED00D74ABD /* Debug */,
+				B3953109254135ED00D74ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B395317A25417A9000D74ABD /* Build configuration list for PBXNativeTarget "48-Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B395317B25417A9000D74ABD /* Debug */,
+				B395317C25417A9000D74ABD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

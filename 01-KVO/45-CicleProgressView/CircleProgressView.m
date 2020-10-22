@@ -16,7 +16,6 @@
 #define ScreenWidth ([UIScreen mainScreen].bounds.size.width)
 #define ScreenHeight ([UIScreen mainScreen].bounds.size.height)
 
-
 @interface CircleProgressView ()
 
 // 圆环进度条
@@ -39,7 +38,8 @@
         UIColor *backgroundColor = RGB(18, 40, 93);
         // 填充颜色
         UIColor *fillColor = RGB(48, 111, 204);
-        self.progressView = [[ZZCircleProgress alloc] initWithFrame:CGRectMake(25, 0, 130, 135) pathBackColor:backgroundColor pathFillColor:fillColor startAngle:130 strokeWidth:10];
+        
+        self.progressView = [[ZZCircleProgress alloc] initWithFrame:CGRectMake(10, 0, 120, 135) pathBackColor:backgroundColor pathFillColor:fillColor startAngle:130 strokeWidth:10];
         // 是否显示圆点
         self.progressView.showPoint = NO;
         // 减少角度 80
@@ -49,19 +49,19 @@
         [self addSubview:self.progressView];
         
         // 54.77%
-        _percentLabel = [[UILabel alloc] initWithFrame:CGRectMake(36, 55, self.frame.size.width-72, 25)];
+        _percentLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 50, self.frame.size.width-40, 25)];
         _percentLabel.text = @"0.0%";
         _percentLabel.textColor = [UIColor whiteColor];
         _percentLabel.textAlignment = NSTextAlignmentCenter;
-        _percentLabel.font = [UIFont boldSystemFontOfSize:28];
+        _percentLabel.font = [UIFont boldSystemFontOfSize:24];
         [self addSubview:_percentLabel];
         
         // OEE1 or 点检完成率
-        _bottomLabel = [[UILabel alloc] initWithFrame:CGRectMake(45, CGRectGetMaxY(_percentLabel.frame) + 5, self.frame.size.width-90, 15)];
+        _bottomLabel = [[UILabel alloc] initWithFrame:CGRectMake(30, CGRectGetMaxY(_percentLabel.frame) + 5, self.frame.size.width-60, 15)];
         _bottomLabel.text = subTitle;
         _bottomLabel.textColor = [UIColor whiteColor];
         _bottomLabel.textAlignment = NSTextAlignmentCenter;
-        _bottomLabel.font = [UIFont boldSystemFontOfSize:15];
+        _bottomLabel.font = [UIFont boldSystemFontOfSize:13];
         [self addSubview:_bottomLabel];
     }
     return self;
