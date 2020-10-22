@@ -345,5 +345,84 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4F17453-7936-4234-B30A-8A14BA544A83"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "45-CicleProgressView/ViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6CE82FE-BF3A-4303-9AA5-45278AB8381C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "45-CicleProgressView/ZZCircleProgress/ZZCircleProgress.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "-setProgress:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E6CE82FE-BF3A-4303-9AA5-45278AB8381C - 8b7708f6036af7a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ZZCircleProgress setProgress:]"
+                  moduleName = "45-CicleProgressView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xfb/Desktop/Project/OCTheory/01-KVO/45-CicleProgressView/ZZCircleProgress/ZZCircleProgress.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "E6CE82FE-BF3A-4303-9AA5-45278AB8381C - b314cccb213477f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32-[ZZCircleProgress setProgress:]_block_invoke"
+                  moduleName = "45-CicleProgressView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xfb/Desktop/Project/OCTheory/01-KVO/45-CicleProgressView/ZZCircleProgress/ZZCircleProgress.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "E6CE82FE-BF3A-4303-9AA5-45278AB8381C - acb8b44d09be4873"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_e8_32s"
+                  moduleName = "45-CicleProgressView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xfb/Desktop/Project/OCTheory/01-KVO/45-CicleProgressView/ZZCircleProgress/ZZCircleProgress.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

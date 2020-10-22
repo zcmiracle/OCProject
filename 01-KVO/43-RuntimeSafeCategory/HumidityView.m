@@ -337,10 +337,11 @@
     CGFloat tempAngle = [self parseToAngle:value];
     gaugeValue = value;
 
-    if (gaugeValue >= 0 && gaugeValue <= 30) {
+       if (gaugeValue >= 0 && gaugeValue <= 30) {
         self.leftCenterLabel.textColor = RGB(203, 91, 82);
         self.rightCenterLabel.textColor = RGB(203, 91, 82);
-        self.pointer2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"blue_zhizhen"]];
+        self.pointer2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"red_zhizhen"]];
+
     } else if (gaugeValue > 30 && gaugeValue <= 80) {
         self.leftCenterLabel.textColor = RGB(68, 145, 110);
         self.rightCenterLabel.textColor = RGB(68, 145, 110);
@@ -348,7 +349,8 @@
     } else {
         self.leftCenterLabel.textColor = RGB(58, 134, 239);
         self.rightCenterLabel.textColor = RGB(58, 134, 239);
-        self.pointer2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"red_zhizhen"]];
+        self.pointer2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"blue_zhizhen"]];
+
     }
     [self.leftCenterLabel countFrom:0 to:gaugeValue];
 
@@ -368,77 +370,6 @@
         [self pointToAngle:tempAngle Duration:0.0f];
     }
 }
-
-- (void)setTemperatureValue1:(CGFloat)value animation:(BOOL)isAnimation {
-    CGFloat tempAngle = [self parseToAngle:value];
-    gaugeValue = value;
-    
-    if (self.pointer2) {
-        self.pointer2.layer.transform = CATransform3DMakeRotation([self transToRadian:-MAXOFFSETANGLE], 0, 0, 1);
-
-        CAKeyframeAnimation *anim = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
-        NSMutableArray *values = [NSMutableArray array];
-        anim.duration = 0.25;
-        anim.autoreverses = NO;
-        anim.fillMode = kCAFillModeForwards;
-        anim.removedOnCompletion = NO;
-        [self.pointer2.layer addAnimation:anim forKey:@"cubeIn"];
-
-//        CGFloat distance = tempAngle/10;
-//        //设置转动路径，不能直接用 CABaseAnimation 的toValue，那样是按最短路径的，转动超过180度时无法控制方向
-//        int i = 1;
-//        for(; i <= 10; i ++) {
-//            [values addObject:[NSValue valueWithCATransform3D:CATransform3DRotate(CATransform3DIdentity, [self transToRadian: -MAXOFFSETANGLE], 0, 0, 1)]];
-//        }
-//        anim.values = values;
-//        [self.pointer2.layer addAnimation:anim forKey:@"cubeIn"];
-//
-//        for (UIView *subview in self.pointer2.subviews) {
-//            [subview removeFromSuperview];
-//        }
-//
-//        for (CALayer *subLayer in self.pointer2.layer.sublayers) {
-//            [subLayer removeFromSuperlayer];
-//        }
-//        [self.pointer2.layer.sublayers makeObjectsPerformSelector:@selector(removeFromSuperlayer)];
-//        [self.pointer2.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
-        [self.pointer2 removeFromSuperview];
-        [self.pointer2.layer removeFromSuperlayer];
-        self.pointer2 = nil;
-    }
-
-    if (gaugeValue >= -40 && gaugeValue <= 16) {
-        self.leftCenterLabel.textColor = RGB(58, 134, 239);
-        self.rightCenterLabel.textColor = RGB(58, 134, 239);
-        self.pointer2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"blue_zhizhen"]];
-    } else if (gaugeValue > 16 && gaugeValue <= 30) {
-        self.leftCenterLabel.textColor = RGB(68, 145, 110);
-        self.rightCenterLabel.textColor = RGB(68, 145, 110);
-        self.pointer2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"green_zhizhen"]];
-    } else {
-        self.leftCenterLabel.textColor = RGB(203, 91, 82);
-        self.rightCenterLabel.textColor = RGB(203, 91, 82);
-        self.pointer2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"red_zhizhen"]];
-    }
-    [self.leftCenterLabel countFrom:-41 to:gaugeValue];
-
-    self.pointer2.layer.anchorPoint = CGPointMake(0.5, 0.95);
-    self.pointer2.center = CGPointMake(self.fl_width/2, self.fl_height/2);
-    self.pointer2.transform = CGAffineTransformMakeScale(scoleNum, scoleNum);
-    [self addSubview:self.pointer2];
-
-    // 设置指针到0位置
-    self.pointer2.layer.transform = CATransform3DMakeRotation([self transToRadian:-MAXOFFSETANGLE], 0, 0, 1);
-
-//     //重新设置刻度
-//     //设置转动时间和转动动画
-    if (isAnimation){
-        [self pointToAngle:tempAngle Duration:1.f];
-    } else {
-        [self pointToAngle:tempAngle Duration:0.0f];
-    }
-}
-
   
 /// 按角度旋转
 /// @param angle 角度
@@ -574,7 +505,6 @@
     }
     return _progressLayer2;
 }
-
 
 - (UICountingLabel *)leftCenterLabel {
     if (!_leftCenterLabel) {

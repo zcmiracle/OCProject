@@ -19,8 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 // 指针
 @property (nonatomic, strong) UIImageView *pointer2;
 
-//- (void)setTemperatureValue1:(CGFloat)value animation:(BOOL)isAnimation;
-
 @end
 
 NS_ASSUME_NONNULL_END
