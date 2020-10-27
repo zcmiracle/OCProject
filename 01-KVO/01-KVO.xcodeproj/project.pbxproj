@@ -332,6 +332,11 @@
 		ED387ED32428E7B200321E1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED387ED22428E7B200321E1D /* main.m */; };
 		ED387ED92428E7BD00321E1D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ED387ED82428E7BD00321E1D /* Person.m */; };
 		ED387EDC2428E7CE00321E1D /* Person+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = ED387EDB2428E7CE00321E1D /* Person+Category.m */; };
+		ED3A4D5C254855FF00928F1C /* EducationTrainHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A4D5B254855FF00928F1C /* EducationTrainHeaderView.m */; };
+		ED3A4D5E2548561100928F1C /* EducationTrainHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3A4D5D2548561100928F1C /* EducationTrainHeaderView.xib */; };
+		ED3A4D61254864D700928F1C /* CourseHeatViewHalfView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A4D60254864D700928F1C /* CourseHeatViewHalfView.m */; };
+		ED3A4D642548680700928F1C /* HalfBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A4D632548680700928F1C /* HalfBarViewController.m */; };
+		ED3A4D672548696300928F1C /* HorizontalBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A4D662548696300928F1C /* HorizontalBarView.m */; };
 		ED40C5A5242B956500D335F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED40C5A4242B956500D335F0 /* main.m */; };
 		ED40C5AB242B987E00D335F0 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = ED40C5AA242B987E00D335F0 /* NSObject+Swizzling.m */; };
 		ED40C5AE242B9C1200D335F0 /* NSArray+SafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = ED40C5AD242B9C1200D335F0 /* NSArray+SafeCategory.m */; };
@@ -1232,6 +1237,15 @@
 		ED387ED82428E7BD00321E1D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		ED387EDA2428E7CE00321E1D /* Person+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Category.h"; sourceTree = "<group>"; };
 		ED387EDB2428E7CE00321E1D /* Person+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Category.m"; sourceTree = "<group>"; };
+		ED3A4D5A254855FF00928F1C /* EducationTrainHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EducationTrainHeaderView.h; sourceTree = "<group>"; };
+		ED3A4D5B254855FF00928F1C /* EducationTrainHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EducationTrainHeaderView.m; sourceTree = "<group>"; };
+		ED3A4D5D2548561100928F1C /* EducationTrainHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationTrainHeaderView.xib; sourceTree = "<group>"; };
+		ED3A4D5F254864D700928F1C /* CourseHeatViewHalfView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseHeatViewHalfView.h; sourceTree = "<group>"; };
+		ED3A4D60254864D700928F1C /* CourseHeatViewHalfView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseHeatViewHalfView.m; sourceTree = "<group>"; };
+		ED3A4D622548680700928F1C /* HalfBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HalfBarViewController.h; sourceTree = "<group>"; };
+		ED3A4D632548680700928F1C /* HalfBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HalfBarViewController.m; sourceTree = "<group>"; };
+		ED3A4D652548696300928F1C /* HorizontalBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalBarView.h; sourceTree = "<group>"; };
+		ED3A4D662548696300928F1C /* HorizontalBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalBarView.m; sourceTree = "<group>"; };
 		ED40C5A2242B956500D335F0 /* 19-Method-Swizzling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-Method-Swizzling"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED40C5A4242B956500D335F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED40C5A9242B987E00D335F0 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
@@ -2644,10 +2658,19 @@
 				B3BB9ECA25402E6C006EDEBF /* ProductCapacityHeaderView.h */,
 				B3BB9ECC25402E6D006EDEBF /* ProductCapacityHeaderView.m */,
 				B3BB9ECB25402E6D006EDEBF /* ProductCapacityHeaderView.xib */,
+				ED3A4D5A254855FF00928F1C /* EducationTrainHeaderView.h */,
+				ED3A4D5B254855FF00928F1C /* EducationTrainHeaderView.m */,
+				ED3A4D5D2548561100928F1C /* EducationTrainHeaderView.xib */,
 				B3BB9EB625402E59006EDEBF /* SceneDelegate.h */,
 				B3BB9EB725402E59006EDEBF /* SceneDelegate.m */,
 				B3BB9EB925402E59006EDEBF /* ViewController.h */,
 				B3BB9EBA25402E59006EDEBF /* ViewController.m */,
+				ED3A4D622548680700928F1C /* HalfBarViewController.h */,
+				ED3A4D632548680700928F1C /* HalfBarViewController.m */,
+				ED3A4D5F254864D700928F1C /* CourseHeatViewHalfView.h */,
+				ED3A4D60254864D700928F1C /* CourseHeatViewHalfView.m */,
+				ED3A4D652548696300928F1C /* HorizontalBarView.h */,
+				ED3A4D662548696300928F1C /* HorizontalBarView.m */,
 				B3BB9EBC25402E59006EDEBF /* Main.storyboard */,
 				B3BB9EBF25402E5B006EDEBF /* Assets.xcassets */,
 				B3BB9EC125402E5B006EDEBF /* LaunchScreen.storyboard */,
@@ -4190,6 +4213,7 @@
 				B3BB9ECD25402E6D006EDEBF /* ProductCapacityHeaderView.xib in Resources */,
 				B3BB9EC025402E5B006EDEBF /* Assets.xcassets in Resources */,
 				B3BB9EBE25402E59006EDEBF /* Main.storyboard in Resources */,
+				ED3A4D5E2548561100928F1C /* EducationTrainHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4720,9 +4744,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3BB9EBB25402E59006EDEBF /* ViewController.m in Sources */,
+				ED3A4D642548680700928F1C /* HalfBarViewController.m in Sources */,
+				ED3A4D5C254855FF00928F1C /* EducationTrainHeaderView.m in Sources */,
+				ED3A4D61254864D700928F1C /* CourseHeatViewHalfView.m in Sources */,
 				B3BB9EB525402E59006EDEBF /* AppDelegate.m in Sources */,
 				B3BB9EC625402E5B006EDEBF /* main.m in Sources */,
 				B3BB9EB825402E59006EDEBF /* SceneDelegate.m in Sources */,
+				ED3A4D672548696300928F1C /* HorizontalBarView.m in Sources */,
 				B3BB9ECE25402E6D006EDEBF /* ProductCapacityHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5920,7 +5948,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "44-BarChartView/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -5939,7 +5967,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "44-BarChartView/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -5959,7 +5987,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "45-CicleProgressView/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -5978,7 +6006,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "45-CicleProgressView/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6100,7 +6128,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "47-DrawView/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6119,7 +6147,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "47-DrawView/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6139,7 +6167,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "48-Analysis/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6158,7 +6186,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "48-Analysis/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6238,7 +6266,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "46-ProductCapacity/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6257,7 +6285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGF48S4DZC;
 				INFOPLIST_FILE = "46-ProductCapacity/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,18 +10,18 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ProductCapacityHeaderView">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="129"/>
+            <rect key="frame" x="0.0" y="0.0" width="414" height="129"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NPP-Vs-TuJ">
-                    <rect key="frame" x="2" y="66" width="371" height="1"/>
+                    <rect key="frame" x="2" y="66" width="410" height="1"/>
                     <color key="backgroundColor" red="0.16078431372549018" green="0.38431372549019605" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1" id="ngC-6z-03s"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAb-VZ-WgB">
-                    <rect key="frame" x="187" y="0.0" width="1" height="129"/>
+                    <rect key="frame" x="206.5" y="0.0" width="1" height="129"/>
                     <color key="backgroundColor" red="0.16078431369999999" green="0.38431372549999998" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="1" id="EYI-xt-jOO"/>
@@ -33,28 +34,28 @@
                     </constraints>
                 </imageView>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_production_day_hours" translatesAutoresizingMaskIntoConstraints="NO" id="5ar-ru-c1D">
-                    <rect key="frame" x="203" y="0.0" width="32" height="66"/>
+                    <rect key="frame" x="222.5" y="0.0" width="32" height="66"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="32" id="beb-Xg-9g3"/>
                     </constraints>
                 </imageView>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_production_good_rate" translatesAutoresizingMaskIntoConstraints="NO" id="5wY-wu-Bxh">
-                    <rect key="frame" x="203" y="67" width="32" height="62"/>
+                    <rect key="frame" x="222.5" y="67" width="32" height="62"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="32" id="4OJ-ah-q7z"/>
                     </constraints>
                 </imageView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="EFy-UZ-fDV">
-                    <rect key="frame" x="62" y="78.5" width="123" height="38"/>
+                    <rect key="frame" x="62" y="78.5" width="142.5" height="38"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3595000PCS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21Q-Pa-8m5">
-                            <rect key="frame" x="0.0" y="0.0" width="123" height="21.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="142.5" height="21.5"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                             <color key="textColor" red="0.074509803920000006" green="0.46274509800000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="良品数(冲压产出)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68b-EA-WBo">
-                            <rect key="frame" x="0.0" y="24.5" width="123" height="13.5"/>
+                            <rect key="frame" x="0.0" y="24.5" width="142.5" height="13.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                             <color key="textColor" red="0.52549019610000003" green="0.59999999999999998" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
@@ -68,16 +69,16 @@
                     </constraints>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="ssw-go-bfZ">
-                    <rect key="frame" x="250" y="79" width="123" height="38"/>
+                    <rect key="frame" x="269.5" y="79" width="142.5" height="38"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTr-Ob-SSY">
-                            <rect key="frame" x="0.0" y="0.0" width="123" height="21.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="142.5" height="21.5"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                             <color key="textColor" red="0.074509803920000006" green="0.46274509800000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="良率(冲压产出)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbF-0S-4wI">
-                            <rect key="frame" x="0.0" y="24.5" width="123" height="13.5"/>
+                            <rect key="frame" x="0.0" y="24.5" width="142.5" height="13.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                             <color key="textColor" red="0.52549019610000003" green="0.59999999999999998" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
@@ -91,16 +92,16 @@
                     </constraints>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="CUj-ZZ-PI7">
-                    <rect key="frame" x="62" y="14.5" width="123" height="37"/>
+                    <rect key="frame" x="62" y="14.5" width="142.5" height="37"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0H" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZC-bn-r9S">
-                            <rect key="frame" x="0.0" y="0.0" width="123" height="21.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="142.5" height="21.5"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                             <color key="textColor" red="0.074509803921568626" green="0.46274509803921571" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前时段产出工时" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDM-Pr-Ims">
-                            <rect key="frame" x="0.0" y="23.5" width="123" height="13.5"/>
+                            <rect key="frame" x="0.0" y="23.5" width="142.5" height="13.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                             <color key="textColor" red="0.52549019607843139" green="0.59999999999999998" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
@@ -114,16 +115,16 @@
                     </constraints>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="CEK-UG-sr4">
-                    <rect key="frame" x="250" y="14.5" width="123" height="37"/>
+                    <rect key="frame" x="269.5" y="14.5" width="142.5" height="37"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="116.39H" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xbs-LY-Nqn">
-                            <rect key="frame" x="0.0" y="0.0" width="123" height="21.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="142.5" height="21.5"/>
                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                             <color key="textColor" red="0.074509803920000006" green="0.46274509800000002" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当日产出工时" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="av4-cJ-3nv">
-                            <rect key="frame" x="0.0" y="23.5" width="123" height="13.5"/>
+                            <rect key="frame" x="0.0" y="23.5" width="142.5" height="13.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                             <color key="textColor" red="0.52549019610000003" green="0.59999999999999998" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
