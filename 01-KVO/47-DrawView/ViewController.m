@@ -77,7 +77,7 @@
     self.drawView3 = [[UnusualDrawView alloc] initWithFrame:CGRectMake(0, 310, viewW, 60)];
     [self.view addSubview:self.drawView3];
     
-    self.self.drawView4 = [[AwaitOrderDrawView alloc] initWithFrame:CGRectMake(ScreenWidth-viewW, 310, viewW, 60)];
+    self.drawView4 = [[AwaitOrderDrawView alloc] initWithFrame:CGRectMake(ScreenWidth-viewW, 310, viewW, 60)];
     [self.view addSubview:self.drawView4];
 }
 

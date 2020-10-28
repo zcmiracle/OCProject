@@ -329,6 +329,8 @@
 		ED361E94242A394100F76D6C /* PropertyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED361E93242A394100F76D6C /* PropertyModel.m */; };
 		ED361E97242A3A3900F76D6C /* RuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = ED361E96242A3A3900F76D6C /* RuntimeKit.m */; };
 		ED361EB4242A47B500F76D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED361EB3242A47B500F76D6C /* main.m */; };
+		ED37875A2549AF4400584242 /* EnergyAnalysisHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3787592549AF4400584242 /* EnergyAnalysisHeaderView.m */; };
+		ED37875C2549AF5300584242 /* EnergyAnalysisHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED37875B2549AF5300584242 /* EnergyAnalysisHeaderView.xib */; };
 		ED387ED32428E7B200321E1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED387ED22428E7B200321E1D /* main.m */; };
 		ED387ED92428E7BD00321E1D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ED387ED82428E7BD00321E1D /* Person.m */; };
 		ED387EDC2428E7CE00321E1D /* Person+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = ED387EDB2428E7CE00321E1D /* Person+Category.m */; };
@@ -1231,6 +1233,9 @@
 		ED361E96242A3A3900F76D6C /* RuntimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeKit.m; sourceTree = "<group>"; };
 		ED361EB1242A47B500F76D6C /* 18-Runtime实现weak */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18-Runtime实现weak"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED361EB3242A47B500F76D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED3787582549AF4400584242 /* EnergyAnalysisHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnergyAnalysisHeaderView.h; sourceTree = "<group>"; };
+		ED3787592549AF4400584242 /* EnergyAnalysisHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnergyAnalysisHeaderView.m; sourceTree = "<group>"; };
+		ED37875B2549AF5300584242 /* EnergyAnalysisHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnergyAnalysisHeaderView.xib; sourceTree = "<group>"; };
 		ED387ED02428E7B200321E1D /* 14-Category关联对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14-Category关联对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED387ED22428E7B200321E1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED387ED72428E7BD00321E1D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -2571,16 +2576,16 @@
 		B3953123254135FD00D74ABD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B3953124254135FD00D74ABD /* RunDrawView.m */,
-				B3953125254135FD00D74ABD /* UnusualDrawView.m */,
 				B3953126254135FD00D74ABD /* AwaitOrderDrawView.h */,
-				B3953127254135FD00D74ABD /* UIView+Draw.m */,
-				B3953128254135FD00D74ABD /* OfflineDrawView.m */,
 				B3953129254135FD00D74ABD /* AwaitOrderDrawView.m */,
-				B395312A254135FD00D74ABD /* UnusualDrawView.h */,
-				B395312B254135FD00D74ABD /* RunDrawView.h */,
 				B395312C254135FD00D74ABD /* OfflineDrawView.h */,
+				B3953128254135FD00D74ABD /* OfflineDrawView.m */,
+				B395312B254135FD00D74ABD /* RunDrawView.h */,
+				B3953124254135FD00D74ABD /* RunDrawView.m */,
 				B395312D254135FD00D74ABD /* UIView+Draw.h */,
+				B3953127254135FD00D74ABD /* UIView+Draw.m */,
+				B395312A254135FD00D74ABD /* UnusualDrawView.h */,
+				B3953125254135FD00D74ABD /* UnusualDrawView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2594,6 +2599,9 @@
 				B395316A25417A8E00D74ABD /* SceneDelegate.m */,
 				B395316C25417A8E00D74ABD /* ViewController.h */,
 				B395316D25417A8E00D74ABD /* ViewController.m */,
+				ED3787582549AF4400584242 /* EnergyAnalysisHeaderView.h */,
+				ED3787592549AF4400584242 /* EnergyAnalysisHeaderView.m */,
+				ED37875B2549AF5300584242 /* EnergyAnalysisHeaderView.xib */,
 				B395317D25417A9A00D74ABD /* View */,
 				B395316F25417A8E00D74ABD /* Main.storyboard */,
 				B395317225417A9000D74ABD /* Assets.xcassets */,
@@ -4198,6 +4206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B395318225417B0200D74ABD /* ManpowerAnalysisHeaderView.xib in Resources */,
+				ED37875C2549AF5300584242 /* EnergyAnalysisHeaderView.xib in Resources */,
 				B395317625417A9000D74ABD /* LaunchScreen.storyboard in Resources */,
 				B395317325417A9000D74ABD /* Assets.xcassets in Resources */,
 				B395317125417A8E00D74ABD /* Main.storyboard in Resources */,
@@ -4708,6 +4717,7 @@
 				B39531852541896800D74ABD /* ManpowerOverviewHeaderView.m in Sources */,
 				B395317925417A9000D74ABD /* main.m in Sources */,
 				B395316B25417A8E00D74ABD /* SceneDelegate.m in Sources */,
+				ED37875A2549AF4400584242 /* EnergyAnalysisHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

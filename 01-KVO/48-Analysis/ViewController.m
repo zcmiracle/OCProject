@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "ManpowerAnalysisHeaderView.h"
 #import "ManpowerOverviewHeaderView.h"
+#import "EnergyAnalysisHeaderView.h"
 
 
 #define ScreenWidth ([UIScreen mainScreen].bounds.size.width)
@@ -36,6 +37,10 @@
     ManpowerOverviewHeaderView *headerView1 = [ManpowerOverviewHeaderView headerView];
     headerView1.frame = CGRectMake(0, 200, ScreenWidth-120, 100);
     [self.view addSubview:headerView1];
+    
+    EnergyAnalysisHeaderView *headerView2 = [EnergyAnalysisHeaderView energyAnalysisHeaderView];
+    headerView2.frame = CGRectMake(0, 360, ScreenWidth, 50);
+    [self.view addSubview:headerView2];
 }
 
 
