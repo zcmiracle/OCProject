@@ -234,6 +234,16 @@
 		B3B234F12431D96A00CA5A86 /* PermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B234F02431D96A00CA5A86 /* PermenantThread.m */; };
 		B3B234F42431D99300CA5A86 /* ZCThread.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B234F32431D99300CA5A86 /* ZCThread.m */; };
 		B3B3E4F625397DC8000FA552 /* OrangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B3E4F525397DC8000FA552 /* OrangeView.m */; };
+		B3B529C125514B5A00085248 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B529C025514B5A00085248 /* AppDelegate.m */; };
+		B3B529C425514B5A00085248 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B529C325514B5A00085248 /* SceneDelegate.m */; };
+		B3B529C725514B5A00085248 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B529C625514B5A00085248 /* ViewController.m */; };
+		B3B529CA25514B5A00085248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B529C825514B5A00085248 /* Main.storyboard */; };
+		B3B529CC25514B5C00085248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B529CB25514B5C00085248 /* Assets.xcassets */; };
+		B3B529CF25514B5C00085248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B529CD25514B5C00085248 /* LaunchScreen.storyboard */; };
+		B3B529D225514B5C00085248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B529D125514B5C00085248 /* main.m */; };
+		B3B529DE25514BA500085248 /* QXMultiScrollSegmentedPageCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B529DB25514BA500085248 /* QXMultiScrollSegmentedPageCtrl.m */; };
+		B3B529DF25514BA500085248 /* QXMultiScrollBaseTable.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B529DC25514BA500085248 /* QXMultiScrollBaseTable.m */; };
+		B3B529E025514BA500085248 /* QXMultiScrollPageCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B529DD25514BA500085248 /* QXMultiScrollPageCtrl.m */; };
 		B3BB9EAC254026B2006EDEBF /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BB9EAB254026B2006EDEBF /* CircleProgressView.m */; };
 		B3BB9EB525402E59006EDEBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BB9EB425402E59006EDEBF /* AppDelegate.m */; };
 		B3BB9EB825402E59006EDEBF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BB9EB725402E59006EDEBF /* SceneDelegate.m */; };
@@ -1060,6 +1070,25 @@
 		B3B234F32431D99300CA5A86 /* ZCThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCThread.m; sourceTree = "<group>"; };
 		B3B3E4F425397DC8000FA552 /* OrangeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrangeView.h; sourceTree = "<group>"; };
 		B3B3E4F525397DC8000FA552 /* OrangeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrangeView.m; sourceTree = "<group>"; };
+		B3B529BD25514B5A00085248 /* 49-MutileScrollTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "49-MutileScrollTableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B529BF25514B5A00085248 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3B529C025514B5A00085248 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3B529C225514B5A00085248 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B3B529C325514B5A00085248 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B3B529C525514B5A00085248 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3B529C625514B5A00085248 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3B529C925514B5A00085248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3B529CB25514B5C00085248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3B529CE25514B5C00085248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3B529D025514B5C00085248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B529D125514B5C00085248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3B529D725514BA500085248 /* QXMultiScrollSegmentedPageCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXMultiScrollSegmentedPageCtrl.h; sourceTree = "<group>"; };
+		B3B529D825514BA500085248 /* QXMultiScrollHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXMultiScrollHeader.h; sourceTree = "<group>"; };
+		B3B529D925514BA500085248 /* QXMultiScrollBaseTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXMultiScrollBaseTable.h; sourceTree = "<group>"; };
+		B3B529DA25514BA500085248 /* QXMultiScrollPageCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QXMultiScrollPageCtrl.h; sourceTree = "<group>"; };
+		B3B529DB25514BA500085248 /* QXMultiScrollSegmentedPageCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXMultiScrollSegmentedPageCtrl.m; sourceTree = "<group>"; };
+		B3B529DC25514BA500085248 /* QXMultiScrollBaseTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXMultiScrollBaseTable.m; sourceTree = "<group>"; };
+		B3B529DD25514BA500085248 /* QXMultiScrollPageCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QXMultiScrollPageCtrl.m; sourceTree = "<group>"; };
 		B3B9041E243EAD60004CBE08 /* 动画笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "动画笔记.h"; sourceTree = "<group>"; };
 		B3BB9EAA254026B2006EDEBF /* CircleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
 		B3BB9EAB254026B2006EDEBF /* CircleProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
@@ -1550,6 +1579,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B3A35F9B2425AA7500DD9B8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B529BA25514B5A00085248 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2098,6 +2134,7 @@
 				B3BB9EB225402E59006EDEBF /* 46-ProductCapacity */,
 				B39530F3254135E800D74ABD /* 47-DrawView */,
 				B395316525417A8E00D74ABD /* 48-Analysis */,
+				B3B529BE25514B5A00085248 /* 49-MutileScrollTableView */,
 				B35B82722424BCBB001060C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2153,6 +2190,7 @@
 				B3BB9EB125402E59006EDEBF /* 46-ProductCapacity.app */,
 				B39530F2254135E800D74ABD /* 47-DrawView.app */,
 				B395316425417A8E00D74ABD /* 48-Analysis.app */,
+				B3B529BD25514B5A00085248 /* 49-MutileScrollTableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2656,6 +2694,39 @@
 				B3A35FA52425AE2800DD9B8E /* main.cpp */,
 			);
 			path = "06-Block变量捕获";
+			sourceTree = "<group>";
+		};
+		B3B529BE25514B5A00085248 /* 49-MutileScrollTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B3B529BF25514B5A00085248 /* AppDelegate.h */,
+				B3B529C025514B5A00085248 /* AppDelegate.m */,
+				B3B529C225514B5A00085248 /* SceneDelegate.h */,
+				B3B529C325514B5A00085248 /* SceneDelegate.m */,
+				B3B529C525514B5A00085248 /* ViewController.h */,
+				B3B529C625514B5A00085248 /* ViewController.m */,
+				B3B529D625514BA500085248 /* MultiScroll */,
+				B3B529C825514B5A00085248 /* Main.storyboard */,
+				B3B529CB25514B5C00085248 /* Assets.xcassets */,
+				B3B529CD25514B5C00085248 /* LaunchScreen.storyboard */,
+				B3B529D025514B5C00085248 /* Info.plist */,
+				B3B529D125514B5C00085248 /* main.m */,
+			);
+			path = "49-MutileScrollTableView";
+			sourceTree = "<group>";
+		};
+		B3B529D625514BA500085248 /* MultiScroll */ = {
+			isa = PBXGroup;
+			children = (
+				B3B529D925514BA500085248 /* QXMultiScrollBaseTable.h */,
+				B3B529DC25514BA500085248 /* QXMultiScrollBaseTable.m */,
+				B3B529D825514BA500085248 /* QXMultiScrollHeader.h */,
+				B3B529DA25514BA500085248 /* QXMultiScrollPageCtrl.h */,
+				B3B529DD25514BA500085248 /* QXMultiScrollPageCtrl.m */,
+				B3B529D725514BA500085248 /* QXMultiScrollSegmentedPageCtrl.h */,
+				B3B529DB25514BA500085248 /* QXMultiScrollSegmentedPageCtrl.m */,
+			);
+			path = MultiScroll;
 			sourceTree = "<group>";
 		};
 		B3BB9EB225402E59006EDEBF /* 46-ProductCapacity */ = {
@@ -3582,6 +3653,23 @@
 			productReference = B3A35F9E2425AA7500DD9B8E /* 06-Block变量捕获 */;
 			productType = "com.apple.product-type.tool";
 		};
+		B3B529BC25514B5A00085248 /* 49-MutileScrollTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B529D325514B5C00085248 /* Build configuration list for PBXNativeTarget "49-MutileScrollTableView" */;
+			buildPhases = (
+				B3B529B925514B5A00085248 /* Sources */,
+				B3B529BA25514B5A00085248 /* Frameworks */,
+				B3B529BB25514B5A00085248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "49-MutileScrollTableView";
+			productName = "49-MutileScrollTableView";
+			productReference = B3B529BD25514B5A00085248 /* 49-MutileScrollTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B3BB9EB025402E59006EDEBF /* 46-ProductCapacity */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3BB9EC725402E5B006EDEBF /* Build configuration list for PBXNativeTarget "46-ProductCapacity" */;
@@ -3974,6 +4062,9 @@
 					B3A35F9D2425AA7500DD9B8E = {
 						CreatedOnToolsVersion = 11.1;
 					};
+					B3B529BC25514B5A00085248 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
 					B3BB9EB025402E59006EDEBF = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -4088,6 +4179,7 @@
 				B3BB9EB025402E59006EDEBF /* 46-ProductCapacity */,
 				B39530F1254135E800D74ABD /* 47-DrawView */,
 				B395316325417A8E00D74ABD /* 48-Analysis */,
+				B3B529BC25514B5A00085248 /* 49-MutileScrollTableView */,
 			);
 		};
 /* End PBXProject section */
@@ -4211,6 +4303,16 @@
 				B395317325417A9000D74ABD /* Assets.xcassets in Resources */,
 				B395317125417A8E00D74ABD /* Main.storyboard in Resources */,
 				B39531872541897700D74ABD /* ManpowerOverviewHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B529BB25514B5A00085248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B529CF25514B5C00085248 /* LaunchScreen.storyboard in Resources */,
+				B3B529CC25514B5C00085248 /* Assets.xcassets in Resources */,
+				B3B529CA25514B5A00085248 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4749,6 +4851,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B3B529B925514B5A00085248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B529DE25514BA500085248 /* QXMultiScrollSegmentedPageCtrl.m in Sources */,
+				B3B529C725514B5A00085248 /* ViewController.m in Sources */,
+				B3B529C125514B5A00085248 /* AppDelegate.m in Sources */,
+				B3B529E025514BA500085248 /* QXMultiScrollPageCtrl.m in Sources */,
+				B3B529D225514B5C00085248 /* main.m in Sources */,
+				B3B529C425514B5A00085248 /* SceneDelegate.m in Sources */,
+				B3B529DF25514BA500085248 /* QXMultiScrollBaseTable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3BB9EAD25402E59006EDEBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5130,6 +5246,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B395317525417A9000D74ABD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B3B529C825514B5A00085248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B529C925514B5A00085248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3B529CD25514B5C00085248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3B529CE25514B5C00085248 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -6269,6 +6401,45 @@
 			};
 			name = Release;
 		};
+		B3B529D425514B5C00085248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "49-MutileScrollTableView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-9-MutileScrollTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3B529D525514B5C00085248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGF48S4DZC;
+				INFOPLIST_FILE = "49-MutileScrollTableView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xfb.-9-MutileScrollTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		B3BB9EC825402E5B006EDEBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -7117,6 +7288,15 @@
 			buildConfigurations = (
 				B3A35FA32425AA7500DD9B8E /* Debug */,
 				B3A35FA42425AA7500DD9B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B529D325514B5C00085248 /* Build configuration list for PBXNativeTarget "49-MutileScrollTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B529D425514B5C00085248 /* Debug */,
+				B3B529D525514B5C00085248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
