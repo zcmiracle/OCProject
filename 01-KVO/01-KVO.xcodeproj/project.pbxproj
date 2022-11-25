@@ -41,6 +41,7 @@
 		B328958C243DE0D9009F5925 /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B328958B243DE0D9009F5925 /* TransitionViewController.m */; };
 		B328958F243DE0EB009F5925 /* CAMediaTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B328958E243DE0EB009F5925 /* CAMediaTimeViewController.m */; };
 		B3289592243DE0F9009F5925 /* AnimationCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3289591243DE0F9009F5925 /* AnimationCaseViewController.m */; };
+		B335B2532790003200B648FA /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B335B2522790003200B648FA /* PresentViewController.m */; };
 		B3383D0524319F3E008A4613 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3383D0424319F3E008A4613 /* AppDelegate.m */; };
 		B3383D0824319F3E008A4613 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3383D0724319F3E008A4613 /* ViewController.m */; };
 		B3383D0D24319F3F008A4613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3383D0C24319F3F008A4613 /* Assets.xcassets */; };
@@ -697,6 +698,8 @@
 		B328958E243DE0EB009F5925 /* CAMediaTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAMediaTimeViewController.m; sourceTree = "<group>"; };
 		B3289590243DE0F9009F5925 /* AnimationCaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationCaseViewController.h; sourceTree = "<group>"; };
 		B3289591243DE0F9009F5925 /* AnimationCaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationCaseViewController.m; sourceTree = "<group>"; };
+		B335B2512790003200B648FA /* PresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		B335B2522790003200B648FA /* PresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
 		B3383D0124319F3E008A4613 /* 28-事件的传递及响应.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "28-事件的传递及响应.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3383D0324319F3E008A4613 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3383D0424319F3E008A4613 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -2895,6 +2898,8 @@
 				ED2180782438E42700D7CD4A /* SceneDelegate.m */,
 				ED21807A2438E42700D7CD4A /* ViewController.h */,
 				ED21807B2438E42700D7CD4A /* ViewController.m */,
+				B335B2512790003200B648FA /* PresentViewController.h */,
+				B335B2522790003200B648FA /* PresentViewController.m */,
 				ED16F9E82439A90200DBA762 /* App启动过程笔记.h */,
 				ED21807D2438E42700D7CD4A /* Main.storyboard */,
 				ED2180802438E42700D7CD4A /* Assets.xcassets */,
@@ -4935,6 +4940,7 @@
 				ED2180762438E42700D7CD4A /* AppDelegate.m in Sources */,
 				ED2180872438E42800D7CD4A /* main.m in Sources */,
 				ED2180792438E42700D7CD4A /* SceneDelegate.m in Sources */,
+				B335B2532790003200B648FA /* PresentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
